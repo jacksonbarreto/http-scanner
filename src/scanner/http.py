@@ -38,7 +38,7 @@ def scan(file_path):
                 print(f"Thread error in CSV ({filename}): {e}")
 
     output_filename = f"{country_code}_https_scanner{'_errors_' if False else ''}.csv"
-    output_dir = os.path.join('.', 'src', 'data', "folder")
+    output_dir = os.path.join('.', 'src', 'data', "results")
     output_path = os.path.join(output_dir, output_filename)
     df.to_csv(output_path, index=False)
 
@@ -48,12 +48,13 @@ def scan_row(row, url_column_name):
     test_ssl_path = os.path.join(*config["test_ssl_path"])
     try:
         result = subprocess.run(
-            [test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--json-pretty',  url],
+            [test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--jsonfile-pretty',temp_file_path,  url],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
         )
         if result.returncode != 0:
+
             raise RuntimeError(f"Error running testssl.sh for {url}: {result.stderr}")
         raw_json = json.loads(result.stdout)
         ssl_version = next((item['finding'] for item in raw_json if item['id'] == 'SSL/TLS'), None)
@@ -67,12 +68,13 @@ def scan_row(row, url_column_name):
             'vulnerability_count': vulnerability_count
         }
         with lock:
-            results.append(result)
+            results.append({**row.to_dict(), **result})
 
     except Exception as e:
+        print(results)
         print(f"Error scanning URL {url}: {e}")
         with lock:
-            errors.append({'url': url, 'error': str(e)})
+            errors.append({**row.to_dict(), 'error': str(e)})
 
 
 
