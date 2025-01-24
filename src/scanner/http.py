@@ -55,9 +55,9 @@ def scan_row(row, url_column_name):
         )
         if result.returncode != 0:
             raise RuntimeError(f"Error running testssl.sh for {url}: {result.stderr}")
-        print(result.stdout)
         with open(temp_file_path, 'r') as json_file:
             raw_json = json.load(json_file)
+        print(f"o json: {raw_json}")
         ssl_version = next((item['finding'] for item in raw_json if item['id'] == 'SSL/TLS'), None)
         cipher = next((item['finding'] for item in raw_json if item['id'] == 'cipher_order'), None)
         vulnerability_count = sum(1 for item in raw_json if item.get('severity') in ['HIGH', 'CRITICAL'])
