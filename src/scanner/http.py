@@ -55,7 +55,7 @@ def scan_row(row, url_column_name):
         )
         if result.returncode != 0:
             raise RuntimeError(f"Error running testssl.sh for {url}: {result.stderr}")
-        print(result)
+        print(result.stdout)
         raw_json = json.loads(result.stdout)
         ssl_version = next((item['finding'] for item in raw_json if item['id'] == 'SSL/TLS'), None)
         cipher = next((item['finding'] for item in raw_json if item['id'] == 'cipher_order'), None)
