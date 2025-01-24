@@ -42,6 +42,7 @@ def scan(file_path):
     output_path = os.path.join(output_dir, output_filename)
     results_df = pd.DataFrame(results)
     results_df.to_csv(output_path, index=False)
+    print(results_df.head())
 
 def scan_row(row, url_column_name):
     url = row[url_column_name]
