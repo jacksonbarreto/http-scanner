@@ -58,12 +58,7 @@ def scan_row(row, url_column_name):
         if result.returncode != 0:
             raise RuntimeError(f"Error running testssl.sh for {url}: {result.stderr}")
         with open(temp_file_path, 'r') as json_file:
-            raw_json = json.load(json_file)
-        print(f"o tipo raw_json: {type(raw_json)}")
-        result = {
-            col_raw_result: json.dumps(raw_json),
-            "ip": raw_json["scanResult"][0]["ip"],
-        }
+            result = extract_result(json.load(json_file))
         with lock:
             results.append({**row.to_dict(), **result})
 
@@ -85,3 +80,36 @@ def create_columns_for_results(df):
     for col in columns_for_results:
         if col not in df.columns:
             df[col] = None
+
+def extract_result(raw_json):
+    result = {}
+    scan_result = raw_json.get('scanResult', [])
+    scan_result = scan_result[0] if isinstance(scan_result, list) and scan_result else {}
+
+    result.update({"assessment_datetime": pd.Timestamp.now()})
+    result.update({"ip": scan_result.get("ip", None)})
+    result.update({**extract_protocols(scan_result.get("protocols", []))})
+    result.update({**extract_rating(scan_result.get("ratings", []))})
+    #result.update({"raw_result": json.dumps(scan_result)})
+
+    return result
+
+
+def extract_protocols(protocols):
+    protocols_result = {}
+    for protocol in protocols:
+        protocol_name = protocol.get("id", None)
+        if protocol_name:
+            protocols_result.update({protocol_name: False if "not" in protocol.get("finding", "").lower() else True})
+    return protocols_result
+
+def extract_rating(ratings):
+    rating_result = {}
+    for rating in ratings:
+        id_rating = rating.get("id", None)
+        if id_rating == "final_score":
+            rating_result.update({"final_score": rating.get("finding", None)})
+        elif id_rating == "overall_grade":
+            rating_result.update({"overall_grade": rating.get("finding", None)})
+
+    return rating_result
