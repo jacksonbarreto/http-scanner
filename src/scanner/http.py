@@ -58,15 +58,9 @@ def scan_row(row, url_column_name):
         with open(temp_file_path, 'r') as json_file:
             raw_json = json.load(json_file)
         print(f"o json: {raw_json}")
-        ssl_version = next((item['finding'] for item in raw_json if item['id'] == 'SSL/TLS'), None)
-        cipher = next((item['finding'] for item in raw_json if item['id'] == 'cipher_order'), None)
-        vulnerability_count = sum(1 for item in raw_json if item.get('severity') in ['HIGH', 'CRITICAL'])
 
         result = {
             col_raw_result: json.dumps(raw_json),
-            'ssl_version': ssl_version,
-            'cipher': cipher,
-            'vulnerability_count': vulnerability_count
         }
         with lock:
             results.append({**row.to_dict(), **result})
