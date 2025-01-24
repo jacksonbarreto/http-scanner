@@ -48,7 +48,7 @@ def scan_row(row, url_column_name):
     test_ssl_path = os.path.join(*config["test_ssl_path"])
     try:
         result = subprocess.run(
-            [test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--json-pretty', temp_file_path, url],
+            [test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--json-pretty',  url],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
