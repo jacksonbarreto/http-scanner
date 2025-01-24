@@ -48,7 +48,7 @@ def scan_row(row, url_column_name):
     test_ssl_path = os.path.join(*config["test_ssl_path"])
     try:
         result = subprocess.run(
-            [test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--json',  url],
+            [test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--jsonfile-pretty', temp_file_path,  url],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
@@ -56,7 +56,8 @@ def scan_row(row, url_column_name):
         if result.returncode != 0:
             raise RuntimeError(f"Error running testssl.sh for {url}: {result.stderr}")
         print(result.stdout)
-        raw_json = json.loads(result.stdout)
+        with open(temp_file_path, 'r') as json_file:
+            raw_json = json.load(json_file)
         ssl_version = next((item['finding'] for item in raw_json if item['id'] == 'SSL/TLS'), None)
         cipher = next((item['finding'] for item in raw_json if item['id'] == 'cipher_order'), None)
         vulnerability_count = sum(1 for item in raw_json if item.get('severity') in ['HIGH', 'CRITICAL'])
@@ -75,6 +76,10 @@ def scan_row(row, url_column_name):
         print(f"Error scanning URL {url}: {e}")
         with lock:
             errors.append({**row.to_dict(), 'error': str(e)})
+
+    finally:
+        if os.path.exists(temp_file_path):
+            os.remove(temp_file_path)
 
 
 
