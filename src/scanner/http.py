@@ -61,7 +61,7 @@ def scan_row(row, url_column_name):
 
         result = {
             col_raw_result: json.dumps(raw_json),
-            "ip": raw_json.get("scanResult").get("ip"),
+            "ip": raw_json["scanResult"]["ip"],
         }
         with lock:
             results.append({**row.to_dict(), **result})
