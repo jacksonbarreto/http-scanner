@@ -48,13 +48,12 @@ def scan_row(row, url_column_name):
     test_ssl_path = os.path.join(*config["test_ssl_path"])
     try:
         result = subprocess.run(
-            [test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--jsonfile-pretty',temp_file_path,  url],
+            [test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--json-pretty',  url],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
         )
         if result.returncode != 0:
-
             raise RuntimeError(f"Error running testssl.sh for {url}: {result.stderr}")
         raw_json = json.loads(result.stdout)
         ssl_version = next((item['finding'] for item in raw_json if item['id'] == 'SSL/TLS'), None)
