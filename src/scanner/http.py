@@ -9,7 +9,7 @@ import pandas as pd
 from uuid import uuid4
 
 from src import config
-from src.config import config, col_raw_result
+from src.config import config, col_raw_result, columns_for_results
 
 errors = []
 results = []
@@ -80,6 +80,6 @@ def scan_row(row, url_column_name):
 
 
 def create_columns_for_results(df):
-    for col in config.columns_for_results:
+    for col in columns_for_results:
         if col not in df.columns:
             df[col] = None
