@@ -58,7 +58,8 @@ def scan_row(row, url_column_name):
             raise RuntimeError(f"Error running testssl.sh for {url}: {result.stderr}")
         with open(temp_file_path, 'r') as json_file:
             raw_json = json.load(json_file)
-
+        print(f"o raw_json: {raw_json}")
+        print(f"o tipo raw_json: {type(raw_json)}")
         result = {
             col_raw_result: json.dumps(raw_json),
             "ip": raw_json["scanResult"]["ip"],
