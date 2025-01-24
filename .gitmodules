@@ -1,0 +1,3 @@
+[submodule "src/testssl.sh"]
+	path = src/testssl.sh
+	url = https://github.com/drwetter/testssl.sh.git
