@@ -29,7 +29,7 @@ def scan(file_path):
 
     create_columns_for_results(df)
 
-    with ThreadPoolExecutor(max_workers=config.max_workers) as executor:
+    with ThreadPoolExecutor(max_workers=config["max_workers"]) as executor:
         futures = [executor.submit(scan_row, row, url_column_name) for index, row in df.iterrows()]
         for future in futures:
             try:
