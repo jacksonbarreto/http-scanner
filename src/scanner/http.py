@@ -11,7 +11,8 @@ from uuid import uuid4
 from src import config
 from src.config import config, COL_ASSESSMENT_DATETIME, COL_IP, COL_FINAL_SCORE, COL_GRADE, COL_RAW_RESULTS, COL_CA, \
     COL_CERTIFICATE_ALGORITHM, COL_KEY_SIZE, COL_OCSP_STAPLING, COL_DNS_CAA, COL_CERTIFICATE_TRANSPARENCY, \
-    COL_BANNER_SERVER, COL_BANNER_APPLICATION, COL_OCSP_MUST_STAPLE, COL_VALID_CERTIFICATE, COL_HTTP_STATUS_CODE
+    COL_BANNER_SERVER, COL_BANNER_APPLICATION, COL_OCSP_MUST_STAPLE, COL_VALID_CERTIFICATE, COL_HTTP_STATUS_CODE, \
+    desired_column_order
 
 final_errors = []
 final_results = []
@@ -132,35 +133,24 @@ def extract_certificate_info(certificates_infos):
             certificate_info.update(
                 {COL_CERTIFICATE_TRANSPARENCY: True if "yes" in certificate.get("finding", "").lower() else False})
         if certificate.get("id", None) == "cert_chain_of_trust":
-            print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             cert_chain_of_trust = True if certificate.get("finding", "").lower() == "passed." else False
-            print(cert_chain_of_trust)
         if certificate.get("id", None) == "cert_trust":
-            print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             cert_trusted = True if "ok" in certificate.get("finding", "").lower() else False
-            print(cert_trusted)
         if certificate.get("id", None) == "cert_ocspRevoked":
-            print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             cert_ocsp_revoked = False if certificate.get("finding", "").lower() == "not revoked" else True
-            print(cert_ocsp_revoked)
         if certificate.get("id", None) == "certs_list_ordering_problem":
-            print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             certs_list_ordering_without_problem = True if certificate.get("finding", "").lower() == "no" else False
-            print(certs_list_ordering_without_problem)
         if certificate.get("id", None) == "cert_notAfter":
-            print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             date_time = certificate.get("finding", None)
             if date_time:
                 cert_expired = True if pd.Timestamp(date_time) < pd.Timestamp.now() else False
             else:
                 cert_expired = True
-            print(cert_expired)
     if (cert_chain_of_trust and cert_trusted and not cert_ocsp_revoked and certs_list_ordering_without_problem
             and not cert_expired):
         certificate_info.update({COL_VALID_CERTIFICATE: True})
     else:
         certificate_info.update({COL_VALID_CERTIFICATE: False})
-    print("-----------")
     return certificate_info
 
 
@@ -174,14 +164,11 @@ def extract_protocols(protocols):
 
 
 def extract_rating(ratings):
-    print(f"Ratings: {ratings}")
     rating_result = {}
     for rating in ratings:
         if rating.get("id", None) == "final_score":
-            print(f"{rating.get("id", None)}: {rating.get('finding', None)}")
             rating_result.update({COL_FINAL_SCORE: rating.get("finding", None)})
         elif rating.get("id", None) == "overall_grade":
-            print(f"{rating.get("id", None)}: {rating.get('finding', None)}")
             rating_result.update({COL_GRADE: rating.get("finding", None)})
     return rating_result
 
@@ -204,5 +191,5 @@ def save(data, country_code, error=False):
         if os.path.exists(output_file):
             df.to_csv(output_file, mode='a', header=False, index=False)
         else:
-            df.to_csv(output_file, index=False)
+            df.to_csv(output_file, index=False, columns=desired_column_order)
     return output_file
