@@ -84,7 +84,7 @@ def extract_result(raw_json):
     result.update({COL_IP: scan_result.get("ip", None)})
     result.update({**extract_protocols(scan_result.get("protocols", []))})
     result.update({**extract_rating(scan_result.get("ratings", []))})
-    result.update({COL_RAW_RESULTS: json.dumps(scan_result)})
+    result.update({COL_RAW_RESULTS: json.dumps(raw_json)})
 
     return result
 
