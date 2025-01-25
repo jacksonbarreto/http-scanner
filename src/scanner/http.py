@@ -88,7 +88,7 @@ def extract_result(raw_json):
     result.update({**extract_certificate_info(scan_result.get("serverDefaults", []))})
     result.update({**extract_rating(scan_result.get("ratings", []))})
     result.update({COL_RAW_RESULTS: json.dumps(raw_json)})
-
+    print(f"result: {result}")
     return result
 
 
@@ -100,6 +100,7 @@ def extract_certificate_info(certificates_infos):
     certs_list_ordering_without_problem = False
     cert_expired = True
     for certificate in certificates_infos:
+        print(f"certificate: {certificate}")
         if certificate.get("id", None) == "cert_caIssuers":
             certificate_info.update({COL_CA: certificate.get("finding", None)})
         if certificate.get("id", None) == "cert_signatureAlgorithm":

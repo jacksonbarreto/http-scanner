@@ -16,7 +16,8 @@ a = {
         "rDNS": "uni-freiburg.de. wp-prod.vm.uni-freiburg.de.",
         "service": "HTTP",
         "pretest": [{"id": "pre_128cipher", "severity": "INFO", "finding": "No 128 cipher limit bug"}],
-        "protocols": [{"id": "SSLv2", "severity": "OK", "finding": "not offered"}, {
+        "protocols": [
+            {"id": "SSLv2", "severity": "OK", "finding": "not offered"}, {
             "id": "SSLv3",
             "severity": "OK",
             "finding": "not offered"
@@ -32,9 +33,11 @@ a = {
             "id": "ALPN_HTTP2",
             "severity": "OK",
             "finding": "h2"
-        }, {"id": "ALPN", "severity": "INFO", "finding": "http/1.1"}],
+        }, {"id": "ALPN", "severity": "INFO", "finding": "http/1.1"}
+        ],
         "grease": [],
-        "ciphers": [{
+        "ciphers": [
+            {
             "id": "cipherlist_NULL",
             "severity": "OK",
             "cwe": "CWE-327",
@@ -69,7 +72,8 @@ a = {
             "severity": "INFO",
             "finding": "not offered"
         }, {"id": "cipherlist_STRONG_FS", "severity": "OK", "finding": "offered"}],
-        "serverPreferences": [{
+        "serverPreferences": [
+            {
             "id": "cipher_order-tls1_2",
             "severity": "OK",
             "finding": "server -- server prioritizes ChaCha ciphers when preferred by clients"
@@ -113,8 +117,10 @@ a = {
             "id": "cipher_order",
             "severity": "OK",
             "finding": "server"
-        }],
-        "fs": [{"id": "FS", "severity": "OK", "finding": "offered"}, {
+        }
+        ],
+        "fs": [
+            {"id": "FS", "severity": "OK", "finding": "offered"}, {
             "id": "FS_ciphers",
             "severity": "INFO",
             "finding": "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-CHACHA20-POLY1305 TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256"
@@ -130,8 +136,10 @@ a = {
             "id": "FS_TLS12_sig_algs",
             "severity": "INFO",
             "finding": "ECDSA+SHA256 ECDSA+SHA384 ECDSA+SHA512 ECDSA+SHA224"
-        }, {"id": "FS_TLS13_sig_algs", "severity": "INFO", "finding": "ECDSA+SHA256"}],
-        "serverDefaults": [{
+        }, {"id": "FS_TLS13_sig_algs", "severity": "INFO", "finding": "ECDSA+SHA256"}
+        ],
+        "serverDefaults": [
+            {
             "id": "TLS_extensions",
             "severity": "INFO",
             "finding": "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'extended master secret/#23'"
