@@ -1,4 +1,5 @@
 import os
+import sys
 
 from src.scanner.http import scan
 
@@ -21,4 +22,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    log_file = os.path.join('.', 'scan.log')
+    with open(log_file, 'a') as log:
+        sys.stdout = log
+        sys.stderr = log
+        log.write("Starting scan...\n")
+        main()
+        log.write("Scan complete.\n")
