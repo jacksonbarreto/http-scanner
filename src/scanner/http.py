@@ -91,6 +91,7 @@ def extract_result(raw_json):
     result.update({COL_RAW_RESULTS: json.dumps(raw_json)})
     return result
 
+
 def extract_header_response(headers):
     header_response = {}
     for header in headers:
@@ -99,7 +100,8 @@ def extract_header_response(headers):
             if header_name == "banner_server":
                 header_response.update({COL_BANNER_SERVER: header.get("finding", None)})
             elif header_name == "banner_application":
-                header_response.update({COL_BANNER_APPLICATION: False if header.get("finding", None) == "No application banner found" else True})
+                header_response.update({COL_BANNER_APPLICATION: False if header.get("finding",
+                                                                                    None) == "No application banner found" else True})
             elif header_name == "HTTP_status_code":
                 header_response.update({COL_HTTP_STATUS_CODE: header.get("finding", None)})
     return header_response
@@ -139,7 +141,7 @@ def extract_certificate_info(certificates_infos):
             print(cert_trusted)
         if certificate.get("id", None) == "cert_ocspRevoked":
             print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
-            cert_ocsp_revoked = True if certificate.get("finding", "").lower() == "not revoked" else False
+            cert_ocsp_revoked = False if certificate.get("finding", "").lower() == "not revoked" else True
             print(cert_ocsp_revoked)
         if certificate.get("id", None) == "certs_list_ordering_problem":
             print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
@@ -149,9 +151,11 @@ def extract_certificate_info(certificates_infos):
             print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             date_time = certificate.get("finding", None)
             if date_time:
-                cert_expired = False if pd.Timestamp.now() < pd.Timestamp(date_time) else True
-                print(cert_expired)
-    if (cert_chain_of_trust and cert_trusted and cert_ocsp_revoked and certs_list_ordering_without_problem
+                cert_expired = True if pd.Timestamp(date_time) < pd.Timestamp.now() else False
+            else:
+                cert_expired = True
+            print(cert_expired)
+    if (cert_chain_of_trust and cert_trusted and not cert_ocsp_revoked and certs_list_ordering_without_problem
             and not cert_expired):
         certificate_info.update({COL_VALID_CERTIFICATE: True})
     else:
@@ -170,6 +174,7 @@ def extract_protocols(protocols):
 
 
 def extract_rating(ratings):
+    print(f"Ratings: {ratings}")
     rating_result = {}
     for rating in ratings:
         if rating.get("id", None) == "final_score":
