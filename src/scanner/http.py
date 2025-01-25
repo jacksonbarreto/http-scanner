@@ -119,8 +119,7 @@ def extract_certificate_info(certificates_infos):
         if certificate.get("id", None) == "banner_server":
             certificate_info.update({COL_BANNER_SERVER: certificate.get("finding", None)})
         if certificate.get("id", None) == "banner_application":
-            certificate_info.update({COL_BANNER_APPLICATION: False if certificate.get("finding",
-                                                                                      None) == "No application banner found" else True})
+            certificate_info.update({COL_BANNER_APPLICATION: False if certificate.get("finding", None) == "No application banner found" else True})
             print(f"banner_application: {certificate.get('finding', None)}")
         if certificate.get("id", None) == "cert_chain_of_trust":
             cert_chain_of_trust = True if certificate.get("finding", "").lower() == "passed." else False
