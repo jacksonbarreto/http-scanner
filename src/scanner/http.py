@@ -11,7 +11,7 @@ from uuid import uuid4
 from src import config
 from src.config import config, COL_ASSESSMENT_DATETIME, COL_IP, COL_FINAL_SCORE, COL_GRADE, COL_RAW_RESULTS, COL_CA, \
     COL_CERTIFICATE_ALGORITHM, COL_KEY_SIZE, COL_OCSP_STAPLING, COL_DNS_CAA, COL_CERTIFICATE_TRANSPARENCY, \
-    COL_BANNER_SERVER, COL_BANNER_APPLICATION, COL_OCSP_MUST_STAPLE, COL_VALID_CERTIFICATE
+    COL_BANNER_SERVER, COL_BANNER_APPLICATION, COL_OCSP_MUST_STAPLE, COL_VALID_CERTIFICATE, COL_HTTP_STATUS_CODE
 
 final_errors = []
 final_results = []
@@ -86,10 +86,24 @@ def extract_result(raw_json):
     result.update({COL_IP: scan_result.get("ip", None)})
     result.update({**extract_protocols(scan_result.get("protocols", []))})
     result.update({**extract_certificate_info(scan_result.get("serverDefaults", []))})
+    result.update({**extract_header_response(scan_result.get("headerResponse", []))})
     result.update({**extract_rating(scan_result.get("ratings", []))})
     result.update({COL_RAW_RESULTS: json.dumps(raw_json)})
     print(f"result: {result}")
     return result
+
+def extract_header_response(headers):
+    header_response = {}
+    for header in headers:
+        header_name = header.get("id", None)
+        if header_name:
+            if header_name == "banner_server":
+                header.update({COL_BANNER_SERVER: header.get("finding", None)})
+            elif header_name == "banner_application":
+                header.update({COL_BANNER_APPLICATION: False if header.get("finding", None) == "No application banner found" else True})
+            elif header_name == "HTTP_status_code":
+                header.update({COL_HTTP_STATUS_CODE: header.get("finding", None)})
+    return header_response
 
 
 def extract_certificate_info(certificates_infos):
@@ -100,7 +114,6 @@ def extract_certificate_info(certificates_infos):
     certs_list_ordering_without_problem = False
     cert_expired = True
     for certificate in certificates_infos:
-        print(f"certificate: {certificate}")
         if certificate.get("id", None) == "cert_caIssuers":
             certificate_info.update({COL_CA: certificate.get("finding", None)})
         if certificate.get("id", None) == "cert_signatureAlgorithm":
@@ -117,20 +130,20 @@ def extract_certificate_info(certificates_infos):
         if certificate.get("id", None) == "certificate_transparency":
             certificate_info.update(
                 {COL_CERTIFICATE_TRANSPARENCY: True if "yes" in certificate.get("finding", "").lower() else False})
-        if certificate.get("id", None) == "banner_server":
-            certificate_info.update({COL_BANNER_SERVER: certificate.get("finding", None)})
-        if certificate.get("id", None) == "banner_application":
-            certificate_info.update({COL_BANNER_APPLICATION: False if certificate.get("finding", None) == "No application banner found" else True})
-            print(f"banner_application: {certificate.get('finding', None)}")
         if certificate.get("id", None) == "cert_chain_of_trust":
+            print(f"certificate.get('finding', None): {certificate.get('finding', None)}")
             cert_chain_of_trust = True if certificate.get("finding", "").lower() == "passed." else False
         if certificate.get("id", None) == "cert_trust":
+            print(f"certificate.get('finding', None): {certificate.get('finding', None)}")
             cert_trusted = True if "ok" in certificate.get("finding", "").lower() else False
         if certificate.get("id", None) == "cert_ocspRevoked":
+            print(f"certificate.get('finding', None): {certificate.get('finding', None)}")
             cert_ocsp_revoked = True if certificate.get("finding", "").lower() == "not revoked" else False
         if certificate.get("id", None) == "certs_list_ordering_problem":
+            print(f"certificate.get('finding', None): {certificate.get('finding', None)}")
             certs_list_ordering_without_problem = True if certificate.get("finding", "").lower() == "no" else False
         if certificate.get("id", None) == "cert_notAfter":
+            print(f"certificate.get('finding', None): {certificate.get('finding', None)}")
             date_time = certificate.get("finding", None)
             if date_time:
                 cert_expired = False if pd.Timestamp.now() < pd.Timestamp(date_time) else True
@@ -154,10 +167,9 @@ def extract_protocols(protocols):
 def extract_rating(ratings):
     rating_result = {}
     for rating in ratings:
-        id_rating = rating.get("id", None)
-        if id_rating == "final_score":
+        if rating.get("id", None) == "final_score":
             rating_result.update({COL_FINAL_SCORE: rating.get("finding", None)})
-        elif id_rating == "overall_grade":
+        elif rating.get("id", None) == "overall_grade":
             rating_result.update({COL_GRADE: rating.get("finding", None)})
     return rating_result
 

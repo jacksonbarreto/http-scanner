@@ -12,6 +12,7 @@ COL_DNS_CAA = "dns_caa"
 COL_CERTIFICATE_TRANSPARENCY = "certificate_transparency"
 COL_BANNER_SERVER = "banner_server"
 COL_BANNER_APPLICATION = "banner_application"
+COL_HTTP_STATUS_CODE = "http_status_code"
 COL_VALID_CERTIFICATE = "valid_certificate"
 
 config = {

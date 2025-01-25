@@ -284,7 +284,8 @@ a = {
             "severity": "INFO",
             "finding": "USERTrust ECC Certification Authority <-- AAA Certificate Services"
         }, {"id": "intermediate_cert_badOCSP", "severity": "OK", "finding": "intermediate certificate(s) is/are ok"}],
-        "headerResponse": [{
+        "headerResponse": [
+            {
             "id": "HTTP_status_code",
             "severity": "INFO",
             "finding": "301 Moved Permanently ('/')"
@@ -314,7 +315,8 @@ a = {
             "cwe": "CWE-200",
             "finding": "--"
         }],
-        "vulnerabilities": [{
+        "vulnerabilities": [
+            {
             "id": "secure_renego",
             "severity": "OK",
             "cwe": "CWE-310",
@@ -405,7 +407,8 @@ a = {
             "finding": "not vulnerable"
         }],
         "cipherTests": [],
-        "browserSimulations": [{
+        "browserSimulations": [
+            {
             "id": "clientsimulation-android_60",
             "severity": "INFO",
             "finding": "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
@@ -546,7 +549,8 @@ a = {
             "severity": "INFO",
             "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
         }],
-        "rating": [{
+        "rating": [
+            {
             "id": "rating_spec",
             "severity": "INFO",
             "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
