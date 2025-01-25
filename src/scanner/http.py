@@ -9,7 +9,9 @@ import pandas as pd
 from uuid import uuid4
 
 from src import config
-from src.config import config, COL_ASSESSMENT_DATETIME, COL_IP, COL_FINAL_SCORE, COL_GRADE, COL_RAW_RESULTS
+from src.config import config, COL_ASSESSMENT_DATETIME, COL_IP, COL_FINAL_SCORE, COL_GRADE, COL_RAW_RESULTS, COL_CA, \
+    COL_CERTIFICATE_ALGORITHM, COL_KEY_SIZE, COL_OCSP_STAPLING, COL_DNS_CAA, COL_CERTIFICATE_TRANSPARENCY, \
+    COL_BANNER_SERVER, COL_BANNER_APPLICATION, COL_OCSP_MUST_STAPLE, COL_VALID_CERTIFICATE
 
 final_errors = []
 final_results = []
@@ -83,10 +85,61 @@ def extract_result(raw_json):
     result.update({COL_ASSESSMENT_DATETIME: pd.Timestamp.now()})
     result.update({COL_IP: scan_result.get("ip", None)})
     result.update({**extract_protocols(scan_result.get("protocols", []))})
+    result.update({**extract_certificate_info(scan_result.get("serverDefaults", []))})
     result.update({**extract_rating(scan_result.get("ratings", []))})
     result.update({COL_RAW_RESULTS: json.dumps(raw_json)})
 
     return result
+
+
+def extract_certificate_info(certificates_infos):
+    certificate_info = {}
+    cert_ocsp_revoked = False
+    cert_chain_of_trust = False
+    cert_trusted = False
+    certs_list_ordering_without_problem = False
+    cert_expired = True
+    for certificate in certificates_infos:
+        if certificate.get("id", None) == "cert_caIssuers":
+            certificate_info.update({COL_CA: certificate.get("finding", None)})
+        if certificate.get("id", None) == "cert_signatureAlgorithm":
+            certificate_info.update({COL_CERTIFICATE_ALGORITHM: certificate.get("finding", None)})
+        if certificate.get("id", None) == "cert_keySize":
+            certificate_info.update({COL_KEY_SIZE: certificate.get("finding", None)})
+        if certificate.get("id", None) == "OCSP_stapling":
+            certificate_info.update(
+                {COL_OCSP_STAPLING: False if "not" in certificate.get("finding", "").lower() else True})
+        if certificate.get("id", None) == "cert_mustStapleExtension":
+            certificate_info.update({COL_OCSP_MUST_STAPLE: False if certificate.get("finding", None) == '--' else True})
+        if certificate.get("id", None) == "DNS_CAArecord":
+            certificate_info.update({COL_DNS_CAA: False if certificate.get("finding", None) == '--' else True})
+        if certificate.get("id", None) == "certificate_transparency":
+            certificate_info.update(
+                {COL_CERTIFICATE_TRANSPARENCY: True if "yes" in certificate.get("finding", "").lower() else False})
+        if certificate.get("id", None) == "banner_server":
+            certificate_info.update({COL_BANNER_SERVER: certificate.get("finding", None)})
+        if certificate.get("id", None) == "banner_application":
+            certificate_info.update({COL_BANNER_APPLICATION: False if certificate.get("finding",
+                                                                                      None) == "No application banner found" else True})
+            print(f"banner_application: {certificate.get('finding', None)}")
+        if certificate.get("id", None) == "cert_chain_of_trust":
+            cert_chain_of_trust = True if certificate.get("finding", "").lower() == "passed." else False
+        if certificate.get("id", None) == "cert_trust":
+            cert_trusted = True if "ok" in certificate.get("finding", "").lower() else False
+        if certificate.get("id", None) == "cert_ocspRevoked":
+            cert_ocsp_revoked = True if certificate.get("finding", "").lower() == "not revoked" else False
+        if certificate.get("id", None) == "certs_list_ordering_problem":
+            certs_list_ordering_without_problem = True if certificate.get("finding", "").lower() == "no" else False
+        if certificate.get("id", None) == "cert_notAfter":
+            date_time = certificate.get("finding", None)
+            if date_time:
+                cert_expired = False if pd.Timestamp.now() < pd.Timestamp(date_time) else True
+    if (cert_chain_of_trust and cert_trusted and cert_ocsp_revoked and certs_list_ordering_without_problem
+            and not cert_expired):
+        certificate_info.update({COL_VALID_CERTIFICATE: True})
+    else:
+        certificate_info.update({COL_VALID_CERTIFICATE: False})
+    return certificate_info
 
 
 def extract_protocols(protocols):

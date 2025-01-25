@@ -1,59 +1,63 @@
 a = {
-    "targetHost":
-        "www.esmt.org", "ip":
-        "193.175.6.15", "port":
-        "443", "rDNS":
-        "www.esmt.org.", "service":
-        "HTTP", "pretest":
-        [{"id": "pre_128cipher", "severity": "INFO", "finding": "No 128 cipher limit bug"}], "protocols":
-        [{"id": "SSLv2", "severity": "OK", "finding": "not offered"}, {
+    "targetHost": "www.esmt.org",
+    "ip": "193.175.6.15",
+    "port": "443", "rDNS": "www.esmt.org.",
+    "service": "HTTP",
+    "pretest": [{"id": "pre_128cipher", "severity": "INFO", "finding": "No 128 cipher limit bug"}],
+    "protocols": [
+        {"id": "SSLv2", "severity": "OK", "finding": "not offered"},
+        {
             "id": "SSLv3",
             "severity": "OK",
             "finding": "not offered"
-        }, {"id": "TLS1", "severity": "INFO", "finding": "not offered"}, {
+        },
+        {"id": "TLS1", "severity": "INFO", "finding": "not offered"}, {
             "id": "TLS1_1",
             "severity": "INFO",
             "finding": "not offered"
-        }, {"id": "TLS1_2", "severity": "OK", "finding": "offered"}, {
+        },
+        {"id": "TLS1_2", "severity": "OK", "finding": "offered"}, {
             "id": "TLS1_3",
             "severity": "OK",
             "finding": "offered with final"
-        }, {"id": "NPN", "severity": "INFO", "finding": "not offered"}, {
+        },
+        {"id": "NPN", "severity": "INFO", "finding": "not offered"}, {
             "id": "ALPN_HTTP2",
             "severity": "OK",
             "finding": "h2"
-        }, {"id": "ALPN", "severity": "INFO", "finding": "http/1.1"}], "grease":
-        [], "ciphers":
-        [{"id": "cipherlist_NULL", "severity": "OK", "cwe": "CWE-327", "finding": "not offered"}, {
-            "id": "cipherlist_aNULL",
-            "severity": "OK",
-            "cwe": "CWE-327",
-            "finding": "not offered"
-        }, {
-            "id": "cipherlist_EXPORT",
-            "severity": "OK",
-            "cwe": "CWE-327",
-            "finding": "not offered"
-        }, {
-            "id": "cipherlist_LOW",
-            "severity": "OK",
-            "cwe": "CWE-327",
-            "finding": "not offered"
-        }, {
-            "id": "cipherlist_3DES_IDEA",
-            "severity": "INFO",
-            "cwe": "CWE-310",
-            "finding": "not offered"
-        }, {
-            "id": "cipherlist_OBSOLETED",
-            "severity": "LOW",
-            "cwe": "CWE-310",
-            "finding": "offered"
-        }, {"id": "cipherlist_STRONG_NOFS", "severity": "INFO", "finding": "not offered"}, {
-            "id": "cipherlist_STRONG_FS",
-            "severity": "OK",
-            "finding": "offered"
-        }], "serverPreferences":
+        },
+        {"id": "ALPN", "severity": "INFO", "finding": "http/1.1"}],
+    "grease": [],
+    "ciphers": [{"id": "cipherlist_NULL", "severity": "OK", "cwe": "CWE-327", "finding": "not offered"}, {
+        "id": "cipherlist_aNULL",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+    }, {
+        "id": "cipherlist_EXPORT",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+    }, {
+        "id": "cipherlist_LOW",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+    }, {
+        "id": "cipherlist_3DES_IDEA",
+        "severity": "INFO",
+        "cwe": "CWE-310",
+        "finding": "not offered"
+    }, {
+        "id": "cipherlist_OBSOLETED",
+        "severity": "LOW",
+        "cwe": "CWE-310",
+        "finding": "offered"
+    }, {"id": "cipherlist_STRONG_NOFS", "severity": "INFO", "finding": "not offered"}, {
+        "id": "cipherlist_STRONG_FS",
+        "severity": "OK",
+        "finding": "offered"
+    }], "serverPreferences":
         [{"id": "cipher_order-tls1_2", "severity": "OK", "finding": "server"}, {
             "id": "cipher-tls1_2_xc030",
             "severity": "OK",
@@ -131,128 +135,169 @@ a = {
             "id": "FS_TLS13_sig_algs",
             "severity": "INFO",
             "finding": "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512"
-        }], "serverDefaults":
-        [{
-            "id": "TLS_extensions",
-            "severity": "INFO",
-            "finding": "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'status request/#5' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
-        }, {
-            "id": "TLS_session_ticket",
-            "severity": "INFO",
-            "finding": "no -- no lifetime advertised"
-        }, {"id": "SSL_sessionID_support", "severity": "INFO", "finding": "yes"}, {
-            "id": "sessionresumption_ticket",
-            "severity": "INFO",
-            "finding": "not supported"
-        }, {"id": "sessionresumption_ID", "severity": "INFO", "finding": "supported"}, {
-            "id": "TLS_timestamp",
-            "severity": "INFO",
-            "finding": "random"
-        }, {"id": "certificate_compression", "severity": "INFO", "finding": "none"}, {
-            "id": "clientAuth",
-            "severity": "INFO",
-            "finding": "none"
-        }, {"id": "cert_numbers", "severity": "INFO", "finding": "1"}, {
-            "id": "cert_signatureAlgorithm",
-            "severity": "OK",
-            "finding": "SHA384 with RSA"
-        }, {
-            "id": "cert_keySize",
-            "severity": "INFO",
-            "finding": "RSA 2048 bits (exponent is 65537)"
-        }, {
-            "id": "cert_keyUsage",
-            "severity": "INFO",
-            "finding": "Digital Signature, Key Encipherment"
-        }, {
-            "id": "cert_extKeyUsage",
-            "severity": "INFO",
-            "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
-        }, {
-            "id": "cert_serialNumber",
-            "severity": "INFO",
-            "finding": "98693164126113241999F77415E607CB"
-        }, {"id": "cert_serialNumberLen", "severity": "INFO", "finding": "16"}, {
+        }],
+    "serverDefaults":
+        [
+            {
+                "id": "TLS_extensions",
+                "severity": "INFO",
+                "finding": "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'status request/#5' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
+            },
+            {
+                "id": "TLS_session_ticket",
+                "severity": "INFO",
+                "finding": "no -- no lifetime advertised"
+            },
+            {"id": "SSL_sessionID_support", "severity": "INFO", "finding": "yes"},
+            {
+                "id": "sessionresumption_ticket",
+                "severity": "INFO",
+                "finding": "not supported"
+            },
+            {"id": "sessionresumption_ID", "severity": "INFO", "finding": "supported"},
+            {
+                "id": "TLS_timestamp",
+                "severity": "INFO",
+                "finding": "random"
+            },
+            {"id": "certificate_compression", "severity": "INFO", "finding": "none"},
+            {
+                "id": "clientAuth",
+                "severity": "INFO",
+                "finding": "none"
+            },
+            {"id": "cert_numbers", "severity": "INFO", "finding": "1"},
+            {
+                "id": "cert_signatureAlgorithm",
+                "severity": "OK",
+                "finding": "SHA384 with RSA"
+            },
+            {
+                "id": "cert_keySize",
+                "severity": "INFO",
+                "finding": "RSA 2048 bits (exponent is 65537)"
+            },
+            {
+                "id": "cert_keyUsage",
+                "severity": "INFO",
+                "finding": "Digital Signature, Key Encipherment"
+            },
+            {
+                "id": "cert_extKeyUsage",
+                "severity": "INFO",
+                "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
+            },
+            {
+                "id": "cert_serialNumber",
+                "severity": "INFO",
+                "finding": "98693164126113241999F77415E607CB"
+            },
+            {"id": "cert_serialNumberLen", "severity": "INFO", "finding": "16"}, {
             "id": "cert_fingerprintSHA1",
             "severity": "INFO",
             "finding": "73CDF12A8C40D9382D19B71B6FDCABC3FD282008"
-        }, {
-            "id": "cert_fingerprintSHA256",
-            "severity": "INFO",
-            "finding": "266A11DBE17F19DD0FE1E1480076CCD95E5AF5E932E5F69A8E8077A987AEFF9E"
-        }, {
-            "id": "cert",
-            "severity": "INFO",
-            "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
-        }, {"id": "cert_commonName", "severity": "OK", "finding": "esmt.berlin"}, {
+        },
+            {
+                "id": "cert_fingerprintSHA256",
+                "severity": "INFO",
+                "finding": "266A11DBE17F19DD0FE1E1480076CCD95E5AF5E932E5F69A8E8077A987AEFF9E"
+            },
+            {
+                "id": "cert",
+                "severity": "INFO",
+                "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+            },
+            {"id": "cert_commonName", "severity": "OK", "finding": "esmt.berlin"}, {
             "id": "cert_commonName_wo_SNI",
             "severity": "INFO",
             "finding": "esmt.berlin"
-        }, {
-            "id": "cert_subjectAltName",
-            "severity": "INFO",
-            "finding": "esmt.berlin *.campus.esmt.org *.esmt.berlin *.esmt.org *.global.esmt.org esmt.org"
-        }, {
-            "id": "cert_trust",
-            "severity": "OK",
-            "finding": "Ok via SAN wildcard (same w/o SNI)"
-        }, {
-            "id": "cert_trust_wildcard",
-            "severity": "LOW",
-            "finding": "trust is via wildcard"
-        }, {"id": "cert_chain_of_trust", "severity": "OK", "finding": "passed."}, {
-            "id": "cert_certificatePolicies_EV",
-            "severity": "INFO",
-            "finding": "no"
-        }, {"id": "cert_expirationStatus", "severity": "OK", "finding": "234 >= 60 days"}, {
-            "id": "cert_notBefore",
-            "severity": "INFO",
-            "finding": "2024-09-16 00:00"
-        }, {"id": "cert_notAfter", "severity": "OK", "finding": "2025-09-16 23:59"}, {
-            "id": "cert_extlifeSpan",
-            "severity": "OK",
-            "finding": "certificate has no extended life time according to browser forum"
-        }, {"id": "cert_eTLS", "severity": "INFO", "finding": "not present"}, {
-            "id": "cert_crlDistributionPoints",
-            "severity": "INFO",
-            "finding": "http://GEANT.crl.sectigo.com/GEANTOVRSACA4.crl"
-        }, {"id": "cert_ocspURL", "severity": "INFO", "finding": "http://GEANT.ocsp.sectigo.com"}, {
-            "id": "OCSP_stapling",
-            "severity": "OK",
-            "finding": "offered"
-        }, {"id": "cert_ocspRevoked", "severity": "OK", "finding": "not revoked"}, {
-            "id": "cert_mustStapleExtension",
-            "severity": "INFO",
-            "finding": "--"
-        }, {
-            "id": "DNS_CAArecord",
-            "severity": "OK",
-            "finding": "issue=letsencrypt.org, issue=pki.dfn.de, issue=sectigo.com, issuemail=pki.dfn.de, issuemail=sectigo.com, issuewild=sectigo.com"
-        }, {
-            "id": "certificate_transparency",
-            "severity": "OK",
-            "finding": "yes (certificate extension)"
-        }, {"id": "certs_countServer", "severity": "INFO", "finding": "3"}, {
-            "id": "certs_list_ordering_problem",
-            "severity": "INFO",
-            "finding": "no"
-        }, {
-            "id": "cert_caIssuers",
-            "severity": "INFO",
-            "finding": "GEANT OV RSA CA 4 (GEANT Vereniging from NL)"
-        }, {
-            "id": "intermediate_cert <#1>",
-            "severity": "INFO",
-            "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
-        }, {
-            "id": "intermediate_cert_fingerprintSHA256 <#1>",
-            "severity": "INFO",
-            "finding": "37834FA5EA40FBF7B61196955962E1CA0558872435E4206653D3F620DD8E988E"
-        }, {
-            "id": "intermediate_cert_notBefore <#1>",
-            "severity": "INFO",
-            "finding": "2020-02-18 00:00"
-        }, {
+        },
+            {
+                "id": "cert_subjectAltName",
+                "severity": "INFO",
+                "finding": "esmt.berlin *.campus.esmt.org *.esmt.berlin *.esmt.org *.global.esmt.org esmt.org"
+            },
+            {
+                "id": "cert_trust",
+                "severity": "OK",
+                "finding": "Ok via SAN wildcard (same w/o SNI)"
+            },
+            {
+                "id": "cert_trust_wildcard",
+                "severity": "LOW",
+                "finding": "trust is via wildcard"
+            },
+            {"id": "cert_chain_of_trust", "severity": "OK", "finding": "passed."},
+            {
+                "id": "cert_certificatePolicies_EV",
+                "severity": "INFO",
+                "finding": "no"
+            },
+            {"id": "cert_expirationStatus", "severity": "OK", "finding": "234 >= 60 days"},
+            {
+                "id": "cert_notBefore",
+                "severity": "INFO",
+                "finding": "2024-09-16 00:00"
+            },
+            {"id": "cert_notAfter", "severity": "OK", "finding": "2025-09-16 23:59"},
+            {
+                "id": "cert_extlifeSpan",
+                "severity": "OK",
+                "finding": "certificate has no extended life time according to browser forum"
+            }, {"id": "cert_eTLS", "severity": "INFO", "finding": "not present"},
+            {
+                "id": "cert_crlDistributionPoints",
+                "severity": "INFO",
+                "finding": "http://GEANT.crl.sectigo.com/GEANTOVRSACA4.crl"
+            },
+            {"id": "cert_ocspURL", "severity": "INFO", "finding": "http://GEANT.ocsp.sectigo.com"},
+            {
+                "id": "OCSP_stapling",
+                "severity": "OK",
+                "finding": "offered"
+            },
+            {"id": "cert_ocspRevoked", "severity": "OK", "finding": "not revoked"},
+            {
+                "id": "cert_mustStapleExtension",
+                "severity": "INFO",
+                "finding": "--"
+            },
+            {
+                "id": "DNS_CAArecord",
+                "severity": "OK",
+                "finding": "issue=letsencrypt.org, issue=pki.dfn.de, issue=sectigo.com, issuemail=pki.dfn.de, issuemail=sectigo.com, issuewild=sectigo.com"
+            },
+            {
+                "id": "certificate_transparency",
+                "severity": "OK",
+                "finding": "yes (certificate extension)"
+            },
+            {"id": "certs_countServer", "severity": "INFO", "finding": "3"},
+            {
+                "id": "certs_list_ordering_problem",
+                "severity": "INFO",
+                "finding": "no"
+            },
+            {
+                "id": "cert_caIssuers",
+                "severity": "INFO",
+                "finding": "GEANT OV RSA CA 4 (GEANT Vereniging from NL)"
+            },
+            {
+                "id": "intermediate_cert <#1>",
+                "severity": "INFO",
+                "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+            },
+            {
+                "id": "intermediate_cert_fingerprintSHA256 <#1>",
+                "severity": "INFO",
+                "finding": "37834FA5EA40FBF7B61196955962E1CA0558872435E4206653D3F620DD8E988E"
+            },
+            {
+                "id": "intermediate_cert_notBefore <#1>",
+                "severity": "INFO",
+                "finding": "2020-02-18 00:00"
+            }, {
             "id": "intermediate_cert_notAfter <#1>",
             "severity": "OK",
             "finding": "2033-05-01 23:59"
@@ -301,19 +346,25 @@ a = {
             "id": "HSTS",
             "severity": "LOW",
             "finding": "not offered"
-        }, {"id": "HPKP", "severity": "INFO", "finding": "No support for HTTP Public Key Pinning"}, {
+        },
+            {"id": "HPKP", "severity": "INFO", "finding": "No support for HTTP Public Key Pinning"},
+            {
             "id": "banner_server",
             "severity": "INFO",
             "finding": "nginx"
-        }, {
+        },
+            {
             "id": "banner_application",
             "severity": "INFO",
             "finding": "No application banner found"
-        }, {
+        },
+            {
             "id": "cookie_count",
             "severity": "INFO",
             "finding": "0 at '/' (30x detected, better try target URL of 30x)"
-        }, {"id": "security_headers", "severity": "MEDIUM", "finding": "--"}, {
+        },
+            {"id": "security_headers", "severity": "MEDIUM", "finding": "--"},
+            {
             "id": "banner_reverseproxy",
             "severity": "INFO",
             "cwe": "CWE-200",
