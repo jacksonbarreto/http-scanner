@@ -87,7 +87,7 @@ def extract_result(raw_json):
     result.update({**extract_protocols(scan_result.get("protocols", []))})
     result.update({**extract_certificate_info(scan_result.get("serverDefaults", []))})
     result.update({**extract_header_response(scan_result.get("headerResponse", []))})
-    result.update({**extract_rating(scan_result.get("ratings", []))})
+    result.update({**extract_rating(scan_result.get("rating", []))})
     result.update({COL_RAW_RESULTS: json.dumps(raw_json)})
     return result
 
