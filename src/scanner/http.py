@@ -132,25 +132,31 @@ def extract_certificate_info(certificates_infos):
         if certificate.get("id", None) == "cert_chain_of_trust":
             print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             cert_chain_of_trust = True if certificate.get("finding", "").lower() == "passed." else False
+            print(cert_chain_of_trust)
         if certificate.get("id", None) == "cert_trust":
             print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             cert_trusted = True if "ok" in certificate.get("finding", "").lower() else False
+            print(cert_trusted)
         if certificate.get("id", None) == "cert_ocspRevoked":
             print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             cert_ocsp_revoked = True if certificate.get("finding", "").lower() == "not revoked" else False
+            print(cert_ocsp_revoked)
         if certificate.get("id", None) == "certs_list_ordering_problem":
             print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             certs_list_ordering_without_problem = True if certificate.get("finding", "").lower() == "no" else False
+            print(certs_list_ordering_without_problem)
         if certificate.get("id", None) == "cert_notAfter":
             print(f"{certificate.get("id", None)}: {certificate.get('finding', None)}")
             date_time = certificate.get("finding", None)
             if date_time:
                 cert_expired = False if pd.Timestamp.now() < pd.Timestamp(date_time) else True
+                print(cert_expired)
     if (cert_chain_of_trust and cert_trusted and cert_ocsp_revoked and certs_list_ordering_without_problem
             and not cert_expired):
         certificate_info.update({COL_VALID_CERTIFICATE: True})
     else:
         certificate_info.update({COL_VALID_CERTIFICATE: False})
+    print("-----------")
     return certificate_info
 
 
@@ -167,8 +173,10 @@ def extract_rating(ratings):
     rating_result = {}
     for rating in ratings:
         if rating.get("id", None) == "final_score":
+            print(f"{rating.get("id", None)}: {rating.get('finding', None)}")
             rating_result.update({COL_FINAL_SCORE: rating.get("finding", None)})
         elif rating.get("id", None) == "overall_grade":
+            print(f"{rating.get("id", None)}: {rating.get('finding', None)}")
             rating_result.update({COL_GRADE: rating.get("finding", None)})
     return rating_result
 
