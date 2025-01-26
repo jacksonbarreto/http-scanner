@@ -1,4 +1,5 @@
 import json
+import logging
 import os
 import subprocess
 import tempfile
@@ -38,7 +39,7 @@ def scan(file_path):
             try:
                 future.result()
             except Exception as e:
-                print(f"Thread error in CSV ({filename}): {e}")
+                logging.error(f"Thread error in CSV ({filename}): {e}")
 
     if final_results:
         save(final_results, country_code)
@@ -51,7 +52,7 @@ def scan_row(row, url_column_name):
     temp_file_path = os.path.join(tempfile.gettempdir(), f"{str(uuid4())}.json")
     test_ssl_path = os.path.join(*config["test_ssl_path"])
     try:
-        print(f"Scanning URL: {row[url_column_name]}")
+        logging.info(f"Scanning URL: {row[url_column_name]}")
         result = subprocess.run(
             args=[
                 test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--jsonfile-pretty',
@@ -69,7 +70,7 @@ def scan_row(row, url_column_name):
             final_results.append({**row.to_dict(), **result})
 
     except Exception as e:
-        print(f"Error scanning URL {url}: {e}")
+        logging.error(f"Error scanning URL {url}: {e}")
         with lock:
             final_errors.append({**row.to_dict(), 'error': str(e)})
 

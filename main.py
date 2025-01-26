@@ -1,16 +1,20 @@
+import logging
 import os
 import sys
 
+import daemon
+from setproctitle import setproctitle
 from src.scanner.http import scan
 
 
 def main():
     input_directory = os.path.join('.', 'src', 'data', 'source')
     files = [f for f in os.listdir(input_directory) if f.endswith('.csv')]
-    print(f"Found {len(files)} files to scan.")
+    logging.info(f"Found {len(files)} files to scan.")
 
     if not files:
-        print(f"No CSV files found in '{input_directory}'. Please ensure the files are in the correct directory.")
+        logging.warning(
+            f"No CSV files found in '{input_directory}'. Please ensure the files are in the correct directory.")
         return
 
     for file in files:
@@ -18,14 +22,22 @@ def main():
         try:
             scan(file_path)
         except Exception as e:
-            print(f"Error scanning {file}: {e}")
+            logging.error(f"Error scanning {file}: {e}")
+
+
+def start_daemon():
+    setproctitle("http_scanner")
+    log_file = os.path.join('.', 'scan.log')
+    logging.basicConfig(
+        filename=log_file,
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
+    logging.info("Starting scan...")
+    main()
+    logging.info("Scan complete.")
 
 
 if __name__ == "__main__":
-    log_file = os.path.join('.', 'scan.log')
-    with open(log_file, 'a') as log:
-        sys.stdout = log
-        sys.stderr = log
-        log.write("Starting scan...\n")
-        main()
-        log.write("Scan complete.\n")
+    with daemon.DaemonContext():
+        start_daemon()
