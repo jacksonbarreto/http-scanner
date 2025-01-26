@@ -80,18 +80,28 @@ def scan_row(row, url_column_name):
 
 
 def extract_result(raw_json):
-    result = {}
-    scan_result = raw_json.get('scanResult', [])
-    scan_result = scan_result[0] if isinstance(scan_result, list) and scan_result else {}
+    results = []
+    scan_results = raw_json.get('scanResult', [])
 
-    result.update({COL_ASSESSMENT_DATETIME: pd.Timestamp.now()})
-    result.update({COL_IP: scan_result.get("ip", None)})
-    result.update({**extract_protocols(scan_result.get("protocols", []))})
-    result.update({**extract_certificate_info(scan_result.get("serverDefaults", []))})
-    result.update({**extract_header_response(scan_result.get("headerResponse", []))})
-    result.update({**extract_rating(scan_result.get("rating", []))})
-    result.update({COL_RAW_RESULTS: json.dumps(raw_json)})
-    return result
+    if not isinstance(scan_results, list):
+        scan_results = [scan_results]
+
+    for scan_result in scan_results:
+        result = {}
+
+        result.update({COL_ASSESSMENT_DATETIME: pd.Timestamp.now()})
+        result.update({COL_IP: scan_result.get("ip", None)})
+        result.update({**extract_protocols(scan_result.get("protocols", []))})
+        result.update({**extract_certificate_info(scan_result.get("serverDefaults", []))})
+        result.update({**extract_header_response(scan_result.get("headerResponse", []))})
+        rating_data = extract_rating(scan_result.get("rating", []))
+        result.update({**rating_data})
+        result.update({COL_RAW_RESULTS: json.dumps(raw_json)})
+
+        results.append((result, rating_data.get("final_score", float('inf'))))
+    worst_result = min(results, key=lambda x: x[1])[0]
+
+    return worst_result
 
 
 def extract_header_response(headers):
