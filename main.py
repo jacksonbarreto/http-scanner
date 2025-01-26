@@ -1,9 +1,9 @@
 import logging
 import os
-import sys
 
 import daemon
 from setproctitle import setproctitle
+
 from src.scanner.http import scan
 
 
