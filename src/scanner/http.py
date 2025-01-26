@@ -202,5 +202,5 @@ def save(data, country_code, error=False):
         if os.path.exists(output_file):
             df.to_csv(output_file, mode='a', header=False, index=False)
         else:
-            df.to_csv(output_file, index=False, columns=desired_column_order)
+            df.to_csv(output_file, index=False)
     return output_file
