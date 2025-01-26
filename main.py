@@ -42,6 +42,7 @@ def start_daemon():
 
 
 if __name__ == "__main__":
-    with daemon.DaemonContext(stdout=log_file, stderr=log_file, umask=0o002, working_directory='.',
-                              detach_process=True):
-        start_daemon()
+    with open(log_file, 'a') as log_stream:
+        with daemon.DaemonContext(stdout=log_stream, stderr=log_stream, umask=0o002, working_directory='.',
+                                  detach_process=True):
+            start_daemon()
