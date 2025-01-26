@@ -6,6 +6,8 @@ from setproctitle import setproctitle
 
 from src.scanner.http import scan
 
+log_file = os.path.join('.', 'scan.log')
+
 
 def main():
     input_directory = os.path.join('.', 'src', 'data', 'source')
@@ -27,17 +29,19 @@ def main():
 
 def start_daemon():
     setproctitle("http_scanner")
-    log_file = os.path.join('.', 'scan.log')
     logging.basicConfig(
         filename=log_file,
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
-    logging.info("Starting scan...")
-    main()
-    logging.info("Scan complete.")
+    try:
+        main()
+        logging.info("Scan complete.")
+    except Exception as e:
+        logging.error(f"Unexpected error: {e}")
 
 
 if __name__ == "__main__":
-    with daemon.DaemonContext():
+    with daemon.DaemonContext(stdout=log_file, stderr=log_file, umask=0o002, working_directory='.',
+                              detach_process=True):
         start_daemon()
