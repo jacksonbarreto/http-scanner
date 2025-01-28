@@ -32,6 +32,9 @@ def scan(file_path):
     if url_column_name is None:
         raise ValueError(f"No 'url' column found in CSV ({filename}).")
 
+    if "error" in df.columns:
+        df = df.drop(columns=["error"])
+
     max_workers = config.get("max_workers", 5)
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(scan_row, row, url_column_name) for index, row in df.iterrows()]
