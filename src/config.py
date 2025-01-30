@@ -26,6 +26,6 @@ desired_column_order = [
 ]
 
 config = {
-    "max_workers": 10,
+    "max_workers": 5,
     "test_ssl_path": ['..', 'testssl.sh', 'testssl.sh'],
 }

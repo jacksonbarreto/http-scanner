@@ -1,18 +1,29 @@
 ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021,error
-FR0095,École régionale des beaux-arts d'Angers,public,Other,No,angers.esba-talm.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire,"Error running testssl.sh for angers.esba-talm.fr: ../testssl.sh/testssl.sh: connect: Connection refused
-../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
-[1;35mFatal error: Can't connect to ""213.186.33.5:443""
-Make sure a firewall is not between you and your scanning target![m
-"
-FR0128,IXAD École des avocats de la région Nord-Ouest,private,Other,No,www.cfpa-online.com,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,"Error running testssl.sh for www.cfpa-online.com: ../testssl.sh/testssl.sh: connect: Connection refused
-../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
-[1;35mFatal error: Can't connect to ""213.186.33.5:443""
-Make sure a firewall is not between you and your scanning target![m
-"
 FR0277,Institut libre d'éducation physique supérieur,private,Other,No,www.ileps.org,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise,"Error running testssl.sh for www.ileps.org: ../testssl.sh/testssl.sh: connect: Connection refused
 ../testssl.sh/testssl.sh: line 11716: /dev/tcp/217.70.184.50/443: Connection refused
 [1;35mFatal error: Can't connect to ""217.70.184.50:443""
 Make sure a firewall is not between you and your scanning target![m
+"
+FR0095,École régionale des beaux-arts d'Angers,public,Other,No,angers.esba-talm.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire,"Error running testssl.sh for angers.esba-talm.fr: ../testssl.sh/testssl.sh: connect: Connection refused
+../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
+../testssl.sh/testssl.sh: connect: Connection refused
+../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
+[1;35mFatal error: repeated TCP connect problems, giving up[m
+Consider increasing MAX_SOCKET_FAIL (currently: 2)
+"
+FR0128,IXAD École des avocats de la région Nord-Ouest,private,Other,No,www.cfpa-online.com,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,"Error running testssl.sh for www.cfpa-online.com: ../testssl.sh/testssl.sh: connect: Connection refused
+../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
+../testssl.sh/testssl.sh: connect: Connection refused
+../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
+[1;35mFatal error: repeated TCP connect problems, giving up[m
+Consider increasing MAX_SOCKET_FAIL (currently: 2)
+"
+FR0031,Institut supérieur des Arts de Toulouse,public,Other,No,www.isdat.eu,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,"Error running testssl.sh for www.isdat.eu: ../testssl.sh/testssl.sh: connect: Connection refused
+../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
+../testssl.sh/testssl.sh: connect: Connection refused
+../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
+[1;35mFatal error: repeated TCP connect problems, giving up[m
+Consider increasing MAX_SOCKET_FAIL (currently: 2)
 "
 FR0110,Institut régional d'administration de Metz,public,Other,No,www.ira-metz.fr,FRF3,Lorraine,Lorraine,FRF33,Moselle,Moselle,"Error running testssl.sh for www.ira-metz.fr: ../testssl.sh/testssl.sh: connect: Connection refused
 ../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
@@ -26,26 +37,18 @@ FR0182,École nationale supérieure d'architecture de Paris-La Villette,public,O
 [1;35mFatal error: Can't connect to ""194.199.196.225:443""
 Make sure a firewall is not between you and your scanning target![m
 "
-FR0031,Institut supérieur des Arts de Toulouse,public,Other,No,www.isdat.eu,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,"Error running testssl.sh for www.isdat.eu: ../testssl.sh/testssl.sh: connect: Connection refused
-../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
-../testssl.sh/testssl.sh: connect: Connection refused
-../testssl.sh/testssl.sh: line 11716: /dev/tcp/213.186.33.5/443: Connection refused
-[1;35mFatal error: repeated TCP connect problems, giving up[m
-Consider increasing MAX_SOCKET_FAIL (currently: 2)
+FR0449,Rennes School of Business,private,Other,No,www.rennes-sb.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,"Error running testssl.sh for www.rennes-sb.fr: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
 "
 FR0160,Institut supérieur d'agriculture et d'agroalimentaire Rhône-Alpes,private,Other,No,www.isara.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,"Error running testssl.sh for www.isara.fr: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
 "
-FR0331,"École nationale vétérinaire, agroalimentaire et de l'alimentation, Nantes-Atlantique",public,Other,No,www.oniris-nantes.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique,"Error running testssl.sh for www.oniris-nantes.fr: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
-"
-FR0449,Rennes School of Business,private,Other,No,www.rennes-sb.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,"Error running testssl.sh for www.rennes-sb.fr: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
-"
 FR0877,Institut d'études politiques de Rennes,public,University of applied sciences,No,www.sciencespo-rennes.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,"Error running testssl.sh for www.sciencespo-rennes.fr: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
+"
+FR0331,"École nationale vétérinaire, agroalimentaire et de l'alimentation, Nantes-Atlantique",public,Other,No,www.oniris-nantes.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique,"Error running testssl.sh for www.oniris-nantes.fr: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
 "
 FR0911,The sustainable design school,private,Other,No,www.the-sds.com,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL03,Alpes-Maritimes,Alpes-Maritimes,"Error running testssl.sh for www.the-sds.com: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
 "
 FR0864,Institut d'études politiques de Lyon,public,University of applied sciences,Yes,www.sciencespo-lyon.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,Error running testssl.sh for www.sciencespo-lyon.fr: 
 FR0183,École nationale supérieure d'architecture de Paris-Belleville,public,Other,No,www.paris-belleville.archi.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,"Error running testssl.sh for www.paris-belleville.archi.fr: [1;35mHTTP header was repeatedly zero.[m
 "
-FR0413,École de commerce européenne,private,Other,No,ece.inseec.com,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,Error running testssl.sh for ece.inseec.com: 
 FR0328,VetAgro Sup Marcy-l'Étoile,public,Other,No,www.vetagro-sup.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,Error running testssl.sh for www.vetagro-sup.fr: 
 FR0414,École supérieure de commerce de Pau,private,Other,No,www.esc-pau.fr,FRI1,Aquitaine,Aquitaine,FRI15,Pyrénées-Atlantiques,Pyrénées-Atlantiques,Error running testssl.sh for www.esc-pau.fr: 
