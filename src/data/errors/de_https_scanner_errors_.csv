@@ -1,0 +1,27 @@
+ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021,error
+DE0106,Universität Lübeck,public,University,No,www.uni-lübeck.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF03,"Lübeck, Kreisfreie Stadt","Lübeck, Kreisfreie Stadt","Error running testssl.sh for www.uni-lübeck.de: [1;35mFatal error: No IPv4/IPv6 address(es) for ""www.uni-lübeck.de"" available[m
+"
+DE0457,VWA-Hochschule für berufsbegleitendes Studium Stuttgart (Priv.FH),private,University of applied sciences,No,http://www.vwa-hochschule.de/,DE13,Freiburg,Freiburg,DE131,"Freiburg im Breisgau, Stadtkreis","Freiburg im Breisgau, Stadtkreis","Error running testssl.sh for http://www.vwa-hochschule.de/: [1;35mFatal error: ""http"" is not what you meant probably[m
+[1;35mFatal error: ""http"" is not what you meant probably[m
+"
+DE0282,h_da - Hochschule Darmstadt (FH),public,University of applied sciences,Yes,www.h-da.de,DE71,Darmstadt,Darmstadt,DE711,"Darmstadt, Kreisfreie Stadt","Darmstadt, Kreisfreie Stadt","Error running testssl.sh for www.h-da.de: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
+"
+DE0392,Hessische Hochschule für Polizei und Verwaltung,public,Other,No,www.hfpv.de,DE71,Darmstadt,Darmstadt,DE714,"Wiesbaden, Kreisfreie Stadt","Wiesbaden, Kreisfreie Stadt","Error running testssl.sh for www.hfpv.de: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
+"
+DE0421,Hochschule der Wirtschaft für Management (HdWM) Mannheim (Priv. FH),private,University of applied sciences,No,www.hdwm.net,DE12,Karlsruhe,Karlsruhe,DE126,"Mannheim, Stadtkreis","Mannheim, Stadtkreis","Error running testssl.sh for www.hdwm.net: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
+"
+DE0458,Hochschule Geisenheim University (FH),private,University of applied sciences,No,www.hs-geisenheim.de,DE71,Darmstadt,Darmstadt,DE71D,Rheingau-Taunus-Kreis,Rheingau-Taunus-Kreis,"Error running testssl.sh for www.hs-geisenheim.de: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
+"
+DE0484,German International University,public,University,No,www.giu-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin,Error running testssl.sh for www.giu-berlin.de: 
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt","Error running testssl.sh for www.uni-leipzig.de: ../testssl.sh/testssl.sh: connect: Connection timed out
+../testssl.sh/testssl.sh: line 11716: /dev/tcp/139.18.16.133/443: Connection timed out
+[1;35mFatal error: Can't connect to ""139.18.16.133:443""
+Make sure a firewall is not between you and your scanning target![m
+"
+DE0289,Wilhelm Büchner Hochschule Darmstadt (Priv. Fern-FH),private,University of applied sciences,No,www.wb-fernstudium.de,DE71,Darmstadt,Darmstadt,DE716,Darmstadt-Dieburg,Darmstadt-Dieburg,"Error running testssl.sh for www.wb-fernstudium.de: [1;35mHTTP header was repeatedly zero due to missing X25519/X448 curves.[m
+"
+DE0348,"Hochschule für Technik, Wirtschaft und Kultur Leipzig",public,University of applied sciences,No,www.htwk-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",Error running testssl.sh for www.htwk-leipzig.de: 
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,'utf-8' codec can't decode byte 0x93 in position 14537: invalid start byte
+DE0172,"Hochschule für Musik, Saarbrücken",public,Other,No,www.hfm.saarland.de,DEC0,Saarland,Saarland,DEC01,Regionalverband Saarbrücken,Regionalverband Saarbrücken,Error running testssl.sh for www.hfm.saarland.de: 
+DE0394,Verwaltungs-Fachhochschule Güstrow,public,Other,No,www.fh-guestrow.de,DE80,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,DE80K,Landkreis Rostock,Landkreis Rostock,"Error running testssl.sh for www.fh-guestrow.de: ../testssl.sh/testssl.sh: line 20993: read: read error: 0: Bad file descriptor
+"
