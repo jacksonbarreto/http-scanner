@@ -58,7 +58,7 @@ def scan_row(row, url_column_name):
         logging.info(f"Scanning URL: {row[url_column_name]}")
         result = subprocess.run(
             args=[
-                test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--jsonfile-pretty',
+                test_ssl_path, '--assuming-http', '--ids-friendly', '--sneaky', '--connect-timeout', '60', '--jsonfile-pretty',
                 temp_file_path, url
             ],
             stdout=subprocess.PIPE,
