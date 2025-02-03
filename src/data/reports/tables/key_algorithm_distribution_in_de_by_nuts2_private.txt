@@ -1,0 +1,45 @@
+
+\begin{table}[H]
+    \centering
+    \caption{Key Algorithm Distribution at Private HEIs in Germany by NUTS2 (\%)}
+    \label{tab:key_algorithm_distribution_de_nuts_private}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xccccccc}
+        \toprule
+        \makecell{NUTS2} & \makecell{Unknown} & \makecell{RSA\\4096} & \makecell{RSA\\3072} & \makecell{RSA\\2048} & \makecell{EC\\384} & \makecell{EC\\256} \\
+        \midrule
+            Thüringen & - & - & - & - & - & 100 \\
+            Koblenz & - & - & - & 50 & - & 50 \\
+            Mittelfranken & - & - & - & 66.67 & - & 33.33 \\
+            Brandenburg & - & - & 25 & 50 & - & 25 \\
+            Detmold & 25 & - & - & 50 & - & 25 \\
+            Köln & 11.11 & 33.33 & - & 33.33 & - & 22.22 \\
+            Karlsruhe & 20 & - & - & 60 & - & 20 \\
+            Hamburg & - & 30 & 10 & 40 & - & 20 \\
+            Stuttgart & - & - & - & 66.67 & 16.67 & 16.67 \\
+            Darmstadt & - & 14.29 & 14.29 & 57.14 & - & 14.29 \\
+            Arnsberg & - & 28.57 & - & 57.14 & - & 14.29 \\
+            Oberbayern & - & 28.57 & - & 57.14 & - & 14.29 \\
+            Berlin & 8.70 & 13.04 & 8.70 & 60.87 & - & 8.70 \\
+            Braunschweig & - & - & - & 100 & - & - \\
+            Dresden & - & - & - & 100 & - & - \\
+            Düsseldorf & - & - & - & 100 & - & - \\
+            Gießen & - & - & - & 100 & - & - \\
+            Leipzig & - & - & - & 100 & - & - \\
+            Rheinhessen-Pfalz & - & - & - & 100 & - & - \\
+            Saarland & - & - & - & 100 & - & - \\
+            Tübingen & - & - & - & 100 & - & - \\
+            Weser-Ems & - & - & - & 100 & - & - \\
+            Freiburg & - & 33.33 & - & 66.67 & - & - \\
+            Kassel & - & 33.33 & - & 66.67 & - & - \\
+            Schleswig-Holstein & 33.33 & - & - & 66.67 & - & - \\
+            Hannover & 20 & 20 & - & 60 & - & - \\
+            Bremen & - & 50 & - & 50 & - & - \\
+            Lüneburg & - & 50 & - & 50 & - & - \\
+            Münster & - & 100 & - & - & - & - \\
+            Oberpfalz & - & 100 & - & - & - & - \\
+            Trier & - & 100 & - & - & - & - \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+        

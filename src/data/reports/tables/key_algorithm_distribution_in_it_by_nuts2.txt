@@ -1,0 +1,35 @@
+
+\begin{table}[H]
+    \centering
+    \caption{Key Algorithm Distribution in Italy by NUTS2 (\%)}
+    \label{tab:key_algorithm_distribution_it_nuts}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xccccccc}
+        \toprule
+        \makecell{NUTS2} & \makecell{Unknown} & \makecell{RSA\\4096} & \makecell{RSA\\3072} & \makecell{RSA\\2048} & \makecell{EC\\384} & \makecell{EC\\256} \\
+        \midrule
+            Liguria & - & - & - & 50 & - & 50 \\
+            Puglia & - & - & 16.67 & 58.33 & - & 25 \\
+            Lazio & 7.69 & 3.85 & 7.69 & 69.23 & - & 11.54 \\
+            Marche & - & 22.22 & - & 66.67 & - & 11.11 \\
+            Veneto & - & 9.09 & - & 81.82 & - & 9.09 \\
+            Sicilia & - & 8.33 & 16.67 & 66.67 & - & 8.33 \\
+            Toscana & - & 7.69 & 15.38 & 69.23 & - & 7.69 \\
+            Lombardia & 3.57 & 7.14 & 21.43 & 64.29 & - & 3.57 \\
+            Friuli-Venezia Giulia & 20 & - & - & 60 & 20 & - \\
+            Campania & - & - & 33.33 & 58.33 & 8.33 & - \\
+            Basilicata & - & - & - & 100 & - & - \\
+            Molise & - & - & - & 100 & - & - \\
+            Provincia Autonoma di Trento & - & - & - & 100 & - & - \\
+            Abruzzo & - & - & 12.50 & 87.50 & - & - \\
+            Emilia-Romagna & - & - & 13.33 & 86.67 & - & - \\
+            Umbria & - & 20 & - & 80 & - & - \\
+            Calabria & - & - & 22.22 & 77.78 & - & - \\
+            Piemonte & - & 18.18 & 18.18 & 63.64 & - & - \\
+            Sardegna & - & - & 40 & 60 & - & - \\
+            Provincia Autonoma di Bolzano/Bozen & - & 50 & - & 50 & - & - \\
+            Valle d’Aosta/Vallée d’Aoste & - & 100 & - & - & - & - \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+        

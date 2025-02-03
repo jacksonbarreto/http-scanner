@@ -1,0 +1,35 @@
+
+\begin{table}[H]
+    \centering
+    \caption{Worst SSL/TLS Protocol Adoption at Private HEIs in France by NUTS2 (\%)}
+    \label{tab:worst_https_fr_private}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xccccc}
+        \toprule
+        \makecell{NUTS2} & \makecell{SSLv3} & \makecell{TLS1} & \makecell{TLS1.1} & \makecell{TLS1.2} \\
+        \midrule
+            Alsace & - & - & - & 100 \\
+            Aquitaine & - & - & - & 100 \\
+            Bourgogne & - & - & - & 100 \\
+            Champagne-Ardenne & - & - & - & 100 \\
+            Extra-Regio NUTS 2 & - & - & - & 100 \\
+            Franche-Comté & - & - & - & 100 \\
+            Languedoc-Roussillon & - & - & - & 100 \\
+            Limousin & - & - & - & 100 \\
+            Lorraine & - & - & - & 100 \\
+            Midi-Pyrénées & - & - & - & 100 \\
+            Poitou-Charentes & - & - & - & 100 \\
+            Provence-Alpes-Côte d’Azur & - & - & - & 100 \\
+            Rhône-Alpes & - & - & - & 100 \\
+            Ile-de-France & - & 9.80 & 1.96 & 88.24 \\
+            Nord-Pas de Calais & - & 12.50 & - & 87.50 \\
+            Bretagne & - & 16.67 & - & 83.33 \\
+            Haute-Normandie  & - & 25 & - & 75 \\
+            Pays de la Loire & - & 27.27 & 9.09 & 63.64 \\
+            Basse-Normandie  & - & 50 & - & 50 \\
+            Picardie & - & 50 & - & 50 \\
+            Auvergne & - & 100 & - & - \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+    
