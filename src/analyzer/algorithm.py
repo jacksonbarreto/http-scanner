@@ -46,9 +46,9 @@ def get_algorithm_stats(dataframe):
     for key in key_algorithms:
         stats_by_nuts[f"{key}_percent"] = (stats_by_nuts[key] / stats_by_nuts["total_schools"] * 100).round(2)
         stats_by_nuts_category[f"{key}_percent"] = (
-                    stats_by_nuts_category[key] / stats_by_nuts_category["total_schools"] * 100).round(2)
+                stats_by_nuts_category[key] / stats_by_nuts_category["total_schools"] * 100).round(2)
         stats_by_country_category[f"{key}_percent"] = (
-                    stats_by_country_category[key] / stats_by_country_category["total_schools"] * 100).round(2)
+                stats_by_country_category[key] / stats_by_country_category["total_schools"] * 100).round(2)
         stats_by_country[f"{key}_percent"] = (stats_by_country[key] / stats_by_country["total_schools"] * 100).round(2)
 
     stats_by_nuts["level"] = "nuts"
@@ -92,7 +92,8 @@ def latex_algorithm_table(dataframe, level, title, label):
         by=[col for col in reversed([col for col in dataframe.columns if col.endswith("_percent")])],
         ascending=False)
     rename_map.update(**{col: col.replace("_percent", "") for col in dataframe.columns if col.endswith("_percent")})
-    cols_to_remove = [c for c in [col for col in dataframe.columns if col.endswith("_percent")] if dataframe[c].sum() == 0]
+    cols_to_remove = [c for c in [col for col in dataframe.columns if col.endswith("_percent")] if
+                      dataframe[c].sum() == 0]
     columns_to_display = [col for col in columns_to_display if col not in cols_to_remove]
     dataframe = dataframe[columns_to_display].rename(columns=rename_map)
     column_headers = " & ".join(f"\\makecell{{{col.replace(' ', '\\\\')}}}" for col in dataframe.columns)
@@ -140,8 +141,8 @@ def generate_algorithm_tables(stats_dataframe):
                                     (stats_dataframe["level"] == "nuts_category") &
                                     (stats_dataframe["Category"] == "private")]
         nuts2_table = latex_algorithm_table(nuts_data, "nuts_category",
-                                             f"Key Algorithm Distribution at Private HEIs in {get_country(country)} by NUTS2 (\\%)",
-                                             f"key_algorithm_distribution_{country.lower()}_nuts_private")
+                                            f"Key Algorithm Distribution at Private HEIs in {get_country(country)} by NUTS2 (\\%)",
+                                            f"key_algorithm_distribution_{country.lower()}_nuts_private")
         path_to_save = os.path.join(TABLE_DIRECTORY, f"key_algorithm_distribution_in_{country}_by_nuts2_private.txt")
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
@@ -149,18 +150,19 @@ def generate_algorithm_tables(stats_dataframe):
                                     (stats_dataframe["level"] == "nuts_category") &
                                     (stats_dataframe["Category"] == "public")]
         nuts2_table = latex_algorithm_table(nuts_data, "nuts_category",
-                                             f"Key Algorithm Distribution at Public HEIs in {get_country(country)} by NUTS2 (\\%)",
-                                             f"key_algorithm_distribution_{country.lower()}_nuts_public")
+                                            f"Key Algorithm Distribution at Public HEIs in {get_country(country)} by NUTS2 (\\%)",
+                                            f"key_algorithm_distribution_{country.lower()}_nuts_public")
         path_to_save = os.path.join(TABLE_DIRECTORY, f"key_algorithm_distribution_in_{country}_by_nuts2_public.txt")
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
 
     country_data = stats_dataframe[stats_dataframe["level"] == "country"]
     country_table = latex_algorithm_table(country_data, "country", "Key Algorithm Distribution by Country (\\%)",
-                                           "key_algorithm_distribution_by_country")
+                                          "key_algorithm_distribution_by_country")
     path_to_save = os.path.join(TABLE_DIRECTORY, "key_algorithm_distribution_by_country.txt")
     with open(path_to_save, "w", encoding="utf-8") as tex_file:
         tex_file.write(country_table)
+
 
 def create_radar_chart(dataframe):
     algorithms = [col for col in dataframe.columns if col.endswith("_percent")]
@@ -263,7 +265,20 @@ def plot_key_algorithm_chart(dataframe, level, title, country_filter=None):
     dataframe.plot(kind='barh', stacked=True, color=color_list,
                    edgecolor="black", ax=ax)
 
+    for container in ax.containers:
+        for rect, value in zip(container, container.datavalues):
+            if value > 0:
+                height = rect.get_height()
+                width = rect.get_width()
+                xpos = rect.get_x() + width / 2
+                ypos = rect.get_y() + height / 2
 
+                if width > 3:
+                    face_color = rect.get_facecolor()[:3]
+                    brightness = sum([c * w for c, w in zip(face_color, [0.299, 0.587, 0.114])])
+                    text_color = "black" if brightness > 0.5 else "white"
+                    ax.text(xpos, ypos, f"{value:.1f}", ha="center", va="center",
+                            fontsize=8, color=text_color)
 
     ax.set_xlabel("Key Algorithms (%)", fontsize=12)
     ax.set_ylabel("NUTS2" if level == "nuts" else "Country", fontsize=12)
@@ -273,6 +288,7 @@ def plot_key_algorithm_chart(dataframe, level, title, country_filter=None):
 
     plt.tight_layout()
     return fig
+
 
 def generate_key_algorithm_chart(dataframe):
     total_countries = dataframe["country"].unique()
@@ -290,6 +306,7 @@ def generate_key_algorithm_chart(dataframe):
     path_to_save = os.path.join(CHART_DIRECTORY, file_name)
     fig.savefig(path_to_save, format="pdf", bbox_inches="tight")
     plt.show()
+
 
 def make_algorithm_report(dataframe):
     stats = get_algorithm_stats(dataframe)
