@@ -1,0 +1,35 @@
+
+\begin{table}[H]
+    \centering
+    \caption{Valid Certificate Distribution at Private HEIs in France by NUTS2 (\%)}
+    \label{tab:valid_certificate_distribution_fr_nuts_private}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xccc}
+        \toprule
+        \makecell{Nuts2} & \makecell{Invalid} & \makecell{Valid} \\
+        \midrule
+            Aquitaine & - & 100 \\
+            Auvergne & - & 100 \\
+            Bourgogne & - & 100 \\
+            Champagne-Ardenne & - & 100 \\
+            Extra-Regio NUTS 2 & - & 100 \\
+            Franche-Comté & - & 100 \\
+            Languedoc-Roussillon & - & 100 \\
+            Limousin & - & 100 \\
+            Lorraine & - & 100 \\
+            Midi-Pyrénées & - & 100 \\
+            Nord-Pas de Calais & - & 100 \\
+            Pays de la Loire & - & 100 \\
+            Poitou-Charentes & - & 100 \\
+            Provence-Alpes-Côte d’Azur & - & 100 \\
+            Rhône-Alpes & - & 100 \\
+            Ile-de-France & 7.84 & 92.16 \\
+            Bretagne & 33.33 & 66.67 \\
+            Basse-Normandie  & 50 & 50 \\
+            Haute-Normandie  & 50 & 50 \\
+            Picardie & 50 & 50 \\
+            Alsace & 100 & - \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+        

@@ -4,22 +4,22 @@
     \caption{Key Algorithm Distribution at Private HEIs in Italy by NUTS2 (\%)}
     \label{tab:key_algorithm_distribution_it_nuts_private}
     \rowcolors{2}{white}{gray!15}
-    \begin{tabularx}{\textwidth}{Xcccccc}
+    \begin{tabularx}{\textwidth}{Xccccc}
         \toprule
-        \makecell{NUTS2} & \makecell{Unknown} & \makecell{RSA\\4096} & \makecell{RSA\\3072} & \makecell{RSA\\2048} & \makecell{EC\\256} \\
+        \makecell{NUTS2} & \makecell{RSA\\4096} & \makecell{RSA\\3072} & \makecell{RSA\\2048} & \makecell{EC\\256} \\
         \midrule
-            Lazio & 14.29 & - & 7.14 & 71.43 & 7.14 \\
-            Calabria & - & - & - & 100 & - \\
-            Campania & - & - & - & 100 & - \\
-            Emilia-Romagna & - & - & - & 100 & - \\
-            Liguria & - & - & - & 100 & - \\
-            Puglia & - & - & - & 100 & - \\
-            Sicilia & - & - & - & 100 & - \\
-            Umbria & - & - & - & 100 & - \\
-            Lombardia & 6.67 & 13.33 & - & 80 & - \\
-            Piemonte & - & 33.33 & - & 66.67 & - \\
-            Toscana & - & 33.33 & - & 66.67 & - \\
-            Valle d’Aosta/Vallée d’Aoste & - & 100 & - & - & - \\
+            Lazio & - & 7.14 & 85.71 & 7.14 \\
+            Calabria & - & - & 100 & - \\
+            Campania & - & - & 100 & - \\
+            Emilia-Romagna & - & - & 100 & - \\
+            Liguria & - & - & 100 & - \\
+            Puglia & - & - & 100 & - \\
+            Sicilia & - & - & 100 & - \\
+            Umbria & - & - & 100 & - \\
+            Lombardia & 13.33 & - & 86.67 & - \\
+            Piemonte & 33.33 & - & 66.67 & - \\
+            Toscana & 33.33 & - & 66.67 & - \\
+            Valle d’Aosta/Vallée d’Aoste & 100 & - & - & - \\
         \bottomrule
     \end{tabularx}
 \end{table}

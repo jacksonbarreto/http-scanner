@@ -1,0 +1,40 @@
+
+\begin{table}[H]
+    \centering
+    \caption{Valid Certificate Distribution at Public HEIs in France by NUTS2 (\%)}
+    \label{tab:valid_certificate_distribution_fr_nuts_public}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xccc}
+        \toprule
+        \makecell{Nuts2} & \makecell{Invalid} & \makecell{Valid} \\
+        \midrule
+            Auvergne & - & 100 \\
+            Centre — Val de Loire & - & 100 \\
+            Corse & - & 100 \\
+            Guadeloupe & - & 100 \\
+            Guyane & - & 100 \\
+            La Réunion  & - & 100 \\
+            Languedoc-Roussillon & - & 100 \\
+            Limousin & - & 100 \\
+            Lorraine & - & 100 \\
+            Picardie & - & 100 \\
+            Poitou-Charentes & - & 100 \\
+            Bretagne & 6.67 & 93.33 \\
+            Midi-Pyrénées & 7.69 & 92.31 \\
+            Nord-Pas de Calais & 8.33 & 91.67 \\
+            Provence-Alpes-Côte d’Azur & 10 & 90 \\
+            Aquitaine & 11.11 & 88.89 \\
+            Pays de la Loire & 14.29 & 85.71 \\
+            Haute-Normandie  & 20 & 80 \\
+            Ile-de-France & 21.88 & 78.12 \\
+            Rhône-Alpes & 23.81 & 76.19 \\
+            Alsace & 28.57 & 71.43 \\
+            Basse-Normandie  & 33.33 & 66.67 \\
+            Bourgogne & 33.33 & 66.67 \\
+            Extra-Regio NUTS 2 & 33.33 & 66.67 \\
+            Franche-Comté & 40 & 60 \\
+            Champagne-Ardenne & 100 & - \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+        

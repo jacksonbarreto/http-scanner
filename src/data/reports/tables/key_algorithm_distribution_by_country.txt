@@ -4,13 +4,13 @@
     \caption{Key Algorithm Distribution by Country (\%)}
     \label{tab:key_algorithm_distribution_by_country}
     \rowcolors{2}{white}{gray!15}
-    \begin{tabularx}{\textwidth}{Xcccccccc}
+    \begin{tabularx}{\textwidth}{Xccccccc}
         \toprule
-        \makecell{Country} & \makecell{Unknown} & \makecell{RSA\\4096} & \makecell{RSA\\3072} & \makecell{RSA\\2048} & \makecell{RSA\\1024} & \makecell{EC\\384} & \makecell{EC\\256} \\
+        \makecell{Country} & \makecell{RSA\\4096} & \makecell{RSA\\3072} & \makecell{RSA\\2048} & \makecell{RSA\\1024} & \makecell{EC\\384} & \makecell{EC\\256} \\
         \midrule
-            France & 1.21 & 13.90 & 0.60 & 69.79 & 0.30 & 1.21 & 12.99 \\
-            Germany & 2.33 & 32.82 & 2.58 & 45.48 & - & 4.65 & 12.14 \\
-            Italy & 2.04 & 7.14 & 13.78 & 69.39 & - & 1.02 & 6.63 \\
+            France & 13.90 & 0.60 & 71 & 0.30 & 1.21 & 12.99 \\
+            Germany & 32.82 & 2.58 & 47.55 & - & 4.91 & 12.14 \\
+            Italy & 7.14 & 13.78 & 70.92 & - & 1.02 & 7.14 \\
         \bottomrule
     \end{tabularx}
 \end{table}

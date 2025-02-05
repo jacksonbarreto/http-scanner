@@ -4,36 +4,36 @@
     \caption{Key Algorithm Distribution at Public HEIs in France by NUTS2 (\%)}
     \label{tab:key_algorithm_distribution_fr_nuts_public}
     \rowcolors{2}{white}{gray!15}
-    \begin{tabularx}{\textwidth}{Xcccccccc}
+    \begin{tabularx}{\textwidth}{Xccccccc}
         \toprule
-        \makecell{NUTS2} & \makecell{Unknown} & \makecell{RSA\\4096} & \makecell{RSA\\3072} & \makecell{RSA\\2048} & \makecell{RSA\\1024} & \makecell{EC\\384} & \makecell{EC\\256} \\
+        \makecell{NUTS2} & \makecell{RSA\\4096} & \makecell{RSA\\3072} & \makecell{RSA\\2048} & \makecell{RSA\\1024} & \makecell{EC\\384} & \makecell{EC\\256} \\
         \midrule
-            Guyane & - & - & - & - & - & - & 100 \\
-            Haute-Normandie  & - & - & - & 60 & - & - & 40 \\
-            Centre — Val de Loire & - & - & - & 80 & - & - & 20 \\
-            Nord-Pas de Calais & - & - & - & 83.33 & - & - & 16.67 \\
-            Bretagne & - & 13.33 & - & 73.33 & - & - & 13.33 \\
-            Ile-de-France & 1.56 & 17.19 & - & 67.19 & 1.56 & 1.56 & 10.94 \\
-            Rhône-Alpes & - & 19.05 & - & 71.43 & - & - & 9.52 \\
-            Provence-Alpes-Côte d’Azur & - & 20 & 10 & 60 & - & 10 & - \\
-            Midi-Pyrénées & - & 23.08 & - & 69.23 & - & 7.69 & - \\
-            Auvergne & - & - & - & 100 & - & - & - \\
-            Basse-Normandie  & - & - & - & 100 & - & - & - \\
-            Champagne-Ardenne & - & - & - & 100 & - & - & - \\
-            Corse & - & - & - & 100 & - & - & - \\
-            Franche-Comté & - & - & - & 100 & - & - & - \\
-            Guadeloupe & - & - & - & 100 & - & - & - \\
-            La Réunion  & - & - & - & 100 & - & - & - \\
-            Limousin & - & - & - & 100 & - & - & - \\
-            Pays de la Loire & - & - & - & 100 & - & - & - \\
-            Picardie & - & - & - & 100 & - & - & - \\
-            Alsace & - & 14.29 & 14.29 & 71.43 & - & - & - \\
-            Aquitaine & - & 33.33 & - & 66.67 & - & - & - \\
-            Extra-Regio NUTS 2 & - & 33.33 & - & 66.67 & - & - & - \\
-            Lorraine & - & 33.33 & - & 66.67 & - & - & - \\
-            Poitou-Charentes & - & 33.33 & - & 66.67 & - & - & - \\
-            Languedoc-Roussillon & - & 50 & - & 50 & - & - & - \\
-            Bourgogne & - & 66.67 & - & 33.33 & - & - & - \\
+            Guyane & - & - & - & - & - & 100 \\
+            Haute-Normandie & - & - & 60 & - & - & 40 \\
+            Centre — Val de Loire & - & - & 80 & - & - & 20 \\
+            Nord-Pas de Calais & - & - & 83.33 & - & - & 16.67 \\
+            Bretagne & 13.33 & - & 73.33 & - & - & 13.33 \\
+            Ile-de-France & 17.19 & - & 68.75 & 1.56 & 1.56 & 10.94 \\
+            Rhône-Alpes & 19.05 & - & 71.43 & - & - & 9.52 \\
+            Provence-Alpes-Côte d’Azur & 20 & 10 & 60 & - & 10 & - \\
+            Midi-Pyrénées & 23.08 & - & 69.23 & - & 7.69 & - \\
+            Auvergne & - & - & 100 & - & - & - \\
+            Basse-Normandie & - & - & 100 & - & - & - \\
+            Champagne-Ardenne & - & - & 100 & - & - & - \\
+            Corse & - & - & 100 & - & - & - \\
+            Franche-Comté & - & - & 100 & - & - & - \\
+            Guadeloupe & - & - & 100 & - & - & - \\
+            La Réunion & - & - & 100 & - & - & - \\
+            Limousin & - & - & 100 & - & - & - \\
+            Pays de la Loire & - & - & 100 & - & - & - \\
+            Picardie & - & - & 100 & - & - & - \\
+            Alsace & 14.29 & 14.29 & 71.43 & - & - & - \\
+            Aquitaine & 33.33 & - & 66.67 & - & - & - \\
+            Extra-Regio NUTS 2 & 33.33 & - & 66.67 & - & - & - \\
+            Lorraine & 33.33 & - & 66.67 & - & - & - \\
+            Poitou-Charentes & 33.33 & - & 66.67 & - & - & - \\
+            Languedoc-Roussillon & 50 & - & 50 & - & - & - \\
+            Bourgogne & 66.67 & - & 33.33 & - & - & - \\
         \bottomrule
     \end{tabularx}
 \end{table}

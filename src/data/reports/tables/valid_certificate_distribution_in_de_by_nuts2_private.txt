@@ -1,0 +1,45 @@
+
+\begin{table}[H]
+    \centering
+    \caption{Valid Certificate Distribution at Private HEIs in Germany by NUTS2 (\%)}
+    \label{tab:valid_certificate_distribution_de_nuts_private}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xccc}
+        \toprule
+        \makecell{Nuts2} & \makecell{Invalid} & \makecell{Valid} \\
+        \midrule
+            Brandenburg & - & 100 \\
+            Braunschweig & - & 100 \\
+            Bremen & - & 100 \\
+            Dresden & - & 100 \\
+            Düsseldorf & - & 100 \\
+            Freiburg & - & 100 \\
+            Gießen & - & 100 \\
+            Hamburg & - & 100 \\
+            Kassel & - & 100 \\
+            Koblenz & - & 100 \\
+            Lüneburg & - & 100 \\
+            Münster & - & 100 \\
+            Oberbayern & - & 100 \\
+            Oberpfalz & - & 100 \\
+            Rheinhessen-Pfalz & - & 100 \\
+            Saarland & - & 100 \\
+            Stuttgart & - & 100 \\
+            Thüringen & - & 100 \\
+            Trier & - & 100 \\
+            Tübingen & - & 100 \\
+            Weser-Ems & - & 100 \\
+            Berlin & 8.70 & 91.30 \\
+            Köln & 11.11 & 88.89 \\
+            Arnsberg & 14.29 & 85.71 \\
+            Darmstadt & 14.29 & 85.71 \\
+            Hannover & 20 & 80 \\
+            Karlsruhe & 20 & 80 \\
+            Detmold & 25 & 75 \\
+            Mittelfranken & 33.33 & 66.67 \\
+            Leipzig & 50 & 50 \\
+            Schleswig-Holstein & 66.67 & 33.33 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+        

@@ -1,0 +1,17 @@
+
+\begin{table}[H]
+    \centering
+    \caption{Valid Certificate Distribution by Country (\%)}
+    \label{tab:valid_certificate_distribution_by_country}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xccc}
+        \toprule
+        \makecell{Country} & \makecell{Invalid} & \makecell{Valid} \\
+        \midrule
+            Germany & 10.59 & 89.41 \\
+            France & 14.20 & 85.80 \\
+            Italy & 14.80 & 85.20 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+        

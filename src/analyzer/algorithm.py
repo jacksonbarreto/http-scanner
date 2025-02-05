@@ -197,14 +197,11 @@ def create_radar_chart(dataframe):
 
         ax.set_xticklabels([protocol.replace("_percent", "") for protocol in data_cols], fontsize=10,
                            rotation=30)
-        # ax.set_yticks([20, 40, 60, 80, 100])
         ax.set_yticks(np.log10([1, 5, 10, 25, 50, 100]))
         ax.set_yticklabels(["1%", "5%", "10%", "25%", "50%", "100%"], fontsize=8)
-        # ax.set_yticklabels(["20%", "40%", "60%", "80%", "100%"], fontsize=8)
         ax.set_title(f"Key Algorithm in {get_country(country)} by Category", fontsize=12, pad=15,
                      y=1.05)
 
-        # ax.xaxis.set_tick_params(labelcolor='none')
         ax.grid(True)
         ax.legend(loc="upper right", bbox_to_anchor=(1.2, 1.1))
 
@@ -251,14 +248,14 @@ def plot_key_algorithm_chart(dataframe, level, title, country_filter=None):
 
     # colorblind-friendly do ggplot2
     custom_colors = {
-        "EC 521": "#117733",  # Verde escuro - mais forte
-        "EC 384": "#44AA99",  # Azul esverdeado
-        "EC 256": "#88CCEE",  # Azul claro
-        "RSA 4096": "#DDCC77",  # Amarelo ouro
-        "RSA 3072": "#E69F00",  # Laranja
-        "RSA 2048": "#D55E00",  # Vermelho escuro
-        "RSA 1024": "#999999",  # Cinza - mais fraco
-        "Unknown": "#0072B2",  # Azul
+        "EC 521": "#117733",  # Dark green
+        "EC 384": "#44AA99",  # Blue-green
+        "EC 256": "#88CCEE",  # Light blue
+        "RSA 4096": "#DDCC77",  # Yellow
+        "RSA 3072": "#E69F00",  # Orange
+        "RSA 2048": "#D55E00",  # Dark red
+        "RSA 1024": "#999999",  # Light grey
+        "Unknown": "#0072B2",  # Blue
     }
     color_list = [custom_colors.get(col, "#BBBBBB") for col in columns_to_plot]
 
@@ -270,14 +267,14 @@ def plot_key_algorithm_chart(dataframe, level, title, country_filter=None):
             if value > 0:
                 height = rect.get_height()
                 width = rect.get_width()
-                xpos = rect.get_x() + width / 2
-                ypos = rect.get_y() + height / 2
+                x_pos = rect.get_x() + width / 2
+                y_pos = rect.get_y() + height / 2
 
                 if width > 3:
                     face_color = rect.get_facecolor()[:3]
                     brightness = sum([c * w for c, w in zip(face_color, [0.299, 0.587, 0.114])])
                     text_color = "black" if brightness > 0.5 else "white"
-                    ax.text(xpos, ypos, f"{value:.1f}", ha="center", va="center",
+                    ax.text(x_pos, y_pos, f"{value:.1f}", ha="center", va="center",
                             fontsize=8, color=text_color)
 
     ax.set_xlabel("Key Algorithms (%)", fontsize=12)
@@ -313,9 +310,7 @@ def make_algorithm_report(dataframe):
     generate_algorithm_tables(stats)
     create_radar_chart(stats)
     generate_key_algorithm_chart(stats)
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    print(stats.tail(10))
+
 
 
 if __name__ == "__main__":

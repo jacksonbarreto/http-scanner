@@ -221,9 +221,7 @@ def make_worst_https_reports(dataframe):
     stats = get_worst_https_stats(dataframe)
     generate_worst_http_tables(stats)
     create_radar_chart(stats)
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    print(stats.tail(10))
+
 
 
 if __name__ == "__main__":

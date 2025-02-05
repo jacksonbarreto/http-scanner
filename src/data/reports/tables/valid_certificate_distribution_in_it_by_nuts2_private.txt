@@ -1,0 +1,26 @@
+
+\begin{table}[H]
+    \centering
+    \caption{Valid Certificate Distribution at Private HEIs in Italy by NUTS2 (\%)}
+    \label{tab:valid_certificate_distribution_it_nuts_private}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xccc}
+        \toprule
+        \makecell{Nuts2} & \makecell{Invalid} & \makecell{Valid} \\
+        \midrule
+            Calabria & - & 100 \\
+            Campania & - & 100 \\
+            Emilia-Romagna & - & 100 \\
+            Liguria & - & 100 \\
+            Piemonte & - & 100 \\
+            Sicilia & - & 100 \\
+            Umbria & - & 100 \\
+            Valle d’Aosta/Vallée d’Aoste & - & 100 \\
+            Lombardia & 13.33 & 86.67 \\
+            Lazio & 21.43 & 78.57 \\
+            Toscana & 33.33 & 66.67 \\
+            Puglia & 50 & 50 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+        

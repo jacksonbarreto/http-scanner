@@ -1,0 +1,52 @@
+
+\begin{table}[H]
+    \centering
+    \caption{Valid Certificate Distribution in Germany by NUTS2 (\%)}
+    \label{tab:valid_certificate_distribution_de_nuts}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xccc}
+        \toprule
+        \makecell{Nuts2} & \makecell{Invalid} & \makecell{Valid} \\
+        \midrule
+            Braunschweig & - & 100 \\
+            Chemnitz & - & 100 \\
+            Dresden & - & 100 \\
+            Gießen & - & 100 \\
+            Kassel & - & 100 \\
+            Lüneburg & - & 100 \\
+            Mecklenburg-Vorpommern & - & 100 \\
+            Münster & - & 100 \\
+            Niederbayern & - & 100 \\
+            Oberpfalz & - & 100 \\
+            Saarland & - & 100 \\
+            Sachsen-Anhalt & - & 100 \\
+            Stuttgart & - & 100 \\
+            Thüringen & - & 100 \\
+            Trier & - & 100 \\
+            Tübingen & - & 100 \\
+            Hamburg & 5.26 & 94.74 \\
+            Berlin & 5.71 & 94.29 \\
+            Darmstadt & 7.14 & 92.86 \\
+            Düsseldorf & 7.14 & 92.86 \\
+            Freiburg & 7.69 & 92.31 \\
+            Karlsruhe & 10.53 & 89.47 \\
+            Oberbayern & 10.53 & 89.47 \\
+            Arnsberg & 12.50 & 87.50 \\
+            Brandenburg & 14.29 & 85.71 \\
+            Koblenz & 14.29 & 85.71 \\
+            Köln & 15 & 85 \\
+            Rheinhessen-Pfalz & 20 & 80 \\
+            Detmold & 22.22 & 77.78 \\
+            Hannover & 23.08 & 76.92 \\
+            Mittelfranken & 25 & 75 \\
+            Schwaben & 25 & 75 \\
+            Unterfranken & 25 & 75 \\
+            Bremen & 28.57 & 71.43 \\
+            Weser-Ems & 28.57 & 71.43 \\
+            Schleswig-Holstein & 33.33 & 66.67 \\
+            Leipzig & 50 & 50 \\
+            Oberfranken & 50 & 50 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+        
