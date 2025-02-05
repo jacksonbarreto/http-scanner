@@ -1,0 +1,196 @@
+ETER_ID,country,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021,assessment_datetime_https,assessment_datetime_sh,score,grade
+IT0001,it,Università Politecnica delle MARCHE,public,University,No,ITI3,Marche,Marche,ITI32,Ancona,Ancona,2025-01-27 15:34:09.392513,2025-01-28 11:19:57.484429,87.64,A
+IT0002,it,Università della VALLE D'AOSTA,public,University,No,ITC2,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste,ITC20,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste,2025-01-27 15:35:08.445304,2025-01-28 11:19:57.651030,71.8,B
+IT0003,it,Università della CALABRIA,public,University,No,ITF6,Calabria,Calabria,ITF61,Cosenza,Cosenza,2025-01-27 15:35:05.866166,2025-01-28 11:20:03.566468,93.02,A
+IT0004,it,Politecnico di BARI,public,University,No,ITF4,Puglia,Puglia,ITF47,Bari,Bari,2025-01-27 15:34:26.621291,2025-01-28 11:20:01.773935,21.23,E
+IT0005,it,Università degli Studi di BARI ALDO MORO,public,University,No,ITF4,Puglia,Puglia,ITF47,Bari,Bari,2025-01-27 15:35:33.870847,2025-01-28 11:20:25.776884,73.29,B
+IT0006,it,Università degli Studi del SANNIO di BENEVENTO,public,University,No,ITF3,Campania,Campania,ITF32,Benevento,Benevento,2025-01-27 15:36:16.996358,2025-01-28 11:20:27.248734,77.03,B
+IT0007,it,"Università Telematica ""GIUSTINO FORTUNATO""",private,University,No,ITF3,Campania,Campania,ITF32,Benevento,Benevento,2025-01-27 15:36:54.952810,2025-01-28 11:20:32.078917,70.6,B
+IT0008,it,Università degli Studi di BERGAMO,public,University,No,ITC4,Lombardia,Lombardia,ITC46,Bergamo,Bergamo,2025-01-27 15:41:12.516505,2025-01-28 11:20:42.907927,93.56,A
+IT0009,it,Università degli Studi di BOLOGNA,public,University,Yes,ITH5,Emilia-Romagna,Emilia-Romagna,ITH55,Bologna,Bologna,2025-01-27 15:35:14.283947,2025-01-28 11:20:55.009315,77.03,B
+IT0010,it,Libera Università di BOLZANO,public,University,No,ITH1,Provincia Autonoma di Bolzano/Bozen,Provincia Autonoma di Bolzano/Bozen,ITH10,Bolzano-Bozen,Bolzano-Bozen,2025-01-27 15:39:20.772572,2025-01-28 11:20:57.408718,71.8,B
+IT0011,it,Università degli Studi di SCIENZE GASTRONOMICHE,private,University,No,ITC1,Piemonte,Piemonte,ITC16,Cuneo,Cuneo,2025-01-27 15:38:34.404063,2025-01-28 11:21:52.953660,71.8,B
+IT0012,it,Università degli Studi di BRESCIA,public,University,No,ITC4,Lombardia,Lombardia,ITC47,Brescia,Brescia,2025-01-27 15:43:30.093256,2025-01-28 11:21:23.400132,93.56,A
+IT0013,it,Università degli Studi di CAGLIARI,public,University,Yes,ITG2,Sardegna,Sardegna,ITG2F,,Cagliari,2025-01-27 15:38:35.809004,2025-01-28 11:21:46.747375,77.03,B
+IT0014,it,Università degli Studi di CAMERINO,public,University,No,ITI3,Marche,Marche,ITI33,Macerata,Macerata,2025-01-27 15:38:49.927485,2025-01-28 11:21:45.003940,77.63,B
+IT0015,it,Università degli Studi del MOLISE,public,University,No,ITF2,Molise,Molise,ITF22,Campobasso,Campobasso,2025-01-27 15:37:50.396693,2025-01-28 11:21:57.393379,67.0,B
+IT0016,it,"Libera Università Mediterranea LUM ""Giuseppe Degennaro""",private,University,No,ITF4,Puglia,Puglia,ITF47,Bari,Bari,2025-01-27 15:40:25.366149,2025-01-28 11:22:19.158497,74.34,B
+IT0017,it,Universita degli studi di Cassino e del Lazio Meridionale,public,University,No,ITI4,Lazio,Lazio,ITI45,Frosinone,Frosinone,2025-01-27 15:55:34.223369,2025-01-28 11:22:33.365621,84.09,A
+IT0018,it,"Università ""Carlo Cattaneo"" - LIUC",private,University,No,ITC4,Lombardia,Lombardia,ITC41,Varese,Varese,2025-01-27 15:40:42.820924,2025-01-28 11:22:33.268623,74.39,B
+IT0019,it,Università degli Studi di CATANIA,public,University,Yes,ITG1,Sicilia,Sicilia,ITG17,Catania,Catania,2025-01-27 15:42:11.016286,2025-01-28 11:22:53.618543,77.03,B
+IT0021,it,"Università degli Studi ""G. d'Annunzio"" CHIETI-PESCARA",public,University,No,ITF1,Abruzzo,Abruzzo,ITF14,Chieti,Chieti,2025-01-27 15:47:27.721541,2025-01-28 11:22:54.522116,93.56,A
+IT0022,it,UKE - Università Kore di ENNA,private,University,No,ITG1,Sicilia,Sicilia,ITG16,Enna,Enna,2025-01-27 15:46:28.154053,2025-01-28 11:23:13.549400,75.91,B
+IT0023,it,Università degli Studi di FERRARA,public,University,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH56,Ferrara,Ferrara,2025-01-27 15:42:37.387977,2025-01-28 11:23:39.554902,74.01,B
+IT0025,it,Università degli Studi di FIRENZE,public,University,Yes,ITI1,Toscana,Toscana,ITI14,Firenze,Firenze,2025-01-27 15:47:59.975466,2025-01-28 11:23:14.570829,93.56,A
+IT0026,it,"Università Telematica ""ITALIAN UNIVERSITY LINE"" - IUL",private,University,No,ITI1,Toscana,Toscana,ITI14,Firenze,Firenze,2025-01-27 15:44:27.817163,2025-01-28 11:23:17.757485,16.0,F
+IT0027,it,Università degli Studi di FOGGIA,public,University,No,ITF4,Puglia,Puglia,ITF46,Foggia,Foggia,2025-01-27 15:49:15.221285,2025-01-28 11:23:35.378518,93.56,A
+IT0028,it,Università degli Studi di GENOVA,public,University,Yes,ITC3,Liguria,Liguria,ITC33,Genova,Genova,2025-01-27 15:44:54.756036,2025-01-28 11:25:50.972858,75.34,B
+IT0029,it,Università degli Studi de L'AQUILA,public,University,No,ITF1,Abruzzo,Abruzzo,ITF11,L’Aquila,L’Aquila,2025-01-27 15:44:25.390418,2025-01-28 11:23:37.526047,73.44,B
+IT0030,it,Università del SALENTO,public,University,No,ITF4,Puglia,Puglia,ITF45,Lecce,Lecce,2025-01-27 15:46:28.308393,2025-01-28 11:23:54.713568,16.0,F
+IT0031,it,Scuola IMT Alti Studi di Lucca,public,University,No,ITI1,Toscana,Toscana,ITI12,Lucca,Lucca,2025-01-27 15:45:51.179841,2025-01-28 11:23:56.659131,76.09,B
+IT0032,it,Università degli Studi di MACERATA,public,University,No,ITI3,Marche,Marche,ITI33,Macerata,Macerata,2025-01-27 15:47:00.800930,2025-01-28 11:23:58.598190,75.09,B
+IT0033,it,Università degli Studi di MESSINA,public,University,No,ITG1,Sicilia,Sicilia,ITG13,Messina,Messina,2025-01-27 15:47:58.274086,2025-01-28 11:24:21.668350,77.03,B
+IT0034,it,Libera Università di lingue e comunicazione IULM-MI,private,University,No,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 15:57:18.402399,2025-01-28 11:24:17.112694,74.23,B
+IT0035,it,Politecnico di MILANO,public,University,Yes,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 15:49:18.017487,2025-01-28 11:24:20.695026,81.78,A
+IT0036,it,Università Cattolica del Sacro Cuore,private,University,No,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 15:50:28.026645,2025-01-28 11:24:42.006055,88.69,A
+IT0037,it,"Università Commerciale ""Luigi Bocconi"" MILANO",private,University,Yes,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 16:05:53.719037,2025-01-28 11:24:43.923192,91.79,A
+IT0038,it,Università degli Studi di MILANO,public,University,Yes,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 15:55:34.231688,2025-01-28 11:24:55.237814,93.56,A
+IT0039,it,"Libera Università ""Vita Salute S.Raffaele"" MILANO",private,University,No,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 15:59:03.961152,2025-01-28 11:25:04.354201,86.58,A
+IT0040,it,Università degli Studi di MILANO-BICOCCA,public,University,No,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 15:56:46.101899,2025-01-28 11:25:04.475205,93.56,A
+IT0041,it,Università Telematica San Raffaele Roma,private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 15:53:24.766728,2025-01-28 11:25:21.580921,70.6,B
+IT0042,it,Università degli Studi di MODENA e REGGIO EMILIA,public,University,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH54,Modena,Modena,2025-01-27 15:52:37.152918,2025-01-28 11:25:24.464172,77.03,B
+IT0044,it,Università degli Studi della Campania Luigi Vanvitelli,public,University,No,ITF3,Campania,Campania,ITF31,Caserta,Caserta,2025-01-27 15:53:31.061858,2025-01-28 11:25:43.864557,72.81,B
+IT0045,it,"Università degli Studi di NAPOLI ""Federico II""",public,University,Yes,ITF3,Campania,Campania,ITF33,Napoli,Napoli,2025-01-27 15:54:22.502084,2025-01-28 11:25:45.159944,71.8,B
+IT0046,it,"Università degli Studi di NAPOLI ""L'Orientale""",public,University,No,ITF3,Campania,Campania,ITF33,Napoli,Napoli,2025-01-27 15:55:53.319654,2025-01-28 11:25:47.755944,77.03,B
+IT0047,it,"Università degli Studi di NAPOLI ""Parthenope""",public,University,No,ITF3,Campania,Campania,ITF33,Napoli,Napoli,2025-01-27 15:55:49.850337,2025-01-28 11:26:07.406331,71.8,B
+IT0048,it,Università Telematica PEGASO,private,University,No,ITF3,Campania,Campania,ITF33,Napoli,Napoli,2025-01-27 16:12:02.792726,2025-01-28 11:26:10.373572,80.29,A
+IT0049,it,"Università Telematica ""E-CAMPUS""",private,University,No,ITC4,Lombardia,Lombardia,ITC42,Como,Como,2025-01-27 15:56:56.241626,2025-01-28 11:26:39.343728,75.54,B
+IT0051,it,Università degli Studi di PALERMO,public,University,Yes,ITG1,Sicilia,Sicilia,ITG12,Palermo,Palermo,2025-01-27 16:00:50.978947,2025-01-28 11:26:40.771479,78.92,B
+IT0052,it,Università degli Studi di PARMA,public,University,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH52,Parma,Parma,2025-01-27 16:15:22.915293,2025-01-28 11:27:01.754344,77.55,B
+IT0053,it,I.U.S.S. - Istituto Universitario di Studi Superiori - PAVIA,public,University,No,ITC4,Lombardia,Lombardia,ITC48,Pavia,Pavia,2025-01-27 15:58:45.557220,2025-01-28 11:27:17.501132,77.43,B
+IT0054,it,Università degli Studi di PAVIA,public,University,Yes,ITC4,Lombardia,Lombardia,ITC48,Pavia,Pavia,2025-01-27 16:01:12.831458,2025-01-28 11:27:22.454794,71.03,B
+IT0055,it,Università degli Studi di PERUGIA,public,University,No,ITI2,Umbria,Umbria,ITI21,Perugia,Perugia,2025-01-27 15:59:17.229963,2025-01-28 11:27:19.927488,79.24,B
+IT0056,it,Università per Stranieri di PERUGIA,public,University,No,ITI2,Umbria,Umbria,ITI21,Perugia,Perugia,2025-01-27 16:00:45.900036,2025-01-28 11:27:38.589737,78.35,B
+IT0057,it,Scuola Normale Superiore di PISA,public,University,Yes,ITI1,Toscana,Toscana,ITI17,Pisa,Pisa,2025-01-27 16:01:52.679310,2025-01-28 11:27:35.766589,78.34,B
+IT0058,it,Scuola Superiore di Studi Universitari e Perfezionamento Sant'Anna,public,University,Yes,ITI1,Toscana,Toscana,ITI17,Pisa,Pisa,2025-01-27 16:01:22.466927,2025-01-28 11:27:41.179965,79.95,B
+IT0059,it,Università di PISA,public,University,No,ITI1,Toscana,Toscana,ITI17,Pisa,Pisa,2025-01-27 16:02:17.054002,2025-01-28 11:28:01.129434,71.32,B
+IT0060,it,Università degli Studi della BASILICATA,public,University,No,ITF5,Basilicata,Basilicata,ITF51,Potenza,Potenza,2025-01-27 16:02:46.904562,2025-01-28 11:28:01.018432,11.92,F
+IT0061,it,"Università degli Studi ""Mediterranea"" di REGGIO CALABRIA",public,University,No,ITF6,Calabria,Calabria,ITF65,Reggio di Calabria,Reggio di Calabria,2025-01-27 16:04:33.121296,2025-01-28 11:28:02.789618,70.0,B
+IT0062,it,"Università per Stranieri ""Dante Alighieri"" di REGGIO CALABRIA",private,University,No,ITF6,Calabria,Calabria,ITF65,Reggio di Calabria,Reggio di Calabria,2025-01-27 16:04:40.857234,2025-01-28 11:28:18.899947,79.19,B
+IT0063,it,Università degli Studi ROMA TRE,public,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:04:08.281580,2025-01-28 11:30:37.496759,16.0,F
+IT0064,it,Università degli Studi Internazionali di ROMA (UNINT),private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:13:59.557704,2025-01-28 11:28:19.251396,71.8,B
+IT0065,it,LUISS - Libera Università internazionale degli studi sociali Guido Carli di Roma,private,University,Yes,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:20:56.235411,2025-01-28 11:28:24.054182,71.8,B
+IT0066,it,Libera Università Maria SS.Assunta - (LUMSA) di Roma,private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:05:34.777860,2025-01-28 11:28:44.918118,71.8,B
+IT0067,it,"Università ""Campus Bio-Medico"" di ROMA",private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:16:55.143201,2025-01-28 11:28:44.216117,70.6,B
+IT0068,it,"Università degli Studi di ROMA ""La Sapienza""",public,University,Yes,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:06:21.806001,2025-01-28 11:28:52.447393,77.75,B
+IT0071,it,Università degli Studi EUROPEA di ROMA,private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:14:05.332994,2025-01-28 11:29:30.275758,73.19,B
+IT0072,it,Università Telematica GUGLIELMO MARCONI,private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:08:53.033778,2025-01-28 11:29:26.788590,72.24,B
+IT0073,it,Università Telematica UNITELMA SAPIENZA,private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:09:54.801150,2025-01-28 11:29:29.184204,75.54,B
+IT0074,it,UNICUSANO Università degli Studi Niccolò Cusano -Telematica Roma,private,University,Yes,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:29:08.991924,2025-01-28 11:30:00.661487,73.5,B
+IT0075,it,Università Telematica Internazionale UNINETTUNO,private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:29:40.967473,2025-01-28 11:30:02.800974,85.38,A
+IT0076,it,"Università Telematica ""Universitas MERCATORUM""",private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:17:04.232459,2025-01-28 11:30:03.788903,79.19,B
+IT0077,it,Università degli Studi di SALERNO,public,University,No,ITF3,Campania,Campania,ITF35,Salerno,Salerno,2025-01-27 16:12:23.177643,2025-01-28 11:30:30.175356,71.8,B
+IT0078,it,Università degli Studi di SASSARI,public,University,No,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,2025-01-27 16:15:23.639944,2025-01-28 11:30:29.835237,77.03,B
+IT0079,it,Università degli Studi di SIENA,public,University,No,ITI1,Toscana,Toscana,ITI19,Siena,Siena,2025-01-27 16:21:21.625065,2025-01-28 11:30:27.272591,93.56,A
+IT0081,it,Università degli Studi di TERAMO,public,University,No,ITF1,Abruzzo,Abruzzo,ITF12,Teramo,Teramo,2025-01-28 17:52:43.521556,2025-01-28 11:30:51.886243,78.52,B
+IT0082,it,Politecnico di TORINO,public,University,Yes,ITC1,Piemonte,Piemonte,ITC11,Torino,Torino,2025-01-27 16:19:47.177732,2025-01-28 11:31:04.165428,77.03,B
+IT0083,it,Università degli Studi di TORINO,public,University,Yes,ITC1,Piemonte,Piemonte,ITC11,Torino,Torino,2025-01-27 16:24:57.363050,2025-01-28 11:31:08.829742,93.56,A
+IT0085,it,Università degli Studi di TRENTO,public,University,Yes,ITH2,Provincia Autonoma di Trento,Provincia Autonoma di Trento,ITH20,Trento,Trento,2025-01-27 16:19:24.072760,2025-01-28 11:32:20.354993,76.7,B
+IT0086,it,Scuola Internazionale Superiore di Studi Avanzati di TRIESTE,public,University,No,ITH4,Friuli-Venezia Giulia,Friuli-Venezia Giulia,ITH44,Trieste,Trieste,2025-01-27 16:19:33.799222,2025-01-28 11:31:25.785005,77.63,B
+IT0087,it,Università degli Studi di TRIESTE,public,University,Yes,ITH4,Friuli-Venezia Giulia,Friuli-Venezia Giulia,ITH44,Trieste,Trieste,2025-01-27 16:23:28.914809,2025-01-28 11:31:48.262418,16.43,F
+IT0088,it,Università degli Studi di UDINE,public,University,No,ITH4,Friuli-Venezia Giulia,Friuli-Venezia Giulia,ITH42,Udine,Udine,2025-01-27 16:22:48.217312,2025-01-28 11:31:59.033949,75.24,B
+IT0089,it,"Università degli Studi di URBINO ""Carlo BO""",public,University,No,ITI3,Marche,Marche,ITI31,Pesaro e Urbino,Pesaro e Urbino,2025-01-27 16:23:37.802459,2025-01-28 11:32:13.018588,79.24,B
+IT0090,it,Università degli Studi INSUBRIA Varese-Como,public,University,No,ITC4,Lombardia,Lombardia,ITC41,Varese,Varese,2025-01-27 16:28:54.874794,2025-01-28 11:32:11.014945,93.56,A
+IT0091,it,"Università ""Cà Foscari"" VENEZIA",public,University,No,ITH3,Veneto,Veneto,ITH35,Venezia,Venezia,2025-01-27 16:24:08.289862,2025-01-28 11:32:26.955425,74.01,B
+IT0092,it,Università IUAV di VENEZIA,public,University,No,ITH3,Veneto,Veneto,ITH35,Venezia,Venezia,2025-01-27 16:25:14.169156,2025-01-28 11:34:42.834735,21.23,E
+IT0093,it,"Università degli Studi del PIEMONTE ORIENTALE ""Amedeo Avogadro""-Vercelli",public,University,No,ITC1,Piemonte,Piemonte,ITC12,Vercelli,Vercelli,2025-01-27 16:29:06.703049,2025-01-28 11:32:39.360609,77.03,B
+IT0094,it,Università degli Studi di VERONA,public,University,No,ITH3,Veneto,Veneto,ITH31,Verona,Verona,2025-01-27 16:27:52.383919,2025-01-28 11:32:52.522192,89.44,A
+IT0095,it,Università degli Studi della TUSCIA,public,University,No,ITI4,Lazio,Lazio,ITI41,Viterbo,Viterbo,2025-01-27 16:26:52.169129,2025-01-28 11:33:04.955765,74.26,B
+IT0096,it,Accademia delle Belle Arti di Bari,public,Other,No,ITF4,Puglia,Puglia,ITF47,Bari,Bari,2025-01-27 16:26:05.569543,2025-01-28 11:33:07.054769,72.4,B
+IT0097,it,Accademia delle Belle Arti di Bologna,public,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH55,Bologna,Bologna,2025-01-27 16:29:15.581173,2025-01-28 11:33:17.762389,71.8,B
+IT0098,it,Accademia delle Belle Arti di Carrara,public,Other,No,ITI1,Toscana,Toscana,ITI11,Massa-Carrara,Massa-Carrara,2025-01-27 16:29:43.568485,2025-01-28 11:33:29.959877,70.6,B
+IT0099,it,Accademia delle Belle Arti di Catania,public,Other,No,ITG1,Sicilia,Sicilia,ITG17,Catania,Catania,2025-01-27 16:29:03.386492,2025-01-28 11:33:32.803173,71.8,B
+IT0100,it,Accademia delle Belle Arti di Catanzaro,public,Other,No,ITF6,Calabria,Calabria,ITF63,Catanzaro,Catanzaro,2025-01-27 16:29:55.154992,2025-01-28 11:33:50.275283,71.8,B
+IT0101,it,Accademia delle Belle Arti di Firenze,public,Other,No,ITI1,Toscana,Toscana,ITI14,Firenze,Firenze,2025-01-27 16:30:23.587557,2025-01-28 11:33:52.411616,71.8,B
+IT0102,it,Accademia delle Belle Arti di Foggia,public,Other,No,ITF4,Puglia,Puglia,ITF46,Foggia,Foggia,2025-01-27 16:57:02.423931,2025-01-28 11:34:01.001890,89.48,A
+IT0104,it,Accademia delle Belle Arti dell'Aquila,public,Other,No,ITF1,Abruzzo,Abruzzo,ITF11,L’Aquila,L’Aquila,2025-01-27 16:33:05.492221,2025-01-28 11:34:15.855911,71.8,B
+IT0105,it,Accademia delle Belle Arti di Lecce,public,Other,No,ITF4,Puglia,Puglia,ITF45,Lecce,Lecce,2025-01-27 17:02:06.977770,2025-01-28 11:34:24.715346,72.4,B
+IT0106,it,Accademia delle Belle Arti di Macerata,public,Other,No,ITI3,Marche,Marche,ITI33,Macerata,Macerata,2025-01-27 16:32:53.513034,2025-01-28 11:34:26.614158,87.0,A
+IT0107,it,"Accademia delle Belle Arti di Milano ""Brera""",public,Other,No,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 16:33:51.309924,2025-01-28 11:35:02.914085,73.88,B
+IT0109,it,Accademia delle Belle Arti di Palermo,public,Other,No,ITG1,Sicilia,Sicilia,ITG12,Palermo,Palermo,2025-01-27 16:33:29.725310,2025-01-28 11:34:44.249473,71.8,B
+IT0110,it,Accademia delle Belle Arti di Reggio Calabria,public,Other,No,ITF6,Calabria,Calabria,ITF65,Reggio di Calabria,Reggio di Calabria,2025-01-27 16:34:20.856789,2025-01-28 11:35:06.485521,11.2,F
+IT0111,it,Accademia delle Belle Arti di Roma,public,Other,Yes,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:36:11.378723,2025-01-28 11:35:10.800566,70.6,B
+IT0112,it,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,2025-01-27 16:36:18.297664,2025-01-28 11:35:28.022101,71.8,B
+IT0113,it,"Accademia delle Belle Arti di Torino ""Albertina""",public,Other,No,ITC1,Piemonte,Piemonte,ITC11,Torino,Torino,2025-01-27 16:37:55.000551,2025-01-28 11:35:36.484382,70.6,B
+IT0114,it,Accademia delle Belle Arti di Urbino,public,Other,No,ITI3,Marche,Marche,ITI31,Pesaro e Urbino,Pesaro e Urbino,2025-01-27 16:36:53.938910,2025-01-28 11:35:41.312644,71.8,B
+IT0115,it,Accademia delle Belle Arti di Venezia,public,Other,No,ITH3,Veneto,Veneto,ITH35,Venezia,Venezia,2025-01-27 17:06:43.471377,2025-01-28 11:35:45.887493,72.4,B
+IT0118,it,"Accademia delle Belle Arti legalmente riconosciuta di BRESCIA ""Santagiulia""",private,Other,No,ITC4,Lombardia,Lombardia,ITC47,Brescia,Brescia,2025-01-27 16:37:56.792844,2025-01-28 11:35:58.549807,71.8,B
+IT0119,it,"Accademia delle Belle Arti legalmente riconosciuta di BRESCIA ""LABA"" - libera accademia di belle arti",private,Other,No,ITC4,Lombardia,Lombardia,ITC47,Brescia,Brescia,2025-01-27 16:37:36.431327,2025-01-28 11:36:09.361017,71.8,B
+IT0122,it,Accademia delle Belle Arti legalmente riconosciuta di CUNEO,private,Other,No,ITC1,Piemonte,Piemonte,ITC16,Cuneo,Cuneo,2025-01-27 16:38:08.488751,2025-01-28 11:36:06.669996,74.26,B
+IT0123,it,"Accademia delle Belle Arti legalmente riconosciuta di GENOVA ""Accademia Ligustica""",private,Other,No,ITC3,Liguria,Liguria,ITC33,Genova,Genova,2025-01-27 16:39:52.712191,2025-01-28 11:36:20.853660,79.19,B
+IT0124,it,"Accademia delle Belle Arti legalmente riconosciuta di MILANO ""NABA"" - nuova accademia di belle arti",private,Other,No,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 16:39:05.750269,2025-01-28 11:36:35.123035,73.6,B
+IT0125,it,"Accademia delle Belle Arti legalmente riconosciuta di MILANO ""ACME""",private,Other,No,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 16:39:34.265445,2025-01-28 11:36:37.804689,16.0,F
+IT0126,it,"Accademia delle Belle Arti legalmente riconosciuta di NOVARA ""ACME""",private,Other,No,ITC1,Piemonte,Piemonte,ITC15,Novara,Novara,2025-01-27 16:40:19.246735,2025-01-28 11:36:53.456219,71.8,B
+IT0128,it,"Accademia delle Belle Arti legalmente riconosciuta di PERUGIA ""Pietro Vannucci""",private,Other,No,ITI2,Umbria,Umbria,ITI21,Perugia,Perugia,2025-01-27 16:42:27.252852,2025-01-28 11:37:02.434371,67.66,B
+IT0131,it,"Accademia delle Belle Arti legalmente riconosciuta di ROMA ""Rome University of Fine Arts""",private,Other,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:42:13.076863,2025-01-28 11:39:23.727357,73.89,B
+IT0140,it,"Accademia Nazionale di Arte Drammatica di ROMA ""Silvio d'Amico""",public,Other,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:42:13.797809,2025-01-28 11:37:21.944135,73.6,B
+IT0141,it,Accademia nazionale di danza di ROMA,public,Other,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 16:43:19.558940,2025-01-28 11:37:45.638915,71.8,B
+IT0142,it,"Conservatorio di ADRIA (RO) ""Antonio Buzzolla""",public,Other,No,ITH3,Veneto,Veneto,ITH37,Rovigo,Rovigo,2025-01-27 16:43:29.958930,2025-01-28 11:37:38.347975,71.8,B
+IT0143,it,"Conservatorio di ALESSANDRIA ""Antonio Vivaldi""",public,Other,No,ITC1,Piemonte,Piemonte,ITC18,Alessandria,Alessandria,2025-01-27 16:43:41.438226,2025-01-28 11:38:07.602493,71.8,B
+IT0144,it,"Conservatorio di AVELLINO ""Domenico Cimarosa""",public,Other,No,ITF3,Campania,Campania,ITF34,Avellino,Avellino,2025-01-27 16:43:09.773454,2025-01-28 11:37:56.382893,16.0,F
+IT0146,it,"Conservatorio di BENEVENTO ""Nicola Sala""",public,Other,No,ITF3,Campania,Campania,ITF32,Benevento,Benevento,2025-01-27 16:45:52.083237,2025-01-28 11:38:26.440390,71.8,B
+IT0147,it,"Conservatorio di BOLOGNA ""Giovan B. Martini""",public,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH55,Bologna,Bologna,2025-01-27 16:46:02.558104,2025-01-28 11:38:46.739560,71.8,B
+IT0148,it,"Conservatorio di BOLZANO ""Claudio Monteverdi""",public,Other,No,ITH1,Provincia Autonoma di Bolzano/Bozen,Provincia Autonoma di Bolzano/Bozen,ITH10,Bolzano-Bozen,Bolzano-Bozen,2025-01-27 16:46:49.126574,2025-01-28 11:38:43.760549,90.69,A
+IT0149,it,"Conservatorio di BRESCIA ""Luca Marenzio""",public,Other,No,ITC4,Lombardia,Lombardia,ITC47,Brescia,Brescia,2025-01-27 16:47:50.526470,2025-01-28 11:38:46.798558,70.6,B
+IT0150,it,"Conservatorio di CAGLIARI ""Pierluigi da Palestrina""",public,Other,No,ITG2,Sardegna,Sardegna,ITG2F,,Cagliari,2025-01-27 16:45:48.548869,2025-01-28 11:39:05.496280,80.24,A
+IT0151,it,"Conservatorio di CAMPOBASSO ""Lorenzo Perosi""",public,Other,No,ITF2,Molise,Molise,ITF22,Campobasso,Campobasso,2025-01-27 16:48:06.382030,2025-01-28 11:39:03.745631,71.8,B
+IT0152,it,"Conservatorio di CASTELFRANCO VENETO (TV) ""Agostino Steffani""",public,Other,No,ITH3,Veneto,Veneto,ITH34,Treviso,Treviso,2025-01-27 16:48:32.865508,2025-01-28 11:39:06.259093,71.8,B
+IT0153,it,"Conservatorio di CESENA (FC) ""Bruno Maderna""",public,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH58,Forlì-Cesena,Forlì-Cesena,2025-01-27 16:49:30.497257,2025-01-28 11:39:23.840489,74.39,B
+IT0154,it,"Conservatorio di COMO ""Giuseppe Verdi""",public,Other,No,ITC4,Lombardia,Lombardia,ITC42,Como,Como,2025-01-27 16:50:22.585665,2025-01-28 11:41:31.550956,72.24,B
+IT0155,it,"Conservatorio di COSENZA ""Stanislao Giacomantonio""",public,Other,No,ITF6,Calabria,Calabria,ITF61,Cosenza,Cosenza,2025-01-27 16:50:03.229708,2025-01-28 11:39:36.611802,71.8,B
+IT0156,it,"Conservatorio di CUNEO ""G.F. Ghedini""",public,Other,No,ITC1,Piemonte,Piemonte,ITC16,Cuneo,Cuneo,2025-01-28 17:51:33.132483,2025-01-28 11:39:52.462510,73.6,B
+IT0157,it,"Conservatorio di FERMO ""Giovambattista Pergolesi""",public,Other,No,ITI3,Marche,Marche,ITI35,Fermo,Fermo,2025-01-27 16:51:28.579035,2025-01-28 11:40:06.579170,79.19,B
+IT0158,it,"Conservatorio di FERRARA ""Girolamo Frescobaldi""",public,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH56,Ferrara,Ferrara,2025-01-27 16:51:44.347723,2025-01-28 11:40:10.753650,71.8,B
+IT0159,it,"Conservatorio di FIRENZE ""Luigi Cherubini""",public,Other,No,ITI1,Toscana,Toscana,ITI14,Firenze,Firenze,2025-01-27 16:51:45.315869,2025-01-28 11:40:35.314267,65.8,B
+IT0160,it,"Conservatorio di FOGGIA ""Umberto Giordano""",public,Other,No,ITF4,Puglia,Puglia,ITF46,Foggia,Foggia,2025-01-27 16:53:28.541195,2025-01-28 11:40:31.634570,71.8,B
+IT0161,it,"Conservatorio di FROSINONE ""Licinio Refice""",public,Other,No,ITI4,Lazio,Lazio,ITI45,Frosinone,Frosinone,2025-01-27 16:55:55.135394,2025-01-28 11:40:37.947832,71.8,B
+IT0162,it,"Conservatorio di GENOVA ""Nicolò Paganini""",public,Other,No,ITC3,Liguria,Liguria,ITC33,Genova,Genova,2025-01-27 16:59:32.848161,2025-01-28 11:41:19.230834,78.15,B
+IT0163,it,"Conservatorio di LA SPEZIA ""Giacomo Puccini""",public,Other,No,ITC3,Liguria,Liguria,ITC34,La Spezia,La Spezia,2025-01-27 17:24:57.717207,2025-01-28 11:41:06.360658,79.79,B
+IT0165,it,"Conservatorio di LATINA ""Ottorino Respighi""",public,Other,No,ITI4,Lazio,Lazio,ITI44,Latina,Latina,2025-01-27 16:55:41.871002,2025-01-28 11:41:29.453015,71.8,B
+IT0166,it,"Conservatorio di LECCE ""Tito Schipa""",public,Other,No,ITF4,Puglia,Puglia,ITF45,Lecce,Lecce,2025-01-27 16:56:23.821487,2025-01-28 11:41:43.030847,79.19,B
+IT0167,it,"Conservatorio di MANTOVA ""Lucio Campiani""",public,Other,No,ITC4,Lombardia,Lombardia,ITC4B,Mantova,Mantova,2025-01-27 16:58:44.879753,2025-01-28 11:41:56.241287,82.1,A
+IT0168,it,"Conservatorio di MATERA ""Egidio R. Duni""",public,Other,No,ITF5,Basilicata,Basilicata,ITF52,Matera,Matera,2025-01-27 17:00:28.384836,2025-01-28 11:41:55.291761,71.8,B
+IT0169,it,"Conservatorio di MESSINA ""Arcangelo Corelli""",public,Other,No,ITG1,Sicilia,Sicilia,ITG13,Messina,Messina,2025-01-27 17:00:42.535108,2025-01-28 11:42:09.140187,71.8,B
+IT0170,it,"Conservatorio di MILANO ""Giuseppe Verdi""",public,Other,No,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 16:59:27.104088,2025-01-28 11:42:15.069222,81.06,A
+IT0171,it,"Conservatorio di MONOPOLI (BA) ""Nino Rota""",public,Other,No,ITF4,Puglia,Puglia,ITF47,Bari,Bari,2025-01-27 17:01:20.636686,2025-01-28 11:42:19.479432,71.8,B
+IT0172,it,"Conservatorio di NAPOLI ""S. Pietro a Majella""",public,Other,No,ITF3,Campania,Campania,ITF33,Napoli,Napoli,2025-01-27 17:02:16.104903,2025-01-28 11:42:29.445802,71.8,B
+IT0173,it,"Conservatorio di NOVARA ""Guido Cantelli""",public,Other,No,ITC1,Piemonte,Piemonte,ITC15,Novara,Novara,2025-01-27 17:02:43.520439,2025-01-28 11:42:40.793855,71.8,B
+IT0174,it,"Conservatorio di PADOVA ""Cesare Pollini""",public,Other,No,ITH3,Veneto,Veneto,ITH36,Padova,Padova,2025-01-27 17:04:49.554979,2025-01-28 11:42:39.724255,71.8,B
+IT0175,it,"Conservatorio di PALERMO ""Vincenzo Bellini""",public,Other,No,ITG1,Sicilia,Sicilia,ITG12,Palermo,Palermo,2025-01-28 17:54:15.942709,2025-01-28 11:42:56.326102,72.4,B
+IT0176,it,"Conservatorio di PARMA ""Arrigo Boito""",public,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH52,Parma,Parma,2025-01-27 17:06:25.351927,2025-01-28 11:42:56.617110,71.8,B
+IT0177,it,"Conservatorio di PERUGIA ""Francesco Morlacchi""",public,Other,No,ITI2,Umbria,Umbria,ITI21,Perugia,Perugia,2025-01-27 17:05:22.227332,2025-01-28 11:43:19.468103,74.39,B
+IT0178,it,"Conservatorio di PESARO ""Gioacchino Rossini""",public,Other,No,ITI3,Marche,Marche,ITI31,Pesaro e Urbino,Pesaro e Urbino,2025-01-27 17:07:30.155991,2025-01-28 11:43:26.821495,77.55,B
+IT0179,it,"Conservatorio di PESCARA ""Luisa d’Annunzio""",public,Other,No,ITF1,Abruzzo,Abruzzo,ITF13,Pescara,Pescara,2025-01-27 17:06:21.761408,2025-01-28 11:43:22.325977,71.8,B
+IT0180,it,"Conservatorio di PIACENZA ""Giuseppe Nicolini""",public,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH51,Piacenza,Piacenza,2025-01-27 17:06:07.009386,2025-01-28 11:43:47.300868,76.7,B
+IT0181,it,"Conservatorio di POTENZA ""Gesualdo da Venosa""",public,Other,No,ITF5,Basilicata,Basilicata,ITF51,Potenza,Potenza,2025-01-27 17:06:59.786322,2025-01-28 11:43:51.082132,71.8,B
+IT0182,it,"Conservatorio di REGGIO CALABRIA ""Francesco Cilea""",public,Other,No,ITF6,Calabria,Calabria,ITF65,Reggio di Calabria,Reggio di Calabria,2025-01-27 17:08:58.535921,2025-01-28 11:43:51.188129,75.91,B
+IT0183,it,"Conservatorio di ROMA ""Santa Cecilia""",public,Other,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 17:09:09.042833,2025-01-28 11:44:12.687167,71.8,B
+IT0184,it,"Conservatorio di ROVIGO ""Francesco Venezze""",public,Other,No,ITH3,Veneto,Veneto,ITH37,Rovigo,Rovigo,2025-01-27 17:09:59.073616,2025-01-28 11:44:16.732150,16.0,F
+IT0185,it,"Conservatorio di SALERNO ""G. Martucci""",public,Other,No,ITF3,Campania,Campania,ITF35,Salerno,Salerno,2025-01-27 17:09:52.242159,2025-01-28 11:44:14.966988,88.38,A
+IT0186,it,"Conservatorio di SASSARI ""Luigi Canepa""",public,Other,No,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,2025-01-27 17:09:33.148379,2025-01-28 11:44:34.218114,70.41,B
+IT0187,it,"Conservatorio di TORINO ""Giuseppe Verdi""",public,Other,No,ITC1,Piemonte,Piemonte,ITC11,Torino,Torino,2025-01-27 17:12:33.722919,2025-01-28 11:44:36.317970,71.8,B
+IT0188,it,"Conservatorio di TRAPANI ""Antonio Scontrino""",public,Other,No,ITG1,Sicilia,Sicilia,ITG11,Trapani,Trapani,2025-01-27 17:11:07.017199,2025-01-28 11:44:55.529501,0.0,F
+IT0189,it,"Conservatorio di TRENTO ""Francesco A. Bonporti""",public,Other,No,ITH2,Provincia Autonoma di Trento,Provincia Autonoma di Trento,ITH20,Trento,Trento,2025-01-27 17:13:27.211469,2025-01-28 11:44:57.416866,71.8,B
+IT0190,it,"Conservatorio di TRIESTE ""Giuseppe Tartini""",public,Other,No,ITH4,Friuli-Venezia Giulia,Friuli-Venezia Giulia,ITH44,Trieste,Trieste,2025-01-27 17:12:19.324493,2025-01-28 11:44:56.750387,82.43,A
+IT0191,it,"Conservatorio di UDINE ""Jacopo Tomadini""",public,Other,No,ITH4,Friuli-Venezia Giulia,Friuli-Venezia Giulia,ITH42,Udine,Udine,2025-01-27 17:11:53.811568,2025-01-28 11:45:17.031072,75.91,B
+IT0192,it,"Conservatorio di VENEZIA ""Benedetto Marcello"" - palazzo pisani",public,Other,No,ITH3,Veneto,Veneto,ITH35,Venezia,Venezia,2025-01-27 17:15:05.589795,2025-01-28 11:45:18.094496,71.8,B
+IT0193,it,"Conservatorio di VERONA ""E. F. dall’Abaco""",public,Other,No,ITH3,Veneto,Veneto,ITH31,Verona,Verona,2025-01-27 17:13:22.340402,2025-01-28 11:45:27.051166,71.8,B
+IT0194,it,"Conservatorio di VIBO VALENTIA ""Fausto Torrefranca""",public,Other,No,ITF6,Calabria,Calabria,ITF64,Vibo Valentia,Vibo Valentia,2025-01-27 17:13:36.619206,2025-01-28 11:45:36.789747,85.38,A
+IT0195,it,"Conservatorio di VICENZA ""Arrigo Pedrollo""",public,Other,No,ITH3,Veneto,Veneto,ITH32,Vicenza,Vicenza,2025-01-27 17:15:07.083902,2025-01-28 11:45:37.888065,71.8,B
+IT0197,it,Istituto Superiore di Studi Musicali di AOSTA della Valle d'Aosta,private,Other,No,ITC2,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste,ITC20,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste,2025-01-27 17:14:54.432205,2025-01-28 11:45:47.991604,73.6,B
+IT0198,it,"Istituto Superiore di Studi Musicali di BERGAMO ""Gaetano Donizetti""",private,Other,No,ITC4,Lombardia,Lombardia,ITC46,Bergamo,Bergamo,2025-01-27 17:15:26.225001,2025-01-28 11:46:01.543834,71.8,B
+IT0199,it,"Istituto Superiore di Studi Musicali di CALTANISSETTA ""Vincenzo Bellini""",private,Other,No,ITG1,Sicilia,Sicilia,ITG15,Caltanissetta,Caltanissetta,2025-01-27 17:15:59.471770,2025-01-28 11:46:03.057806,71.8,B
+IT0202,it,"Istituto Superiore di Studi Musicali di CATANIA ""Vincenzo Bellini""",private,Other,No,ITG1,Sicilia,Sicilia,ITG17,Catania,Catania,2025-01-27 17:17:03.502463,2025-01-28 11:46:06.442820,67.0,B
+IT0203,it,"Istituto Superiore di Studi Musicali di CREMONA ""Claudio Monteverdi""",private,Other,No,ITC4,Lombardia,Lombardia,ITC4A,Cremona,Cremona,2025-01-27 17:18:03.850536,2025-01-28 11:46:32.140054,71.8,B
+IT0204,it,"Istituto Superiore di Studi Musicali di GALLARATE (VA) ""Giacomo Puccini""",private,Other,No,ITC4,Lombardia,Lombardia,ITC41,Varese,Varese,2025-01-27 17:18:14.139501,2025-01-28 11:46:28.760952,71.8,B
+IT0205,it,"Istituto Superiore di Studi Musicali di LIVORNO ""Pietro Mascagni""",private,Other,No,ITI1,Toscana,Toscana,ITI16,Livorno,Livorno,2025-01-27 17:17:35.094133,2025-01-28 11:46:34.640142,71.8,B
+IT0206,it,"Istituto Superiore di Studi Musicali di LUCCA ""Luigi Boccherini""",private,Other,No,ITI1,Toscana,Toscana,ITI12,Lucca,Lucca,2025-01-27 17:20:37.510961,2025-01-28 11:47:07.533479,73.6,B
+IT0208,it,"Istituto Superiore di Studi Musicali di NOCERA TERINESE (CZ) ""P.I. Tchaikovsky""",private,Other,No,ITF6,Calabria,Calabria,ITF63,Catanzaro,Catanzaro,2025-01-27 17:19:57.792854,2025-01-28 11:47:06.257627,70.6,B
+IT0209,it,"Istituto Superiore di Studi Musicali di PAVIA ""Franco Vittadini""",private,Other,No,ITC4,Lombardia,Lombardia,ITC48,Pavia,Pavia,2025-01-27 17:19:40.314089,2025-01-28 11:47:03.457439,71.8,B
+IT0210,it,"Istituto Superiore di Studi Musicali di RAVENNA ""Giuseppe Verdi""",private,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH57,Ravenna,Ravenna,2025-01-27 17:19:17.918497,2025-01-28 11:51:43.806589,71.8,B
+IT0212,it,"Istituto Superiore di Studi Musicali di RIMINI ""G. Lettimi""",private,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH59,Rimini,Rimini,2025-01-27 17:20:43.747104,2025-01-28 11:47:31.944987,74.39,B
+IT0214,it,"Istituto Superiore di Studi Musicali di TARANTO ""Giovanni Paisiello""",private,Other,No,ITF4,Puglia,Puglia,ITF43,Taranto,Taranto,2025-01-27 17:20:19.231232,2025-01-28 11:47:46.368571,16.0,F
+IT0215,it,"Conservatorio di TERAMO ""Gaetano Braga""",public,Other,No,ITF1,Abruzzo,Abruzzo,ITF12,Teramo,Teramo,2025-01-27 17:22:04.317704,2025-01-28 11:47:51.150976,67.0,B
+IT0216,it,"Istituto Superiore di Studi Musicali di TERNI ""Giulio Briccialdi""",private,Other,No,ITI2,Umbria,Umbria,ITI22,Terni,Terni,2025-01-27 17:22:55.208670,2025-01-28 11:47:49.463802,71.8,B
+IT0217,it,Istituto Superiore per le Industrie Artistiche (ISIA) di FAENZA (RA),public,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH57,Ravenna,Ravenna,2025-01-27 17:23:14.596006,2025-01-28 11:48:10.470888,71.8,B
+IT0218,it,Istituto Superiore per le Industrie Artistiche (ISIA) di FIRENZE,public,Other,No,ITI1,Toscana,Toscana,ITI14,Firenze,Firenze,2025-01-27 17:23:34.200948,2025-01-28 11:48:09.757886,71.8,B
+IT0219,it,Istituto Superiore per le Industrie Artistiche (ISIA) di ROMA,public,Other,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 17:26:08.479546,2025-01-28 11:48:17.028100,72.4,B
+IT0220,it,Istituto Superiore per le Industrie Artistiche (ISIA) di URBINO (PU),public,Other,No,ITI3,Marche,Marche,ITI31,Pesaro e Urbino,Pesaro e Urbino,2025-01-27 17:24:02.876550,2025-01-28 11:48:31.077093,70.6,B
+IT0244,it,LINK CAMPUS University,private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 17:25:21.408051,2025-01-28 11:48:32.489135,75.54,B
+IT0245,it,"Istituto Superiore di Studi Musicali di MODENA e CARPI ""Orazio Vecchi - Antonio Tonelli""",private,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH54,Modena,Modena,2025-01-27 17:24:49.100527,2025-01-28 11:48:45.837777,71.8,B
+IT0246,it,"Istituto Superiore di Studi Musicali di REGGIO EMILIA e CASTELNOVO NE' MONTI ""Achille Peri e Merulo""",private,Other,No,ITH5,Emilia-Romagna,Emilia-Romagna,ITH53,Reggio nell’Emilia,Reggio nell’Emilia,2025-01-27 17:25:37.726944,2025-01-28 11:48:54.385429,71.8,B
+IT0247,it,"Istituto Superiore di Studi Musicali di RIBERA (AG) ""Arturo Toscanini""",private,Other,No,ITG1,Sicilia,Sicilia,ITG14,Agrigento,Agrigento,2025-01-27 17:25:43.172441,2025-01-28 11:48:57.684434,67.0,B
+IT0248,it,Humanitas University,private,University,No,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano,2025-01-27 17:26:28.052048,2025-01-28 11:49:11.665419,79.19,B
+IT0249,it,Gran Sasso Science Institute,public,University,No,ITF1,Abruzzo,Abruzzo,ITF11,L’Aquila,L’Aquila,2025-01-27 17:26:42.540097,2025-01-28 11:49:26.493955,82.4,A
+IT0250,it,Istituto Superiore per le Industrie Artistiche (ISIA) di PESCARA,public,Other,No,ITF1,Abruzzo,Abruzzo,ITF13,Pescara,Pescara,2025-01-27 17:26:29.806358,2025-01-28 11:49:31.062043,72.59,B
+IT0251,it,UniCamillus - Saint Camillus International University of Health Sciences,private,University,No,ITI4,Lazio,Lazio,ITI43,Roma,Roma,2025-01-27 17:31:50.141922,2025-01-28 11:49:46.958579,70.6,B

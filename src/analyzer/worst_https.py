@@ -136,7 +136,7 @@ def generate_worst_http_tables(stats_dataframe):
         nuts2_table = latex_worst_http_table(nuts_data, "nuts",
                                              f"Worst SSL/TLS Protocol Adoption in {get_country(country)} by NUTS2 (\\%)",
                                              f"worst_https_{country.lower()}")
-        path_to_save = os.path.join(TABLE_DIRECTORY, f"worst_https_in_{country}_by_nuts2.txt")
+        path_to_save = os.path.join(TABLE_DIRECTORY, f"worst_https_in_{country}_by_nuts2.tex")
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
         nuts_data = stats_dataframe[(stats_dataframe["country"] == country) &
@@ -145,7 +145,7 @@ def generate_worst_http_tables(stats_dataframe):
         nuts2_table = latex_worst_http_table(nuts_data, "nuts_category",
                                              f"Worst SSL/TLS Protocol Adoption at Private HEIs in {get_country(country)} by NUTS2 (\\%)",
                                              f"worst_https_{country.lower()}_private")
-        path_to_save = os.path.join(TABLE_DIRECTORY, f"worst_https_in_{country}_by_nuts2_private.txt")
+        path_to_save = os.path.join(TABLE_DIRECTORY, f"worst_https_in_{country}_by_nuts2_private.tex")
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
         nuts_data = stats_dataframe[(stats_dataframe["country"] == country) &
@@ -154,14 +154,14 @@ def generate_worst_http_tables(stats_dataframe):
         nuts2_table = latex_worst_http_table(nuts_data, "nuts_category",
                                              f"Worst SSL/TLS Protocol Adoption at Public HEIs in {get_country(country)} by NUTS2 (\\%)",
                                              f"worst_https_{country.lower()}_public")
-        path_to_save = os.path.join(TABLE_DIRECTORY, f"worst_https_in_{country}_by_nuts2_public.txt")
+        path_to_save = os.path.join(TABLE_DIRECTORY, f"worst_https_in_{country}_by_nuts2_public.tex")
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
 
     country_data = stats_dataframe[stats_dataframe["level"] == "country"]
     country_table = latex_worst_http_table(country_data, "country", "Worst SSL/TLS Protocol Adoption by Country (\\%)",
                                            "worst_https_by_country")
-    path_to_save = os.path.join(TABLE_DIRECTORY, "worst_https_by_country.txt")
+    path_to_save = os.path.join(TABLE_DIRECTORY, "worst_https_by_country.tex")
     with open(path_to_save, "w", encoding="utf-8") as tex_file:
         tex_file.write(country_table)
 

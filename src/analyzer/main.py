@@ -8,10 +8,10 @@ from src.analyzer.worst_https import make_worst_https_reports
 def main():
     setup()
     aggregated_df = consolidate_data()
-    #make_worst_https_reports(aggregated_df)
+    make_worst_https_reports(aggregated_df)
     print(aggregated_df.info())
-    #make_algorithm_report(aggregated_df)
-    #make_valid_certificate_report(aggregated_df)
+    make_algorithm_report(aggregated_df)
+    make_valid_certificate_report(aggregated_df)
     make_ca_report(aggregated_df)
 
 if __name__ == "__main__":

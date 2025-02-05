@@ -1,0 +1,332 @@
+ETER_ID,country,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021,assessment_datetime_https,assessment_datetime_sh,score,grade
+FR0002,fr,Université de technologie de Troyes,public,Other,Yes,FRF2,Champagne-Ardenne,Champagne-Ardenne,FRF22,Aube,Aube,2025-01-27 09:24:07.291204,2025-01-28 16:41:50.222384,71.8,B
+FR0003,fr,École de l'air,public,Other,No,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône,2025-01-27 09:25:03.993297,2025-01-28 16:41:58.466214,71.8,B
+FR0004,fr,École nationale supérieure d'architecture de Marseille,public,Other,No,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône,2025-01-27 09:26:07.167421,2025-01-28 16:41:52.466491,77.42,B
+FR0005,fr,École supérieure d'art et de design Marseille-Mediterranée,public,Other,No,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône,2025-01-27 09:23:57.368094,2025-01-28 16:41:48.972352,16.0,F
+FR0006,fr,École centrale de Marseille,public,Other,No,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône,2025-01-27 09:26:02.674007,2025-01-28 16:42:18.094922,73.55,B
+FR0007,fr,Aix-Marseille université,public,University,Yes,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône,2025-01-27 09:25:45.592127,2025-01-28 16:42:17.792917,84.94,A
+FR0008,fr,Université de Caen Basse-Normandie,public,University,No,FRD1,Basse-Normandie,Basse-Normandie,FRD11,Calvados,Calvados,2025-01-27 09:25:08.191819,2025-01-28 16:42:20.440188,75.08,B
+FR0009,fr,École supérieure d'arts et médias de Caen - Cherbourg,public,Other,No,FRD1,Basse-Normandie,Basse-Normandie,FRD11,Calvados,Calvados,2025-01-27 09:25:11.778165,2025-01-28 16:42:35.238076,72.59,B
+FR0010,fr,École nationale supérieure d'ingénieurs de Caen,public,Other,No,FRD1,Basse-Normandie,Basse-Normandie,FRD11,Calvados,Calvados,2025-01-27 09:25:24.623219,2025-01-28 16:42:52.411252,71.8,B
+FR0011,fr,École supérieure d'ingénieurs des travaux de la construction de Caen,private,Other,No,FRD1,Basse-Normandie,Basse-Normandie,FRD11,Calvados,Calvados,2025-01-27 09:25:20.358064,2025-01-28 16:42:49.941450,11.2,F
+FR0013,fr,École d'ingénieurs en génie des systèmes industriels,private,Other,No,FRI3,Poitou-Charentes,Poitou-Charentes,FRI32,Charente-Maritime,Charente-Maritime,2025-01-27 09:27:06.700365,2025-01-28 16:42:51.147441,75.54,B
+FR0014,fr,Université de La Rochelle,public,University,Yes,FRI3,Poitou-Charentes,Poitou-Charentes,FRI32,Charente-Maritime,Charente-Maritime,2025-01-27 09:28:06.001558,2025-01-28 16:43:05.828085,80.86,A
+FR0015,fr,École nationale supérieure d'art de Bourges,public,Other,No,FRB0,Centre — Val de Loire,Centre — Val de Loire,FRB01,Cher,Cher,2025-01-27 09:27:43.224324,2025-01-28 16:43:19.987560,74.26,B
+FR0017,fr,École nationale supérieure d'art de Dijon,public,Other,No,FRC1,Bourgogne,Bourgogne,FRC11,Côte-d’Or,Côte-d’Or,2025-01-27 09:37:57.043720,2025-01-28 16:43:16.930945,11.2,F
+FR0018,fr,Université de Bourgogne,public,University,Yes,FRC1,Bourgogne,Bourgogne,FRC11,Côte-d’Or,Côte-d’Or,2025-01-27 09:29:51.900033,2025-01-28 16:43:22.409339,67.6,B
+FR0020,fr,"Institut national supérieur des sciences agronomiques, de l'alimentation et de l'environnement",public,Other,No,FRC1,Bourgogne,Bourgogne,FRC11,Côte-d’Or,Côte-d’Or,2025-01-27 09:28:32.148139,2025-01-28 16:43:35.228204,71.9,B
+FR0021,fr,École nationale supérieure de mécanique et des microtechniques,public,Other,No,FRC2,Franche-Comté,Franche-Comté,FRC21,Doubs,Doubs,2025-01-27 09:27:41.418376,2025-01-28 16:43:37.977129,78.95,B
+FR0022,fr,Université de Franche-Comté,public,University,No,FRC2,Franche-Comté,Franche-Comté,FRC21,Doubs,Doubs,2025-01-27 09:54:05.602997,2025-01-28 16:43:53.312258,79.19,B
+FR0023,fr,École nationale d'ingénieurs de Brest,public,Other,No,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère,2025-01-27 09:29:26.567849,2025-01-28 16:43:48.019762,79.55,B
+FR0024,fr,École Navale,public,Other,No,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère,2025-01-27 09:29:38.142892,2025-01-28 16:43:58.791901,80.64,A
+FR0025,fr,École nationale supérieure de techniques avancées Bretagne,public,Other,No,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère,2025-01-27 09:30:23.043003,2025-01-28 16:44:07.732299,81.04,A
+FR0026,fr,Université de Bretagne Occidentale,public,University,Yes,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère,2025-01-27 09:33:05.527936,2025-01-28 16:44:15.614698,77.03,B
+FR0028,fr,Institut supérieur de l'électronique et du numérique Brest,private,Other,No,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère,2025-01-27 09:30:54.735815,2025-01-28 16:44:25.284134,71.8,B
+FR0029,fr,École des mines d'Alès,public,Other,No,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ12,Gard,Gard,2025-01-27 09:30:30.177213,2025-01-28 16:44:22.395375,72.23,B
+FR0030,fr,Université de Nîmes,public,University,No,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ12,Gard,Gard,2025-01-27 09:32:13.297885,2025-01-28 16:44:42.198970,71.2,B
+FR0032,fr,École nationale supérieure d'architecture de Toulouse,public,Other,No,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 09:32:51.729737,2025-01-28 16:44:51.403727,77.03,B
+FR0033,fr,Institut national des sciences appliquées de Toulouse,public,Other,Yes,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 09:34:05.355264,2025-01-28 16:45:01.940665,74.01,B
+FR0034,fr,École d'ingénieurs de Purpan,private,Other,No,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 09:33:10.978242,2025-01-28 16:45:06.859473,72.59,B
+FR0035,fr,Institut catholique de Toulouse,private,Other,No,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 09:34:20.074989,2025-01-28 16:45:18.438548,71.8,B
+FR0036,fr,École nationale de l'aviation civile,public,Other,No,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 09:33:59.412102,2025-01-28 16:45:24.663050,77.75,B
+FR0037,fr,Institut national polytechnique de Toulouse,public,Other,Yes,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 09:36:01.792941,2025-01-28 16:45:27.413655,71.32,B
+FR0038,fr,Université Toulouse 1 - Capitole,public,University,Yes,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 09:37:10.152028,2025-01-28 16:45:38.033980,73.29,B
+FR0039,fr,Université Toulouse - Jean Jaurès,public,University,Yes,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 09:36:16.246716,2025-01-28 16:45:47.537371,72.59,B
+FR0040,fr,Université de Toulouse 3 - Paul Sabatier,public,University,Yes,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 09:37:01.036824,2025-01-28 16:45:47.796603,88.38,A
+FR0041,fr,Institut supérieur de l'aéronautique et de l'espace,public,Other,Yes,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 09:40:55.356169,2025-01-28 16:45:58.113529,74.71,B
+FR0042,fr,École nationale supérieure d'architecture et de paysage de Bordeaux,public,Other,No,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde,2025-01-27 10:01:26.508317,2025-01-28 16:46:05.062316,71.8,B
+FR0043,fr,École nationale supérieure des sciences agronomiques de Bordeaux Aquitaine,public,Other,No,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde,2025-01-27 09:37:27.759700,2025-01-28 16:46:08.965577,71.8,B
+FR0046,fr,Université Bordeaux Montaigne,public,University,No,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde,2025-01-27 09:37:27.565630,2025-01-28 16:46:22.060496,69.43,B
+FR0047,fr,École des beaux-arts de Bordeaux,public,Other,No,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde,2025-01-27 09:39:05.717508,2025-01-28 16:46:23.742884,79.35,B
+FR0048,fr,École nationale de la magistrature,public,Other,No,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde,2025-01-27 09:40:45.001716,2025-01-28 16:46:32.431876,70.6,B
+FR0050,fr,Institut polytechnique de Bordeaux,public,Other,No,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde,2025-01-27 09:41:28.121675,2025-01-28 16:46:44.037304,83.75,A
+FR0051,fr,École nationale supérieure de chimie de Montpellier,public,Other,No,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault,2025-01-27 09:41:37.730334,2025-01-28 16:46:45.062724,71.96,B
+FR0052,fr,École nationale supérieure d’architecture de Montpellier,public,Other,No,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault,2025-01-27 09:41:20.510611,2025-01-28 16:46:57.649651,80.32,A
+FR0055,fr,Université Montpellier 3 - Paul-Valéry,public,University,No,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault,2025-01-27 09:41:25.732847,2025-01-28 16:46:59.729094,79.35,B
+FR0056,fr,Institut national d'études supérieures agronomiques de Montpellier,public,Other,No,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault,2025-01-27 09:42:27.193109,2025-01-28 16:47:09.722809,76.19,B
+FR0057,fr,École nationale supérieure de chimie de Rennes,public,Other,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:42:05.764669,2025-01-28 16:47:24.363674,70.6,B
+FR0058,fr,École nationale supérieure d'architecture de Bretagne,public,Other,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:43:23.251726,2025-01-28 16:47:23.767601,71.8,B
+FR0061,fr,Institut national des sciences appliquées de Rennes,public,Other,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:45:20.847822,2025-01-28 16:47:29.838766,75.54,B
+FR0062,fr,Université de Rennes 1,public,University,Yes,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:45:42.631270,2025-01-28 16:47:47.721188,71.55,B
+FR0063,fr,Université Rennes 2,public,University,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:45:18.970390,2025-01-28 16:47:49.994840,77.55,B
+FR0064,fr,ECAM Rennes Louis de Broglie,private,Other,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:44:41.043767,2025-01-28 16:47:49.945842,76.88,B
+FR0065,fr,Institut catholique de Rennes,private,Other,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:48:52.610755,2025-01-28 16:48:09.095080,67.6,B
+FR0066,fr,École des métiers de l'environnement,private,Other,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:48:47.380852,2025-01-28 16:48:29.590952,16.43,F
+FR0067,fr,École des Avocats du Grand Ouest,private,Other,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:45:41.081409,2025-01-28 16:48:13.036134,71.8,B
+FR0068,fr,École nationale de la statistique et de l'analyse de l'information,public,Other,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:46:43.814809,2025-01-28 16:48:28.145772,79.19,B
+FR0069,fr,"Institut supérieur des sciences agronomiques, agroalimentaires, horticoles et du paysage",public,Other,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 09:47:57.243929,2025-01-28 16:48:30.314598,71.03,B
+FR0070,fr,Université de Tours,public,University,No,FRB0,Centre — Val de Loire,Centre — Val de Loire,FRB04,Indre-et-Loire,Indre-et-Loire,2025-01-27 09:49:34.454453,2025-01-28 16:48:46.857294,68.8,B
+FR0071,fr,École nationale supérieure d'architecture de Grenoble,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK24,Isère,Isère,2025-01-27 09:48:50.558833,2025-01-28 16:48:48.304661,71.8,B
+FR0072,fr,École supérieure d'art de Grenoble,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK24,Isère,Isère,2025-01-27 09:49:04.265003,2025-01-28 16:49:07.935034,72.59,B
+FR0076,fr,Grenoble INP,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK24,Isère,Isère,2025-01-27 09:48:15.440831,2025-01-28 16:49:05.288941,72.52,B
+FR0080,fr,École nationale d'ingénieurs de Saint-Étienne,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK25,Loire,Loire,2025-01-27 09:49:38.226294,2025-01-28 16:49:09.419585,85.35,A
+FR0081,fr,Telecom Saint-Étienne,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK25,Loire,Loire,2025-01-27 09:51:23.433196,2025-01-28 16:49:23.627118,85.84,A
+FR0082,fr,Université Jean Monnet,public,University,Yes,FRK2,Rhône-Alpes,Rhône-Alpes,FRK25,Loire,Loire,2025-01-27 09:51:41.770732,2025-01-28 16:49:27.698696,85.84,A
+FR0083,fr,École nationale supérieure d'architecture de Saint-Étienne,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK25,Loire,Loire,2025-01-27 09:52:55.846465,2025-01-28 16:49:31.811597,16.0,F
+FR0084,fr,Ecole centrale de Nantes,public,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique,2025-01-27 09:53:04.527207,2025-01-28 16:49:42.871570,71.8,B
+FR0085,fr,École nationale supérieure d'architecture de Nantes,public,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique,2025-01-27 09:52:28.965562,2025-01-28 16:53:15.430480,91.35,A
+FR0086,fr,École supérieure des beaux-arts de Nantes Métropole,public,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique,2025-01-27 09:52:21.167385,2025-01-28 16:50:04.729956,78.34,B
+FR0087,fr,Université de Nantes,public,University,Yes,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique,2025-01-27 09:53:49.949934,2025-01-28 16:50:03.981029,72.2,B
+FR0088,fr,Institut régional d'administration de Nantes,public,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique,2025-01-27 09:53:47.298991,2025-01-28 16:50:01.377667,71.8,B
+FR0091,fr,École supérieure du bois,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique,2025-01-27 09:56:37.541836,2025-01-28 16:50:30.644840,70.6,B
+FR0092,fr,Université d'Orléans,public,University,Yes,FRB0,Centre — Val de Loire,Centre — Val de Loire,FRB06,Loiret,Loiret,2025-01-27 09:54:07.098524,2025-01-28 16:50:21.151000,77.55,B
+FR0093,fr,École supérieure d'art et de design d'Orléans,public,Other,No,FRB0,Centre — Val de Loire,Centre — Val de Loire,FRB06,Loiret,Loiret,2025-01-27 09:55:37.258273,2025-01-28 16:50:23.546740,71.8,B
+FR0094,fr,École nationale d'administration pénitentiaire,public,Other,No,FRI1,Aquitaine,Aquitaine,FRI14,Lot-et-Garonne,Lot-et-Garonne,2025-01-27 09:55:43.615541,2025-01-28 16:50:37.646807,84.94,A
+FR0096,fr,École supérieure d'agriculture d'Angers,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire,2025-01-27 09:55:47.561798,2025-01-28 16:50:54.718542,82.03,A
+FR0097,fr,École supérieure d'électronique de l'Ouest,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire,2025-01-27 10:06:40.569591,2025-01-28 16:50:57.138306,72.59,B
+FR0098,fr,Facultés libres de l'Ouest,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire,2025-01-27 09:55:55.194717,2025-01-28 16:51:07.947627,77.03,B
+FR0099,fr,Université d'Angers,public,University,No,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire,2025-01-27 09:58:39.241708,2025-01-28 16:51:17.376567,79.98,B
+FR0100,fr,École supérieure angevine en informatique et productique,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire,2025-01-27 09:57:34.708011,2025-01-28 16:51:17.488566,72.59,B
+FR0102,fr,Université de Reims Champagne-Ardenne,public,University,No,FRF2,Champagne-Ardenne,Champagne-Ardenne,FRF23,Marne,Marne,2025-01-27 09:58:09.115664,2025-01-28 16:51:27.695252,87.48,A
+FR0103,fr,École nationale supérieure d'architecture de Nancy,public,Other,No,FRF3,Lorraine,Lorraine,FRF31,Meurthe-et-Moselle,Meurthe-et-Moselle,2025-01-27 09:58:32.959353,2025-01-28 16:51:37.232403,74.61,B
+FR0104,fr,École nationale supérieure d'art de Nancy,public,Other,No,FRF3,Lorraine,Lorraine,FRF31,Meurthe-et-Moselle,Meurthe-et-Moselle,2025-01-27 09:59:05.023151,2025-01-28 16:51:34.945202,72.9,B
+FR0105,fr,Université de Lorraine,public,Other,No,FRF3,Lorraine,Lorraine,FRF31,Meurthe-et-Moselle,Meurthe-et-Moselle,2025-01-27 09:58:46.228957,2025-01-28 16:51:46.189746,70.6,B
+FR0106,fr,École spéciale militaire de Saint-Cyr,public,Other,No,FRH0,Bretagne,Bretagne,FRH04,Morbihan,Morbihan,2025-01-27 10:00:32.173212,2025-01-28 16:51:50.759490,70.6,B
+FR0108,fr,Université de Bretagne-Sud,public,University,No,FRH0,Bretagne,Bretagne,FRH04,Morbihan,Morbihan,2025-01-27 10:01:41.182172,2025-01-28 16:51:58.530202,73.6,B
+FR0111,fr,École supérieure d'ingénieurs des travaux de la construction de Metz,private,Other,No,FRF3,Lorraine,Lorraine,FRF33,Moselle,Moselle,2025-01-27 10:01:03.556217,2025-01-28 16:52:10.518486,72.59,B
+FR0112,fr,École nationale supérieure de chimie de Lille,public,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:25:58.786276,2025-01-28 16:52:21.143864,71.8,B
+FR0113,fr,École nationale supérieure d'architecture et de paysage de Lille,public,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:02:06.281377,2025-01-28 16:52:26.957339,73.44,B
+FR0114,fr,École nationale supérieure des arts et industries textiles,public,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:02:29.876162,2025-01-28 16:52:32.876213,72.92,B
+FR0117,fr,Groupe Institut supérieur d'agriculture de Lille,private,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:08:46.908323,2025-01-28 16:52:39.246844,67.0,B
+FR0118,fr,Institut catholique de Lille,private,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:02:18.782704,2025-01-28 16:52:56.939179,74.39,B
+FR0119,fr,Institut supérieur de l'électronique et du numérique Lille,private,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:10:33.839910,2025-01-28 16:52:53.589692,67.0,B
+FR0120,fr,Hautes études d'ingénieur,private,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:06:08.860287,2025-01-28 16:53:02.872852,67.0,B
+FR0121,fr,Centrale Lille Institut,public,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:19:46.549933,2025-01-28 16:53:15.481782,71.8,B
+FR0122,fr,Université Polytechnique Hauts-de-France,public,University,Yes,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:06:07.145020,2025-01-28 16:53:27.026797,77.03,B
+FR0126,fr,Institut régional d'administration de Lille,public,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:05:32.329004,2025-01-28 16:53:39.476995,71.8,B
+FR0127,fr,Université du Littoral Côte d'Opale,public,University,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 10:05:21.854399,2025-01-28 16:53:50.859021,74.74,B
+FR0130,fr,Université de technologie de Compiègne,public,Other,No,FRE2,Picardie,Picardie,FRE22,Oise,Oise,2025-01-27 10:08:42.687069,2025-01-28 16:54:34.279139,71.04,B
+FR0131,fr,École supérieure de chimie organique et minérale,private,Other,No,FRE2,Picardie,Picardie,FRE22,Oise,Oise,2025-01-27 10:08:14.981520,2025-01-28 16:54:11.426883,71.39,B
+FR0132,fr,Université d'Artois,public,University,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE12,Pas-de-Calais,Pas-de-Calais,2025-01-27 10:08:29.012620,2025-01-28 16:54:16.927854,78.83,B
+FR0134,fr,Ecole nationale des finances publiques,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR106,Seine-Saint-Denis,Seine-Saint-Denis,2025-01-27 10:16:40.746843,2025-01-28 16:54:44.118164,82.48,A
+FR0136,fr,École nationale supérieure d'architecture de Clermont-Ferrand,public,Other,No,FRK1,Auvergne,Auvergne,FRK14,Puy-de-Dôme,Puy-de-Dôme,2025-01-27 10:08:18.211873,2025-01-28 16:54:53.918064,78.15,B
+FR0140,fr,Université de Pau et des Pays de l'Adour,public,University,Yes,FRI1,Aquitaine,Aquitaine,FRI15,Pyrénées-Atlantiques,Pyrénées-Atlantiques,2025-01-27 10:10:52.960167,2025-01-28 16:55:02.870992,71.8,B
+FR0142,fr,École supérieure des technologies industrielles avancées,private,Other,No,FRI1,Aquitaine,Aquitaine,FRI15,Pyrénées-Atlantiques,Pyrénées-Atlantiques,2025-01-27 10:13:00.600157,2025-01-28 16:55:08.560848,78.06,B
+FR0143,fr,École nationale d'ingénieurs de Tarbes,public,Other,No,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ26,Hautes-Pyrénées,Hautes-Pyrénées,2025-01-27 10:11:28.071264,2025-01-28 16:55:38.701361,74.32,B
+FR0144,fr,Université de Perpignan - Via Domitia,public,University,No,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ15,Pyrénées-Orientales,Pyrénées-Orientales,2025-01-27 10:12:34.152693,2025-01-28 16:55:27.438489,86.15,A
+FR0145,fr,École nationale supérieure d'architecture de Strasbourg,public,Other,No,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin,2025-01-27 10:12:05.287018,2025-01-28 16:55:29.320887,77.55,B
+FR0147,fr,École nationale du génie de l'eau et de l'environnement de Strasbourg,public,Other,No,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin,2025-01-27 10:12:12.729240,2025-01-28 16:55:42.270141,76.7,B
+FR0148,fr,Institut national des sciences appliquées de Strasbourg,public,Other,No,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin,2025-01-27 10:14:35.089573,2025-01-28 16:55:44.922606,71.8,B
+FR0149,fr,Université de Strasbourg,public,University,Yes,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin,2025-01-27 10:13:44.329674,2025-01-28 16:55:57.849592,75.54,B
+FR0150,fr,Université de Haute-Alsace,public,University,Yes,FRF1,Alsace,Alsace,FRF12,Haut-Rhin,Haut-Rhin,2025-01-27 10:14:07.711763,2025-01-28 16:56:04.134453,71.8,B
+FR0152,fr,École nationale supérieure des beaux-arts de Lyon,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:15:36.857767,2025-01-28 16:56:15.517788,79.19,B
+FR0153,fr,École centrale de Lyon,public,Other,Yes,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:16:21.605718,2025-01-28 16:56:18.909451,91.35,A
+FR0154,fr,Institut national des sciences appliquées de Lyon,public,Other,Yes,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:16:40.298534,2025-01-28 16:56:29.809884,83.46,A
+FR0155,fr,École catholique d'arts et métiers LaSalle,private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:32:27.791735,2025-01-28 16:56:38.780531,71.8,B
+FR0156,fr,Institut catholique de Lyon,private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:17:56.454215,2025-01-28 16:56:38.972694,77.36,B
+FR0157,fr,Université Claude Bernard - Lyon 1,public,University,Yes,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:17:39.101019,2025-01-28 16:56:49.581157,84.94,A
+FR0158,fr,Université Lumière - Lyon 2,public,University,Yes,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:17:43.070955,2025-01-28 16:56:59.188877,79.04,B
+FR0159,fr,Institut régional d'administration de Lyon,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:20:03.867035,2025-01-28 16:57:04.490032,70.6,B
+FR0161,fr,Université Jean Moulin - Lyon 3,public,University,Yes,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:21:26.312161,2025-01-28 16:57:21.963658,79.84,B
+FR0162,fr,École nationale supérieure des sciences de l'information et des bibliothèques,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:20:16.791682,2025-01-28 16:57:25.969222,84.51,A
+FR0163,fr,École nationale des travaux publics de l'État,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:22:08.362033,2025-01-28 16:57:37.635144,86.74,A
+FR0164,fr,Conservatoire national supérieur musique et danse de Lyon,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:25:25.996708,2025-01-28 16:57:51.600794,72.4,B
+FR0165,fr,Institut textile et chimique,private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:21:06.905541,2025-01-28 16:57:54.397698,73.6,B
+FR0166,fr,École supérieure chimie physique électronique de Lyon,private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:21:03.924914,2025-01-28 16:57:58.401972,78.15,B
+FR0167,fr,École des avocats Rhône-Alpes,private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:23:18.249961,2025-01-28 16:58:14.419790,71.8,B
+FR0168,fr,École normale supérieure de Lyon,public,Other,Yes,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 10:25:11.912148,2025-01-28 16:58:17.805132,16.83,F
+FR0169,fr,Le Mans Université,public,University,No,FRG0,Pays de la Loire,Pays de la Loire,FRG04,Sarthe,Sarthe,2025-01-27 10:24:08.363163,2025-01-28 16:58:16.948869,87.02,A
+FR0170,fr,Université de Savoie Mont Blanc,public,University,Yes,FRK2,Rhône-Alpes,Rhône-Alpes,FRK27,Savoie,Savoie,2025-01-27 10:24:24.341647,2025-01-28 16:58:35.709659,78.78,B
+FR0171,fr,École d'ingénieur de la ville de Paris,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:24:38.233255,2025-01-28 16:58:37.152809,77.55,B
+FR0172,fr,"Faculté Libre de Droit, d’Economie et de Gestion",private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:24:47.788475,2025-01-28 16:58:44.013080,72.59,B
+FR0173,fr,Université Paris-Dauphine,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:25:49.624461,2025-01-28 16:58:58.039690,71.11,B
+FR0174,fr,Université Paris 1 - Panthéon Sorbonne,public,University,Yes,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:27:59.176572,2025-01-28 16:59:01.645034,75.91,B
+FR0175,fr,Université Panthéon-Assas,public,University,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:26:44.605141,2025-01-28 16:59:14.463818,72.23,B
+FR0176,fr,Université Sorbonne Nouvelle - Paris 3,public,University,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:27:46.220766,2025-01-28 16:59:21.385541,16.0,F
+FR0181,fr,École nationale supérieure d'architecture de Paris-Malaquais,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:27:50.302652,2025-01-28 16:59:23.997263,74.32,B
+FR0185,fr,École nationale supérieure d'arts et métiers,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:29:10.511384,2025-01-28 16:59:41.192551,76.52,B
+FR0186,fr,École nationale supérieure de chimie de Paris,public,Other,Yes,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:30:38.946105,2025-01-28 17:00:00.898006,71.0,B
+FR0188,fr,École supérieure de physique et de chimie industrielles de la ville de Paris,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:36:30.329718,2025-01-28 17:00:35.959898,82.84,A
+FR0189,fr,Institut d'études politiques de Paris,public,Other,Yes,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:30:54.794103,2025-01-28 17:00:16.149648,78.91,B
+FR0190,fr,École normale supérieure de Paris,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:36:33.554007,2025-01-28 17:00:32.740148,69.61,B
+FR0191,fr,Institut des sciences et industries du vivant et de l'environnement,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:31:33.569390,2025-01-28 17:00:35.902895,75.83,B
+FR0192,fr,École nationale supérieure des arts décoratifs,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:32:52.761957,2025-01-28 17:00:51.349843,77.03,B
+FR0193,fr,Conservatoire national des arts et métiers,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:30:13.175293,2025-01-28 17:01:00.432928,71.8,B
+FR0194,fr,École nationale des Chartes,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:31:17.848550,2025-01-28 17:01:01.050982,80.18,A
+FR0195,fr,Collège de France,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:38:18.066567,2025-01-28 17:01:10.858924,91.79,A
+FR0196,fr,École pratique des hautes études,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:34:07.883746,2025-01-28 17:01:13.274872,75.78,B
+FR0197,fr,Institut national des langues et civilisations orientales,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:36:24.862138,2025-01-28 17:01:25.044755,89.04,A
+FR0198,fr,École du Louvre,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:45:43.051370,2025-01-28 17:01:35.044209,73.65,B
+FR0199,fr,École nationale supérieure des mines de Paris,public,Other,Yes,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:34:57.177968,2025-01-28 17:01:35.798250,79.55,B
+FR0200,fr,Muséum national d'histoire naturelle,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:36:38.508577,2025-01-28 17:01:45.547641,77.63,B
+FR0202,fr,Observatoire de Paris,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:36:40.555095,2025-01-28 17:01:53.955776,67.0,B
+FR0203,fr,Télécom Paris,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:36:49.711789,2025-01-28 17:01:56.411428,74.39,B
+FR0204,fr,Institut Catholique de Paris,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:37:47.043308,2025-01-28 17:02:06.015045,71.8,B
+FR0205,fr,Institut supérieur d'électronique de Paris,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:38:12.275822,2025-01-28 17:02:15.333285,82.22,A
+FR0206,fr,"École supérieure d'informatique, électronique, automatique",private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:40:02.618915,2025-01-28 17:02:15.960729,79.24,B
+FR0207,fr,École nationale supérieure des beaux-arts,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:39:27.404947,2025-01-28 17:02:28.504321,79.23,B
+FR0208,fr,École des hautes études en sciences sociales,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:41:40.692019,2025-01-28 17:02:44.695202,75.91,B
+FR0209,fr,École centrale d'électronique,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:39:42.942980,2025-01-28 17:02:41.485555,74.39,B
+FR0210,fr,École nationale supérieure d'architecture de Paris-Val de Seine,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:40:24.384532,2025-01-28 17:02:56.183374,71.8,B
+FR0211,fr,École nationale supérieure de création industrielle,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:42:18.597837,2025-01-28 17:03:10.260688,74.39,B
+FR0213,fr,Centre des études supérieures industrielles,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:42:54.718800,2025-01-28 17:03:11.594400,71.2,B
+FR0214,fr,Institut catholique d'arts et métiers,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:42:01.321144,2025-01-28 17:03:21.671127,79.19,B
+FR0215,fr,Pôle supérieur d’enseignement artistique Paris Boulogne-Billancourt,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 10:41:20.322749,2025-01-28 17:03:31.802265,79.35,B
+FR0216,fr,École nationale supérieure d'architecture de Normandie,public,Other,No,FRD2,Haute-Normandie,Haute-Normandie,FRD22,Seine-Maritime,Seine-Maritime,2025-01-27 10:43:08.198951,2025-01-28 17:03:35.072709,19.38,F
+FR0217,fr,Institut national des sciences appliquées de Rouen,public,Other,No,FRD2,Haute-Normandie,Haute-Normandie,FRD22,Seine-Maritime,Seine-Maritime,2025-01-27 10:42:47.438218,2025-01-28 17:03:48.646369,79.35,B
+FR0218,fr,Université de Rouen,public,University,No,FRD2,Haute-Normandie,Haute-Normandie,FRD22,Seine-Maritime,Seine-Maritime,2025-01-27 10:43:55.777502,2025-01-28 17:03:57.187451,71.8,B
+FR0219,fr,École supérieure d'ingénieurs en génie électrique,private,Other,No,FRD2,Haute-Normandie,Haute-Normandie,FRD22,Seine-Maritime,Seine-Maritime,2025-01-27 10:44:09.133090,2025-01-28 17:03:58.822604,77.03,B
+FR0220,fr,Université du Havre,public,University,No,FRD2,Haute-Normandie,Haute-Normandie,FRD22,Seine-Maritime,Seine-Maritime,2025-01-27 10:44:40.472101,2025-01-28 17:04:09.965750,72.46,B
+FR0221,fr,École supérieure d’ingénieurs et de techniciens pour l’agriculture,private,Other,No,FRD2,Haute-Normandie,Haute-Normandie,FRD22,Seine-Maritime,Seine-Maritime,2025-01-27 10:49:23.463722,2025-01-28 17:04:18.515911,72.4,B
+FR0223,fr,Université Paris-Est Marne-la-Vallée,public,University,No,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne,Seine-et-Marne,2025-01-27 10:44:54.032175,2025-01-28 17:04:26.387929,70.54,B
+FR0224,fr,École nationale des ponts et chaussées,public,Other,Yes,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne,Seine-et-Marne,2025-01-27 10:44:49.044963,2025-01-28 17:04:50.070284,71.55,B
+FR0225,fr,École d'architecture de la ville et des territoires à Marne-la-Vallée,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne,Seine-et-Marne,2025-01-27 10:46:27.342972,2025-01-28 17:04:51.128409,4.11,F
+FR0226,fr,Université Paris-Est,public,University,No,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne,Seine-et-Marne,2025-01-27 10:45:20.198307,2025-01-28 17:04:47.920447,75.54,B
+FR0227,fr,École nationale supérieure d’architecture de Versailles,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines,Yvelines,2025-01-27 10:47:57.141128,2025-01-28 17:05:06.454861,78.34,B
+FR0228,fr,École des beaux-arts de Versailles,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines,Yvelines,2025-01-27 10:47:42.572274,2025-01-28 17:05:16.493924,84.02,A
+FR0229,fr,Université de Versailles Saint-Quentin-en-Yvelines,public,University,No,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines,Yvelines,2025-01-27 10:48:00.574587,2025-01-28 17:09:54.555882,71.8,B
+FR0230,fr,Université de Picardie Jules Verne,public,University,No,FRE2,Picardie,Picardie,FRE23,Somme,Somme,2025-01-27 10:49:04.920333,2025-01-28 17:05:30.504670,77.03,B
+FR0231,fr,École Supérieure d'Ingénieurs en Électronique et Électrotechnique Amiens,private,Other,No,FRE2,Picardie,Picardie,FRE23,Somme,Somme,2025-01-27 10:47:13.632298,2025-01-28 17:05:31.990289,11.2,F
+FR0232,fr,École nationale supérieure des mines d'Albi-Carmaux,public,Other,No,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ27,Tarn,Tarn,2025-01-27 10:49:25.025759,2025-01-28 17:05:43.793720,76.43,B
+FR0233,fr,Institut national universitaire Jean-François-Champollion,public,University,No,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ27,Tarn,Tarn,2025-01-27 10:49:39.999311,2025-01-28 17:05:53.038482,77.63,B
+FR0234,fr,Université de Toulon,public,University,No,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL05,Var,Var,2025-01-27 10:50:27.845240,2025-01-28 17:05:53.258486,75.83,B
+FR0236,fr,Université d'Avignon,public,University,No,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL06,Vaucluse,Vaucluse,2025-01-27 10:51:24.427443,2025-01-28 17:06:03.932199,71.0,B
+FR0237,fr,Institut catholique d'études supérieures,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG05,Vendée,Vendée,2025-01-27 10:51:28.960793,2025-01-28 17:06:15.625352,70.6,B
+FR0238,fr,École nationale supérieure de mécanique et d'aérotechnique de Poitiers,public,Other,No,FRI3,Poitou-Charentes,Poitou-Charentes,FRI34,Vienne,Vienne,2025-01-27 10:51:32.098739,2025-01-28 17:06:11.216756,80.99,A
+FR0239,fr,Université de Poitiers,public,University,Yes,FRI3,Poitou-Charentes,Poitou-Charentes,FRI34,Vienne,Vienne,2025-01-27 10:53:35.191622,2025-01-28 17:06:26.550214,84.64,A
+FR0240,fr,Université de Limoges,public,University,No,FRI2,Limousin,Limousin,FRI23,Haute-Vienne,Haute-Vienne,2025-01-27 10:51:27.216281,2025-01-28 17:06:37.704082,86.48,A
+FR0242,fr,Institut d'ingénierie informatique de Limoges,private,Other,No,FRI2,Limousin,Limousin,FRI23,Haute-Vienne,Haute-Vienne,2025-01-27 10:51:30.041777,2025-01-28 17:06:36.947015,73.44,B
+FR0243,fr,Université de technologie de Belfort-Montbéliard,public,Other,No,FRC2,Franche-Comté,Franche-Comté,FRC24,Territoire de Belfort,Territoire de Belfort,2025-01-27 10:54:58.464418,2025-01-28 17:06:47.877801,71.8,B
+FR0247,fr,École polytechnique,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne,2025-01-27 10:54:09.871021,2025-01-28 17:06:57.386376,81.89,A
+FR0248,fr,Télécom SudParis,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne,2025-01-27 10:53:20.793162,2025-01-28 17:06:59.618182,87.48,A
+FR0249,fr,Université d'Évry-Val d'Essonne,public,University,No,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne,2025-01-27 10:53:43.251370,2025-01-28 17:07:14.186901,74.34,B
+FR0250,fr,Institut Mines-Télécom Business School,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne,2025-01-27 10:54:59.718562,2025-01-28 17:07:19.388974,16.79,F
+FR0251,fr,École nationale supérieure d'informatique pour l'industrie et l'entreprise,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne,2025-01-27 10:56:15.863761,2025-01-28 17:07:19.567834,77.03,B
+FR0252,fr,École nationale supérieure de techniques avancées,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne,2025-01-27 10:56:46.896948,2025-01-28 17:07:35.494922,67.4,B
+FR0253,fr,EPF - École d'ingénieurs,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine,Hauts-de-Seine,2025-01-27 10:55:58.728209,2025-01-28 17:07:41.843135,77.03,B
+FR0254,fr,École nationale supérieure du pétrole et des moteurs,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine,Hauts-de-Seine,2025-01-27 10:54:45.542394,2025-01-28 17:07:43.140851,77.55,B
+FR0255,fr,Université Paris Nanterre,public,University,Yes,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine,Hauts-de-Seine,2025-01-27 10:57:48.993844,2025-01-28 17:07:55.198887,71.8,B
+FR0257,fr,École Nationale de la Statistique et de l’Administration Économique,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne,2025-01-27 10:58:42.836106,2025-01-28 17:08:04.511148,83.11,A
+FR0258,fr,École supérieure des techniques aéronautiques et de construction automobile,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines,Yvelines,2025-01-27 10:58:35.685390,2025-01-28 17:08:11.550369,77.03,B
+FR0259,fr,École supérieure d'ingénieurs Léonard-de-Vinci,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine,Hauts-de-Seine,2025-01-27 10:59:27.245329,2025-01-28 17:08:33.021542,75.5,B
+FR0260,fr,École nationale supérieure maritime,public,Other,No,FRD2,Haute-Normandie,Haute-Normandie,FRD22,Seine-Maritime,Seine-Maritime,2025-01-27 10:58:16.752469,2025-01-28 17:08:43.383430,84.78,A
+FR0261,fr,Institut supérieur de mécanique de Paris,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR106,Seine-Saint-Denis,Seine-Saint-Denis,2025-01-27 10:58:15.083959,2025-01-28 17:09:08.466682,81.75,A
+FR0262,fr,Université Paris 13 - Paris Nord,public,University,No,FR10,Ile-de-France,Ile-de-France,FR106,Seine-Saint-Denis,Seine-Saint-Denis,2025-01-27 11:02:03.722994,2025-01-28 17:09:04.066643,71.52,B
+FR0263,fr,Université Paris 8 - Vincennes - Saint-Denis,public,University,Yes,FR10,Ile-de-France,Ile-de-France,FR106,Seine-Saint-Denis,Seine-Saint-Denis,2025-01-27 10:58:55.485194,2025-01-28 17:09:05.939491,89.44,A
+FR0264,fr,École Supérieure d'Ingénieurs en Électronique et Électrotechnique Paris,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR106,Seine-Saint-Denis,Seine-Saint-Denis,2025-01-27 10:58:38.460596,2025-01-28 17:09:30.266771,77.71,B
+FR0266,fr,Université Paris-Est Créteil Val-de-Marne,public,University,No,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne,2025-01-27 10:59:34.740678,2025-01-28 17:09:30.809675,70.6,B
+FR0267,fr,École d'ingénieur généraliste en informatique et technologies du numérique,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne,2025-01-27 11:01:05.405596,2025-01-28 17:09:32.307957,89.89,A
+FR0268,fr,ESME Sudria,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne,2025-01-27 11:04:28.361382,2025-01-28 17:14:50.779180,83.46,A
+FR0269,fr,École supérieure d'ingénieurs des travaux de la construction de Paris,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne,2025-01-27 11:01:02.835004,2025-01-28 17:09:50.757451,74.03,B
+FR0270,fr,École pour l'informatique et les techniques avancées,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne,2025-01-27 11:09:49.671305,2025-01-28 17:09:56.071754,81.66,A
+FR0271,fr,Institut polytechnique des sciences avancées,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne,2025-01-27 11:04:53.637691,2025-01-28 17:10:52.955645,83.46,A
+FR0272,fr,"École spéciale des travaux publics, du bâtiment et de l'industrie",private,Other,No,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne,2025-01-27 11:02:09.788797,2025-01-28 17:10:31.987782,77.55,B
+FR0273,fr,École nationale supérieure de l'électronique et de ses applications de Cergy,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise,2025-01-27 11:03:12.434771,2025-01-28 17:10:27.789069,77.98,B
+FR0276,fr,École d'ingénieur d'agro-développement international,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire,2025-01-27 11:02:47.709739,2025-01-28 17:11:12.580403,77.55,B
+FR0278,fr,ECAM - EPMI Graduate School of Engineering,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise,2025-01-27 11:03:09.522545,2025-01-28 17:11:24.932576,71.8,B
+FR0279,fr,École de biologie industrielle,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise,2025-01-27 11:03:49.012345,2025-01-28 17:11:53.061695,91.69,A
+FR0280,fr,Institut régional d'administration de Bastia,public,Other,No,FRM0,Corse,Corse,FRM02,Haute-Corse,Haute-Corse,2025-01-27 11:16:12.388102,2025-01-28 17:11:58.638434,71.8,B
+FR0281,fr,Université de Corse Pasquale Paoli,public,University,No,FRM0,Corse,Corse,FRM02,Haute-Corse,Haute-Corse,2025-01-27 11:05:27.424226,2025-01-28 17:12:00.652621,77.65,B
+FR0282,fr,Université des Antilles,public,University,No,FRY1,Guadeloupe,Guadeloupe,FRY10,Guadeloupe,Guadeloupe,2025-01-27 11:06:59.578862,2025-01-28 17:12:13.820859,75.83,B
+FR0283,fr,Université de La Réunion,public,University,No,FRY4,La Réunion,La Réunion,FRY40,La Réunion,La Réunion,2025-01-27 11:08:01.688367,2025-01-28 17:12:24.225024,71.8,B
+FR0285,fr,Université de la Nouvelle-Calédonie,public,University,No,FRZZ,Extra-Regio NUTS 2,Extra-Regio NUTS 2,FRZZZ,Extra-Regio NUTS 3,Extra-Regio NUTS 3,2025-01-27 11:13:20.132963,2025-01-28 17:12:45.674170,77.63,B
+FR0286,fr,Université de la Polynésie Française,public,University,No,FRZZ,Extra-Regio NUTS 2,Extra-Regio NUTS 2,FRZZZ,Extra-Regio NUTS 3,Extra-Regio NUTS 3,2025-01-27 11:10:48.178929,2025-01-28 17:12:55.147344,72.49,B
+FR0287,fr,Centre Universitaire de Mayotte,public,University,No,FRZZ,Extra-Regio NUTS 2,Extra-Regio NUTS 2,FRZZZ,Extra-Regio NUTS 3,Extra-Regio NUTS 3,2025-01-27 11:07:27.588569,2025-01-28 17:13:12.589702,74.32,B
+FR0288,fr,Université de Bordeaux,public,University,Yes,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde,2025-01-27 11:08:35.271239,2025-01-28 17:13:23.356432,72.59,B
+FR0319,fr,Institut national des sciences appliquées Centre Val de Loire,public,Other,No,FRB0,Centre — Val de Loire,Centre — Val de Loire,FRB01,Cher,Cher,2025-01-27 11:07:38.929854,2025-01-28 17:13:38.395857,77.55,B
+FR0320,fr,École normale supérieure de Rennes,public,Other,No,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine,2025-01-27 11:08:43.070313,2025-01-28 17:13:42.092116,71.8,B
+FR0323,fr,Université de Montpellier,public,University,Yes,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault,2025-01-27 11:10:09.835932,2025-01-28 17:13:53.681764,80.86,A
+FR0327,fr,Université de Guyane,public,University,No,FRY3,Guyane,Guyane,FRY30,Guyane,Guyane,2025-01-27 11:12:23.559075,2025-01-28 17:14:03.066697,74.32,B
+FR0329,fr,École nationale vétérinaire de Toulouse,public,Other,No,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 11:09:58.545406,2025-01-28 17:14:20.904245,86.58,A
+FR0330,fr,École nationale vétérinaire d'Alfort,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne,2025-01-27 11:12:39.688526,2025-01-28 17:14:43.124251,82.33,A
+FR0332,fr,École nationale supérieure de paysage de Versailles,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines,Yvelines,2025-01-27 11:12:03.383959,2025-01-28 17:15:02.780837,84.02,A
+FR0333,fr,École catholique d'arts et métiers Strasbourg-Europe,private,Other,No,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin,2025-01-27 11:13:18.583177,2025-01-28 17:15:10.997657,79.19,B
+FR0336,fr,Facultés libres de philosophie et de psychologie,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:13:11.811658,2025-01-28 17:15:32.991451,71.8,B
+FR0338,fr,École supérieure d'art Annecy Alpes,public,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK28,Haute-Savoie,Haute-Savoie,2025-01-27 11:13:15.744145,2025-01-28 17:15:45.429099,71.8,B
+FR0339,fr,Centre Sèvres,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:14:01.127636,2025-01-28 17:15:46.736931,67.79,B
+FR0340,fr,Ecole nationale supérieure d'art Villa d'Arson,public,Other,No,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL03,Alpes-Maritimes,Alpes-Maritimes,2025-01-27 11:12:59.851029,2025-01-28 17:15:59.524662,76.19,B
+FR0341,fr,École supérieure d'art et de design d'Amiens,public,Other,No,FRE2,Picardie,Picardie,FRE23,Somme,Somme,2025-01-27 11:30:59.506204,2025-01-28 17:16:07.120802,71.8,B
+FR0342,fr,Institut supérieur des beaux-arts de Besançon Franche-Comté,public,Other,No,FRC2,Franche-Comté,Franche-Comté,FRC21,Doubs,Doubs,2025-01-27 11:15:30.602812,2025-01-28 17:16:09.561466,16.0,F
+FR0343,fr,École des Mines Télécom Atlantique,public,University of applied sciences,No,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère,2025-01-27 11:17:53.497999,2025-01-28 17:16:18.694343,80.8,A
+FR0344,fr,Université Lasalle,private,University of applied sciences,No,FRE2,Picardie,Picardie,FRE22,Oise,Oise,2025-01-27 11:16:24.374380,2025-01-28 17:16:48.528829,77.03,B
+FR0345,fr,École supérieure d'art du Nord-Pas de Calais / Dunkerque-Tourcoing,public,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 11:16:27.613586,2025-01-28 17:16:32.533264,76.7,B
+FR0346,fr,Université de Lille,public,University,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 11:20:04.938262,2025-01-28 17:16:44.350304,79.84,B
+FR0347,fr,Sorbonne Université,public,University,Yes,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:28:18.868305,2025-01-28 17:16:54.074462,78.34,B
+FR0355,fr,Institut supérieur européen de formation par l'action,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:16:37.944171,2025-01-28 17:17:04.449856,91.43,A
+FR0356,fr,Epitech,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne,2025-01-27 11:27:02.266881,2025-01-28 17:17:16.635862,81.66,A
+FR0358,fr,E-artsup,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:22:33.864181,2025-01-28 17:17:53.767853,83.46,A
+FR0364,fr,Université Côte d'Azur,public,University,Yes,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL03,Alpes-Maritimes,Alpes-Maritimes,2025-01-27 11:19:50.104972,2025-01-28 17:17:34.873345,78.52,B
+FR0365,fr,Université Paris Cité,public,University,Yes,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:20:13.917373,2025-01-28 17:17:49.913313,71.32,B
+FR0366,fr,CY Cergy Paris Université,public,University,Yes,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise,2025-01-27 11:20:27.337524,2025-01-28 17:18:39.968707,72.59,B
+FR0367,fr,EPE université Grenoble Alpes,public,University,Yes,FRK2,Rhône-Alpes,Rhône-Alpes,FRK24,Isère,Isère,2025-01-27 11:20:42.242609,2025-01-28 17:18:40.073705,71.8,B
+FR0369,fr,Université Paris-saclay,public,University,Yes,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne,2025-01-27 11:20:05.720780,2025-01-28 17:18:40.312237,79.71,B
+FR0401,fr,École des hautes études commerciales de Paris,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines,Yvelines,2025-01-27 11:23:19.305964,2025-01-28 17:19:16.123553,74.03,B
+FR0402,fr,Grenoble École de management,private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK24,Isère,Isère,2025-01-27 11:23:31.853058,2025-01-28 17:19:13.739769,86.58,A
+FR0403,fr,Audencia Nantes Ecole de management,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique,2025-01-27 11:36:04.343766,2025-01-28 17:19:13.993942,78.34,B
+FR0404,fr,Institut d'Économie Scientifique et de Gestion,private,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 11:24:07.231846,2025-01-28 17:19:57.427548,78.06,B
+FR0405,fr,Neoma business school,private,Other,No,FRD2,Haute-Normandie,Haute-Normandie,FRD22,Seine-Maritime,Seine-Maritime,2025-01-27 11:23:45.620168,2025-01-28 17:19:57.554015,16.0,F
+FR0408,fr,Kedge business school,private,Other,No,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde,2025-01-27 11:24:31.112325,2025-01-28 17:19:54.009820,77.36,B
+FR0411,fr,École supérieure de commerce d’Amiens,private,Other,No,FRE2,Picardie,Picardie,FRE23,Somme,Somme,2025-01-27 11:27:59.625681,2025-01-28 17:20:38.951406,23.83,E
+FR0412,fr,École supérieure des technologies et des affaires de Belfort,private,Other,No,FRC2,Franche-Comté,Franche-Comté,FRC24,Territoire de Belfort,Territoire de Belfort,2025-01-27 11:26:32.317329,2025-01-28 17:20:31.816961,73.6,B
+FR0413,fr,École de commerce européenne,private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-28 17:41:53.729465,2025-01-28 17:21:39.960372,68.84,B
+FR0415,fr,Sud Management - EGC Agen,private,Other,No,FRI1,Aquitaine,Aquitaine,FRI14,Lot-et-Garonne,Lot-et-Garonne,2025-01-27 11:27:32.002056,2025-01-28 17:21:08.916733,81.24,A
+FR0416,fr,École de gestion et de commerce de Normandie,private,Other,No,FRD1,Basse-Normandie,Basse-Normandie,FRD12,Manche,Manche,2025-01-27 11:29:02.999845,2025-01-28 17:21:26.006508,70.6,B
+FR0417,fr,École supérieure de commerce de Clermont-Ferrand,private,Other,No,FRK1,Auvergne,Auvergne,FRK14,Puy-de-Dôme,Puy-de-Dôme,2025-01-27 11:31:56.518716,2025-01-28 17:21:39.889433,71.04,B
+FR0418,fr,Institut Européen d'Administration des Affaires,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne,Seine-et-Marne,2025-01-27 11:33:37.417044,2025-01-28 17:21:57.247963,91.79,A
+FR0419,fr,École supérieure de commerce de Dijon-Bourgogne,private,Other,No,FRC1,Bourgogne,Bourgogne,FRC11,Côte-d’Or,Côte-d’Or,2025-01-27 11:37:47.946326,2025-01-28 17:22:16.308665,72.59,B
+FR0420,fr,École de gestion et de commerce de Valence,private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK23,Drôme,Drôme,2025-01-27 11:30:05.868703,2025-01-28 17:22:13.822289,71.2,B
+FR0421,fr,Ecole de gestion et de commerce de La Réunion,private,Other,No,FRZZ,Extra-Regio NUTS 2,Extra-Regio NUTS 2,FRZZZ,Extra-Regio NUTS 3,Extra-Regio NUTS 3,2025-01-27 11:31:10.572617,2025-01-28 17:22:44.181932,71.8,B
+FR0422,fr,École des hautes études commerciales du nord,private,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 11:37:25.180990,2025-01-28 17:23:06.699955,73.29,B
+FR0423,fr,SKEMA Business School,private,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 11:32:18.806830,2025-01-28 17:23:30.787717,78.34,B
+FR0424,fr,"Ecole Supérieure de Commerce et Développement – Afrique, Amériques, Asie",private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 11:31:30.309784,2025-01-28 17:27:22.808041,72.2,B
+FR0426,fr,Institut de recherche et d’action commerciale,private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 11:33:36.631840,2025-01-28 17:23:48.295219,71.8,B
+FR0428,fr,Montpellier Business School,private,Other,No,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault,2025-01-27 11:33:20.423831,2025-01-28 17:23:57.583849,67.0,B
+FR0429,fr,ICN Nancy-Metz Ecole de management,private,Other,No,FRF3,Lorraine,Lorraine,FRF31,Meurthe-et-Moselle,Meurthe-et-Moselle,2025-01-27 11:38:22.763798,2025-01-28 17:24:11.152384,73.03,B
+FR0430,fr,Ecole de gestion et de commerce de Vendée,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG05,Vendée,Vendée,2025-01-27 11:39:29.424021,2025-01-28 17:24:27.862698,72.4,B
+FR0431,fr,Ecole supérieure des sciences commerciales d’Angers,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire,2025-01-27 11:35:15.783104,2025-01-28 17:24:43.049348,70.44,B
+FR0434,fr,Ecole européenne de management,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:37:44.067581,2025-01-28 17:24:46.025708,71.8,B
+FR0435,fr,Ecole supérieure du commerce extérieur,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:36:38.918581,2025-01-28 17:24:56.654408,74.39,B
+FR0437,fr,Ecole Ferrandi Paris,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:43:02.547755,2025-01-28 17:25:21.175418,16.95,F
+FR0439,fr,Institut des hautes études économiques et commerciales,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:36:59.689483,2025-01-28 17:25:18.606134,69.59,B
+FR0440,fr,Institut de préparation à l’administration et à la gestion,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:40:02.609205,2025-01-28 17:25:43.100673,75.83,B
+FR0442,fr,Institut Superieur de Gestion,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 12:03:39.018510,2025-01-28 17:26:07.666532,83.46,A
+FR0443,fr,"Institut supérieur privé des sciences, techniques et économie commerciales",private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:40:15.225584,2025-01-28 17:26:01.688027,76.98,B
+FR0444,fr,Institut Français de la Mode,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:39:20.685362,2025-01-28 17:26:21.543870,76.28,B
+FR0445,fr,PSB Paris School of Business,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:52:20.919733,2025-01-28 17:26:41.100312,78.34,B
+FR0446,fr,Excelia Group,private,Other,No,FRI3,Poitou-Charentes,Poitou-Charentes,FRI32,Charente-Maritime,Charente-Maritime,2025-01-27 11:40:20.106727,2025-01-28 17:27:01.237146,77.55,B
+FR0447,fr,Y Schools,private,Other,No,FRF2,Champagne-Ardenne,Champagne-Ardenne,FRF22,Aube,Aube,2025-01-27 11:41:03.126322,2025-01-28 17:27:04.248700,87.02,A
+FR0448,fr,Brest Business School,private,Other,No,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère,2025-01-27 11:42:32.838915,2025-01-28 17:27:17.117474,16.0,F
+FR0450,fr,École de Management de Normandie,private,Other,No,FRD2,Haute-Normandie,Haute-Normandie,FRD22,Seine-Maritime,Seine-Maritime,2025-01-27 11:41:54.625840,2025-01-28 17:27:40.468888,20.11,E
+FR0452,fr,Ecole de gestion et de commerce d’Occitanie,private,Other,No,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ22,Aveyron,Aveyron,2025-01-27 11:43:08.095502,2025-01-28 17:28:03.582131,80.42,A
+FR0454,fr,Ecole des dirigeants et créateurs d'entreprise,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine,Hauts-de-Seine,2025-01-27 11:49:17.587209,2025-01-28 17:28:26.489491,78.52,B
+FR0456,fr,Ecole supérieure des sciences économiques et commerciales,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise,2025-01-27 11:44:33.406244,2025-01-28 17:28:26.670533,72.2,B
+FR0459,fr,Institut polytechnique de Paris,public,Other,Yes,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:45:25.069464,2025-01-28 17:28:43.191425,83.11,A
+FR0462,fr,Eurecom,public,Other,No,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL03,Alpes-Maritimes,Alpes-Maritimes,2025-01-27 11:43:56.825117,2025-01-28 17:29:03.505722,76.55,B
+FR0463,fr,Institut National des Sciences Appliquées Hauts-de-France,public,University of applied sciences,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 11:45:40.763931,2025-01-28 17:29:05.558558,78.83,B
+FR0465,fr,Ecole Nationale des Sciences Géographiques,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne,Seine-et-Marne,2025-01-27 11:57:53.156341,2025-01-28 17:29:20.400411,79.0,B
+FR0466,fr,Institut national polytechnique Clermont-Auvergne,public,University of applied sciences,No,FRK1,Auvergne,Auvergne,FRK14,Puy-de-Dôme,Puy-de-Dôme,2025-01-27 11:47:12.074631,2025-01-28 17:29:30.233495,80.58,A
+FR0468,fr,Université Paris sciences et lettres,public,University,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:47:05.237177,2025-01-28 17:29:31.034683,76.42,B
+FR0501,fr,École de commerce spécialisée en marketing et management,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:47:14.606400,2025-01-28 17:29:43.815191,80.14,A
+FR0502,fr,Ecole de Commmerce Montpellier,private,Other,No,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault,2025-01-27 11:47:43.393892,2025-01-28 17:29:55.366660,80.14,A
+FR0504,fr,Ecole de gestion et finance Paris,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine,Hauts-de-Seine,2025-01-27 11:48:41.342896,2025-01-28 17:29:57.704635,76.03,B
+FR0506,fr,Ecole de Gestion en Ressources Humaines,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:48:45.354089,2025-01-28 17:30:16.463065,80.14,A
+FR0507,fr,Ecole supérieure de Communication et de Publicité,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 12:02:29.951418,2025-01-28 17:32:30.540974,78.34,B
+FR0508,fr,Sup Career Alternance,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:50:19.145246,2025-01-28 17:30:41.683563,80.14,A
+FR0509,fr,ESI Business School,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine,Hauts-de-Seine,2025-01-27 11:50:41.461732,2025-01-28 17:30:40.821820,71.8,B
+FR0510,fr,École interarmées des sports,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne,Seine-et-Marne,2025-01-27 11:50:13.494612,2025-01-28 17:31:01.077265,87.64,A
+FR0514,fr,Institut supérieur européen de gestion Paris,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:55:42.972419,2025-01-28 17:31:14.348516,83.46,A
+FR0515,fr,Institut Paul Bocuse,private,Other,No,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône,2025-01-27 11:51:15.065516,2025-01-28 17:31:14.579521,80.03,A
+FR0516,fr,ESLSCA Business School,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:58:54.793409,2025-01-28 17:31:27.979165,78.52,B
+FR0809,fr,Comue Université Bourgogne Franche-Comté,public,University,No,FRC2,Franche-Comté,Franche-Comté,FRC21,Doubs,Doubs,2025-01-27 11:55:15.483241,2025-01-28 17:31:42.023578,70.6,B
+FR0866,fr,Institut d'études politiques de Lille,public,University of applied sciences,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 11:53:20.607494,2025-01-28 17:31:56.759413,77.03,B
+FR0867,fr,Université Gustave-Eiffel,public,University,No,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne,Seine-et-Marne,2025-01-27 11:55:54.707584,2025-01-28 17:32:11.255189,76.54,B
+FR0883,fr,Institut national des sciences et techniques nucléaires,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:56:01.933634,2025-01-28 17:32:28.826163,16.0,F
+FR0888,fr,Institut National du Patrimoine,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:56:35.166635,2025-01-28 17:32:34.068879,77.63,B
+FR0897,fr,Institut supérieur des matériaux du Mans,private,Other,No,FRG0,Pays de la Loire,Pays de la Loire,FRG04,Sarthe,Sarthe,2025-01-27 11:58:42.319174,2025-01-28 17:32:43.739328,71.2,B
+FR0906,fr,Ecole pratique du service social,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 11:59:13.791151,2025-01-28 17:33:02.497033,71.8,B
+FR0907,fr,Institut national du service public,public,Other,No,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin,2025-01-27 11:59:46.034683,2025-01-28 17:32:55.684778,91.38,A
+FR0909,fr,Institut Régional du Travail Social de Champagne Ardennes,private,Other,No,FRF2,Champagne-Ardenne,Champagne-Ardenne,FRF23,Marne,Marne,2025-01-27 11:59:26.527080,2025-01-28 17:33:10.332807,71.8,B
+FR0910,fr,Ecole supérieure de réalisation audiovisuelle,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 12:00:42.580197,2025-01-28 17:33:29.756811,70.6,B
+FR0914,fr,Toulouse Business School,private,Other,Yes,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 12:01:46.725156,2025-01-28 17:33:45.522829,86.74,A
+FR0919,fr,Institut national supérieur de formation et de recherche pour l’éducation des jeunes handicapés et les enseignements adaptés (INSHEA),public,University,No,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine,Hauts-de-Seine,2025-01-27 12:00:27.316017,2025-01-28 17:34:05.421183,78.48,B
+FR0924,fr,Conservatoire national supérieur d'Art dramatique,public,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 12:01:46.851836,2025-01-28 17:34:17.395216,11.2,F
+FR0925,fr,École nationale supérieure des métiers de l'image et du son,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,2025-01-27 12:02:13.356960,2025-01-28 17:34:17.161246,70.6,B
+FR0943,fr,ENS Mines-Telecom Nord Europe,private,Other,No,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord,2025-01-27 12:03:27.111172,2025-01-28 17:34:54.114433,77.75,B
+FR0945,fr,EPE-Université Clermont Auvergne,public,University,No,FRK1,Auvergne,Auvergne,FRK14,Puy-de-Dôme,Puy-de-Dôme,2025-01-27 12:04:29.845699,2025-01-28 17:34:32.143044,70.6,B
+FR0946,fr,Haute École des arts du Rhin,public,Other,No,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin,2025-01-27 12:03:38.653164,2025-01-28 17:34:45.246796,71.8,B
+FR0951,fr,Institut supérieur du bâtiment et des travaux publics,private,Other,No,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône,2025-01-27 12:04:26.832390,2025-01-28 17:34:56.191338,71.8,B
+FR0965,fr,Ecole supérieure de fonderie et de forge,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine,Hauts-de-Seine,2025-01-27 12:03:18.849074,2025-01-28 17:35:07.808046,71.8,B
+FR0966,fr,Ecole d'ingénieurs des sciences aérospatiales,private,Other,No,FR22,,,FR221,,,2025-01-27 12:04:57.804267,2025-01-28 17:36:29.875133,71.8,B
+FR0970,fr,École nationale de la meteorologie,public,Other,No,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne,2025-01-27 12:03:54.794817,2025-01-28 17:35:29.460521,75.31,B
+FR0978,fr,Institut supérieur des biotechnologies de Paris,private,Other,No,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne,2025-01-27 12:06:29.450336,2025-01-28 17:35:51.970447,83.46,A
+FR0980,fr,Ecole supérieure du soudage et de ses applications,private,Other,No,FRF3,Lorraine,Lorraine,FRF33,Moselle,Moselle,2025-01-27 12:04:46.648141,2025-01-28 17:36:17.460199,74.8,B

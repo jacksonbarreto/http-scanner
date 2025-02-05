@@ -140,7 +140,7 @@ def generate_valid_certificates_tables(stats_dataframe):
         nuts2_table = latex_algorithm_table(nuts_data, "nuts",
                                             f"Valid Certificate Distribution in {get_country(country)} by NUTS2 (\\%)",
                                             f"valid_certificate_distribution_{country.lower()}_nuts")
-        path_to_save = os.path.join(TABLE_DIRECTORY, f"valid_certificate_distribution_in_{country}_by_nuts2.txt")
+        path_to_save = os.path.join(TABLE_DIRECTORY, f"valid_certificate_distribution_in_{country}_by_nuts2.tex")
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
         nuts_data = stats_dataframe[(stats_dataframe["country"] == country) &
@@ -150,7 +150,7 @@ def generate_valid_certificates_tables(stats_dataframe):
                                             f"Valid Certificate Distribution at Private HEIs in {get_country(country)} by NUTS2 (\\%)",
                                             f"valid_certificate_distribution_{country.lower()}_nuts_private")
         path_to_save = os.path.join(TABLE_DIRECTORY,
-                                    f"valid_certificate_distribution_in_{country}_by_nuts2_private.txt")
+                                    f"valid_certificate_distribution_in_{country}_by_nuts2_private.tex")
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
         nuts_data = stats_dataframe[(stats_dataframe["country"] == country) &
@@ -159,14 +159,14 @@ def generate_valid_certificates_tables(stats_dataframe):
         nuts2_table = latex_algorithm_table(nuts_data, "nuts_category",
                                             f"Valid Certificate Distribution at Public HEIs in {get_country(country)} by NUTS2 (\\%)",
                                             f"valid_certificate_distribution_{country.lower()}_nuts_public")
-        path_to_save = os.path.join(TABLE_DIRECTORY, f"valid_certificate_distribution_in_{country}_by_nuts2_public.txt")
+        path_to_save = os.path.join(TABLE_DIRECTORY, f"valid_certificate_distribution_in_{country}_by_nuts2_public.tex")
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
 
     country_data = stats_dataframe[stats_dataframe["level"] == "country"]
     country_table = latex_algorithm_table(country_data, "country", "Valid Certificate Distribution by Country (\\%)",
                                           "valid_certificate_distribution_by_country")
-    path_to_save = os.path.join(TABLE_DIRECTORY, "valid_certificate_distribution_by_country.txt")
+    path_to_save = os.path.join(TABLE_DIRECTORY, "valid_certificate_distribution_by_country.tex")
     with open(path_to_save, "w", encoding="utf-8") as tex_file:
         tex_file.write(country_table)
 
