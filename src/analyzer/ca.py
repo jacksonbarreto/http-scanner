@@ -3,7 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
+import matplotlib.patches as mpatches
 from src.analyzer.setup import CHART_DIRECTORY
 from src.analyzer.utils import get_country
 
@@ -64,8 +64,14 @@ def plot_ca_pie_charts(dataframe, level, title, country_filter=None):
 
     ca_columns = [col for col in dataframe.columns if col.endswith("_percent") and col != "total_certificates"]
     ca_labels = [col.replace("_percent", "").capitalize() for col in ca_columns]
-    color_palette = ["#E69F00", "#56B4E9", "#009E73", "#F0E442", "#CC79A7", "#999999"]  # Última cor para "Other"
-    all_labels = set()
+    default_palette = ["#117733", "#DDCC77", "#E69F00", "#0072B2", "#CC79A7", "#999999"]
+    unique_ca = sorted(set(ca_labels), key=ca_labels.index)
+    if len(unique_ca) <= len(default_palette):
+        color_mapping = {label: default_palette[i] for i, label in enumerate(unique_ca)}
+    else:
+        cmap = plt.get_cmap('tab20')
+        color_mapping = {label: cmap(i / len(unique_ca)) for i, label in enumerate(unique_ca)}
+
     if level == "country_category":
         for i, category in enumerate(categories):
             row = dataframe[dataframe["Category"] == category].iloc[0]  # Apenas uma linha por categoria
@@ -74,18 +80,20 @@ def plot_ca_pie_charts(dataframe, level, title, country_filter=None):
             valid_indices = values > 0
             filtered_values = values[valid_indices]
             filtered_labels = [ca_labels[i] for i in range(len(ca_labels)) if valid_indices[i]]
-            all_labels.update(filtered_labels)
+            colors = [color_mapping[label] for label in filtered_labels]
             ax = axes[i]
             ax.pie(
                 filtered_values, labels=None, autopct="%1.1f%%",
-                colors=color_palette[:len(filtered_labels)], startangle=140,
+                colors=colors, startangle=140,
                 wedgeprops={"edgecolor": "black"}
             )
             ax.set_title(f"{category.capitalize()}", fontsize=10, pad=1)
         legend_columns = 2
         bbox_to_anchor = (0.0, -0.01)
         loc="lower left"
-        fig.legend(list(all_labels), title="Certificate Authorities", loc=loc, ncol=legend_columns,
+        patches = [mpatches.Patch(color=color_mapping[label], label=label) for label in sorted(color_mapping.keys())]
+
+        fig.legend(handles=patches, title="Certificate Authorities", loc=loc, ncol=legend_columns,
                    frameon=False, bbox_to_anchor=bbox_to_anchor)
 
     elif level == "country":
@@ -96,11 +104,11 @@ def plot_ca_pie_charts(dataframe, level, title, country_filter=None):
             valid_indices = values > 0
             filtered_values = values[valid_indices]
             filtered_labels = [ca_labels[i] for i in range(len(ca_labels)) if valid_indices[i]]
-            all_labels.update(filtered_labels)
+            colors = [color_mapping[label] for label in filtered_labels]
             ax = axes[i]
             ax.pie(
                 filtered_values, labels=None, autopct="%1.1f%%",
-                colors=color_palette[:len(filtered_labels)], startangle=140,
+                colors=colors, startangle=140,
                 wedgeprops={"edgecolor": "black"}
             )
             ax.set_title(get_country(row["country"]), fontsize=10)
@@ -109,7 +117,8 @@ def plot_ca_pie_charts(dataframe, level, title, country_filter=None):
         loc = "upper right"
         legend_ax = fig.add_subplot(gs[:, 1])  # Criar um eixo único para a legenda
         legend_ax.axis("off")
-        fig.legend(list(all_labels), title="Certificate Authorities", loc=loc, ncol=legend_columns,
+        patches = [mpatches.Patch(color=color_mapping[label], label=label) for label in sorted(color_mapping.keys())]
+        fig.legend(handles=patches, title="Certificate Authorities", loc=loc, ncol=legend_columns,
                    frameon=False, bbox_to_anchor=(1, 0.95))
 
 
@@ -122,6 +131,9 @@ def plot_ca_pie_charts(dataframe, level, title, country_filter=None):
 def generate_ca_pie_charts(dataframe):
     total_countries = dataframe["country"].unique()
     for country in total_countries:
+        cols_to_remove = [col for col in dataframe.columns if col.endswith("_percent") and dataframe[col].sum() == 0]
+        dataframe.drop(columns=cols_to_remove, inplace=True)
+
         fig = plot_ca_pie_charts(dataframe, "country_category", f"Certificate Authorities Distribution in {get_country(country)} by Category", country)
         file_name = f"ca_distribution_in_{country}_by_category.pdf"
         path_to_save = os.path.join(CHART_DIRECTORY, file_name)
@@ -138,7 +150,7 @@ def generate_ca_pie_charts(dataframe):
 
 def make_ca_report(dataframe):
     stats = get_ca_stats(dataframe)
-
+    print("------------------CA-----------------")
     pd.set_option('display.max_columns', None)
     pd.set_option('display.width', None)
     print(stats.head(10))

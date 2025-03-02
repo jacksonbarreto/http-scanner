@@ -196,10 +196,7 @@ def save(data, country_code, error=False):
     filename = f"{country_code}_https_scanner{'_errors_' if error else ''}.csv"
     output_file = os.path.join(output_dir, filename)
 
-    if isinstance(data, list):
-        df = pd.DataFrame(data)
-    else:
-        df = data
+    df = pd.DataFrame(data) if isinstance(data, list) else data
 
     if not df.empty:
         if os.path.exists(output_file):

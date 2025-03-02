@@ -72,20 +72,24 @@ def get_worst_https_stats(dataframe):
 
 def latex_worst_http_table(dataframe, level, title, label):
     if level == "nuts":
-        columns_to_display = ["nuts"] + [col for col in dataframe.columns if col.endswith("_percent")]
         dataframe = dataframe[dataframe["level"] == "nuts"]
+        columns_to_remove = [f"{col}_percent" for col in protocol_order if col in dataframe.columns and  dataframe[col].sum() == 0]
+        columns_to_display = ["nuts"] + [col for col in dataframe.columns if col.endswith("_percent") and col not in columns_to_remove]
+
         rename_map = {
             "nuts": "NUTS2",
         }
     elif level == "nuts_category":
-        columns_to_display = ["nuts"] + [col for col in dataframe.columns if col.endswith("_percent")]
         dataframe = dataframe[dataframe["level"] == "nuts_category"]
+        columns_to_remove = [f"{col}_percent" for col in protocol_order if col in dataframe.columns and  dataframe[col].sum() == 0]
+        columns_to_display = ["nuts"] + [col for col in dataframe.columns if col.endswith("_percent") and col not in columns_to_remove]
         rename_map = {
             "nuts": "NUTS2",
         }
     elif level == "country":
         dataframe = dataframe[dataframe["level"] == "country"]
-        columns_to_display = ["country"] + [col for col in dataframe.columns if col.endswith("_percent")]
+        columns_to_remove = [f"{col}_percent" for col in protocol_order if col in dataframe.columns and  dataframe[col].sum() == 0]
+        columns_to_display = ["country"] + [col for col in dataframe.columns if col.endswith("_percent") and col not in columns_to_remove]
         rename_map = {
             "country": "Country",
         }
